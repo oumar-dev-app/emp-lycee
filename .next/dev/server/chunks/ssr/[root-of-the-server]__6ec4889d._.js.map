@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///home/oumar/EMP_lyc%C3%A9e/app/espace-primaire/page.tsx"],"sourcesContent":["import React from 'react'\n\nfunction page() {\n  return (\n    <div>page</div>\n  )\n}\n\nexport default page"],"names":[],"mappings":";;;;;;AAEA,SAAS;IACP,qBACE,8OAAC;kBAAI;;;;;;AAET;uCAEe"}}]
+}

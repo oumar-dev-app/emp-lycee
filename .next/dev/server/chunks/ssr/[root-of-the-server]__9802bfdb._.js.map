@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///home/oumar/EMP_lyc%C3%A9e/app/page.tsx"],"sourcesContent":["import Header from \"@/_Components/Header\";\nimport Navabar from \"@/_Components/Navabar\";\n\n\nexport default function Home() {\n\n  return (\n    <div>\n      <Presentation/>\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;;;AAIe,SAAS;IAEtB,qBACE,8OAAC;kBACC,cAAA,8OAAC;;;;;;;;;;AAGP"}}]
+}

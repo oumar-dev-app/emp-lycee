@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///home/oumar/EMP_lyc%C3%A9e/app/apropos/page.tsx"],"sourcesContent":["export default function AproposPage(){\n    return(\n        <div>\n            <Slider/>\n        </div>\n    )\n}"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACpB,qBACI,8OAAC;kBACG,cAAA,8OAAC;;;;;;;;;;AAGb"}}]
+}

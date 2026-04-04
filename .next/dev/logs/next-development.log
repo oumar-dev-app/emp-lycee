@@ -1,0 +1,112 @@
+[00:00:37.038] Server  LOG     ○ Compiling middleware ...
+[00:00:39.434] Server  WARN    ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:00:41.200] Server  LOG     ✓ Ready in 33.2s
+[00:00:46.035] Server  LOG     ○ Compiling /espace-secondaire ...
+[00:00:59.507] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the top-level render call using <ul>. See https://react.dev/link/warning-keys for more information.
+[00:00:59.621] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the top-level render call using <ul>. See https://react.dev/link/warning-keys for more information.
+[00:01:00.981] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:01.252] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `div`.  It was passed a child from Footer.
+[00:01:01.252] Browser WARN    Image with src "/logoModifier.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:59.785] Server  LOG     ✓ Compiled in 1485ms
+[00:02:00.942] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <div> p 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:"...", ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/actualite" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body className="font-poppi...">
+                            <header>
+                            <main>
+                            <Footer>
+                              <footer className="bg-black p-10">
+                                <div className="">
+                                  <div>
+>                                 <p className="text-center text-white text-sm font-bold">
+>                                   <div>
+                                    ...
+                  ...
+
+[00:57:48.032] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the top-level render call using <ul>. See https://react.dev/link/warning-keys for more information.
+[00:57:51.544] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:57:51.544] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `div`.  It was passed a child from Footer.
+[00:57:51.544] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <div> p 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body className="font-poppi...">
+                            <header>
+                            <main>
+                            <Footer>
+                              <footer className="bg-black p-10">
+                                <div className="">
+                                  <div>
+>                                 <p className="text-center text-white text-sm font-bold">
+>                                   <div className="flex justify-center">
+                                    ...
+                  ...
+
+[00:57:51.544] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+[00:57:51.544] Browser WARN    Image with src "/logoModifier.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:59:52.431] Server  LOG     ✓ Compiled in 1696ms
+[01:00:28.852] Server  LOG     ✓ Compiled in 260ms
+[01:00:57.906] Server  LOG     ✓ Compiled in 508ms
+[01:01:02.155] Server  LOG     ✓ Compiled in 199ms
+[01:02:38.795] Server  LOG     ✓ Compiled in 749ms
+[01:02:52.172] Server  LOG     ✓ Compiled in 68ms
+[01:03:19.381] Server  LOG     ✓ Compiled in 219ms
+[01:03:30.348] Server  LOG     ✓ Compiled in 325ms
+[01:03:37.926] Server  LOG     ✓ Compiled in 59ms
+[01:03:47.671] Server  LOG     ✓ Compiled in 309ms
+[01:03:57.617] Server  LOG     ✓ Compiled in 268ms

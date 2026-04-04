@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///home/oumar/EMP_lyc%C3%A9e/app/not-found.tsx"],"sourcesContent":["import Link from \"next/link\";\n\nexport default function notFound() {\n    return (\n        <div className=\"flex justify-center h-screen items-center\">\n            <div className=\"space-y-5\">\n                <h1 className=\"font-bold text-3xl\">Erreur 400:</h1>\n                <p>La page que vous cherche introuvable !</p>\n                <Link href={\"/\"}>\n                <button className=\"border  rounded-xl p-2 bg-blue-500 cursor-pointer hover:bg-blue-400 text-white text-sm font-bold\">\n                    Retourner\n                </button>\n                </Link>\n                \n            </div>\n\n        </div>\n    )\n}"],"names":[],"mappings":";;;;;AAAA;;;AAEe,SAAS;IACpB,qBACI,8OAAC;QAAI,WAAU;kBACX,cAAA,8OAAC;YAAI,WAAU;;8BACX,8OAAC;oBAAG,WAAU;8BAAqB;;;;;;8BACnC,8OAAC;8BAAE;;;;;;8BACH,8OAAC,0LAAI;oBAAC,MAAM;8BACZ,cAAA,8OAAC;wBAAO,WAAU;kCAAmG;;;;;;;;;;;;;;;;;;;;;;AASrI"}}]
+}

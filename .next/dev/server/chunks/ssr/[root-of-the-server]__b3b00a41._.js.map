@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///home/oumar/EMP_lyc%C3%A9e/_Components/DifferentCentre.tsx"],"sourcesContent":["import React from 'react'\n\nfunction DifferentCentre() {\n  return (\n    <div>\n        <Presentation/>\n    </div>\n  )\n}\n\nexport default DifferentCentre;"],"names":[],"mappings":";;;;;;AAEA,SAAS;IACP,qBACE,8OAAC;kBACG,cAAA,8OAAC;;;;;;;;;;AAGT;uCAEe"}},
+    {"offset": {"line": 46, "column": 0}, "map": {"version":3,"sources":["file:///home/oumar/EMP_lyc%C3%A9e/app/page.tsx"],"sourcesContent":["import DifferentCentre from \"@/_Components/DifferentCentre\";\nimport Header from \"@/_Components/Header\";\nimport Navabar from \"@/_Components/Navabar\";\nimport Presentation from \"@/_Components/Presentation\";\n\n\nexport default function Home() {\n\n  return (\n    <div>\n      <DifferentCentre/>\n      \n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;;AAAA;;;AAMe,SAAS;IAEtB,qBACE,8OAAC;kBACC,cAAA,8OAAC,0IAAe;;;;;;;;;;AAItB"}}]
+}
