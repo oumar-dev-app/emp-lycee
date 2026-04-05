@@ -11,6 +11,7 @@ function Mobilemenu() {
             className='bg-gray-400 rounded-lg md:hidden text-white m-2'
                 >
                 <FaBars 
+                size={20}
                     className='hover:text-red-500 hoverEffect  m-2 md:hidden hover:cursor-pointer md:gap-0' />
             </button>
             <div className='md:hidden'>

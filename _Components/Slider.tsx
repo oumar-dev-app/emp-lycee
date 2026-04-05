@@ -37,7 +37,7 @@ function Promoteur() {
           }`}
           style={{ backgroundImage: `url(${item.img})` }}
         >
-          <div className="bg-black/40 h-full w-full flex items-center p-8">
+          <div className="bg-black/65 h-full w-full flex items-center p-8">
             <p className="text-white text-2xl md:text-3xl max-w-xl text-right">
               {item.title}
             </p>

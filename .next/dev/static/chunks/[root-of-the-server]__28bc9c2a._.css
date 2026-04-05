@@ -476,6 +476,10 @@
     margin-top: calc(var(--spacing) * 5);
   }
 
+  .mt-7 {
+    margin-top: calc(var(--spacing) * 7);
+  }
+
   .mt-8 {
     margin-top: calc(var(--spacing) * 8);
   }
@@ -492,10 +496,6 @@
     margin-top: calc(var(--spacing) * 30);
   }
 
-  .mt-90 {
-    margin-top: calc(var(--spacing) * 90);
-  }
-
   .mb-2 {
     margin-bottom: calc(var(--spacing) * 2);
   }
@@ -506,14 +506,6 @@
 
   .mb-20 {
     margin-bottom: calc(var(--spacing) * 20);
-  }
-
-  .mb-50 {
-    margin-bottom: calc(var(--spacing) * 50);
-  }
-
-  .mb-90 {
-    margin-bottom: calc(var(--spacing) * 90);
   }
 
   .flex {
@@ -542,10 +534,6 @@
 
   .h-screen {
     height: 100vh;
-  }
-
-  .w-auto {
-    width: auto;
   }
 
   .w-full {
@@ -620,10 +608,6 @@
 
   .justify-end {
     justify-content: flex-end;
-  }
-
-  .justify-start {
-    justify-content: flex-start;
   }
 
   .gap-2\.5 {
@@ -724,6 +708,16 @@
     background-color: var(--color-black);
   }
 
+  .bg-black\/20 {
+    background-color: #0003;
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .bg-black\/20 {
+      background-color: color-mix(in oklab, var(--color-black) 20%, transparent);
+    }
+  }
+
   .bg-black\/40 {
     background-color: #0006;
   }
@@ -731,6 +725,36 @@
   @supports (color: color-mix(in lab, red, red)) {
     .bg-black\/40 {
       background-color: color-mix(in oklab, var(--color-black) 40%, transparent);
+    }
+  }
+
+  .bg-black\/60 {
+    background-color: #0009;
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .bg-black\/60 {
+      background-color: color-mix(in oklab, var(--color-black) 60%, transparent);
+    }
+  }
+
+  .bg-black\/63 {
+    background-color: #000000a1;
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .bg-black\/63 {
+      background-color: color-mix(in oklab, var(--color-black) 63%, transparent);
+    }
+  }
+
+  .bg-black\/65 {
+    background-color: #000000a6;
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .bg-black\/65 {
+      background-color: color-mix(in oklab, var(--color-black) 65%, transparent);
     }
   }
 

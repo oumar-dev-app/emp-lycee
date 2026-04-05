@@ -5,10 +5,10 @@ function Logo() {
   return (
     <Link href={"/"}>
       <Image 
-      src={"/logoModifier.jpg"}
+      src={"/logoModifier.png"}
       alt='logo'
-      width={160}
-      height={160}
+      width={150}
+      height={150}
       priority
       />
     </Link>

@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
 import { FaTimes } from "react-icons/fa";
+import Logo from './Logo';
 
 
 
@@ -47,8 +48,12 @@ const SideMenu: FC<SidebarProps> = ({ isOpen, onClose }) => {
                         })}
                     </div>
 
-                </div>
 
+
+                </div>
+                <div className='mt-7'>
+                    <Logo />
+                </div>
 
             </div>
         </div>

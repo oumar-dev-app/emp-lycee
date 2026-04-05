@@ -158,6 +158,7 @@ function Mobilemenu() {
                 onClick: ()=>setIsSidebarOpen(!isSidebarOpen),
                 className: "bg-gray-400 rounded-lg md:hidden text-white m-2",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaBars"], {
+                    size: 20,
                     className: "hover:text-red-500 hoverEffect  m-2 md:hidden hover:cursor-pointer md:gap-0"
                 }, void 0, false, {
                     fileName: "[project]/_Components/Mobilemenu.tsx",
@@ -176,12 +177,12 @@ function Mobilemenu() {
                     onClose: ()=>setIsSidebarOpen(false)
                 }, void 0, false, {
                     fileName: "[project]/_Components/Mobilemenu.tsx",
-                    lineNumber: 17,
+                    lineNumber: 18,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/_Components/Mobilemenu.tsx",
-                lineNumber: 16,
+                lineNumber: 17,
                 columnNumber: 13
             }, this)
         ]
