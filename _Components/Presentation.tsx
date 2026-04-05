@@ -12,7 +12,7 @@ function Presentation() {
             est un établissement scolaire moderne qui œuvre pour une formation de qualité.
           </p>
         </div>
-        <div className='grid grid-cols-2 gap-5'>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
           <div className='border border-white shadow-2xl p-10 rounded-xl space-y-5' >
             <ul className='space-y-5'>
               <li className='flex items-center gap-4'> <FaCheck  className="text-yellow-500"/> Jardin d’enfants “LE ZENITH” (petite, moyenne, grande section) </li>

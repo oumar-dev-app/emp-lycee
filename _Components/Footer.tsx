@@ -7,9 +7,9 @@ import Logo from './Logo';
 
 function Footer() {
   return (
-    <footer className='bg-black p-10'>
-      <div className=''>
-        <div className='text-white grid grid-cols-3'>
+    <footer className='bg-black p-10 '>
+      <div className='max-w-7xl  m-auto'>
+        <div className='text-white grid grid-cols-1 md:grid-cols-3'>
           <div className='space-y-5'>
             <h1 className=' font-bold'>Lien rapide</h1>
             {DataLinks.map((links) => {

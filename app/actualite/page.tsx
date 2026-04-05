@@ -6,7 +6,7 @@ export default function ActualitePage() {
         <div>
             <SliderAcutialite />
             <div className='max-w-7xl m-auto p-10 mt-10'>
-                <div className="grid grid-cols-2 gap-5">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
                     <div className='border border-white shadow-2xl p-10 rounded-xl space-y-5'>
                         <h1 className='text-2xl font-bold'>Performances et distinctions :</h1>
                         <p className='flex items-center gap-4'> <FaCheck  className="text-yellow-500"/> 1er du CAP de Kalaban-Coro et 5è national au DEF 2019 (Kossi Roland KPADENOU)</p>

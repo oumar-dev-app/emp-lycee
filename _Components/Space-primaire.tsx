@@ -9,7 +9,7 @@ function Space_primaire() {
         <div className='border border-white shadow-2xl p-10 rounded-xl space-y-5' >
           <p className='font-bold  text-center'>L’école fondamentale EPMS assure une formation solide du primaire jusqu’au collège avec un encadrement de qualité.</p>
         </div>
-        <div className='grid grid-cols-2 gap-5'>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
           <div className='border border-white shadow-2xl p-10 rounded-xl space-y-5' >
             <h1 className='text-2xl font-bold'>Résultats:</h1>
             <ul className='space-y-5'>
