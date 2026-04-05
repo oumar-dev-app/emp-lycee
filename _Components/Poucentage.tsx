@@ -29,7 +29,7 @@ function Counter({ target, suffix = "" }: { target: number; suffix?: string }) {
         }
       },
       {
-        threshold: 0.5,
+        threshold: 1,
       }
     );
 
