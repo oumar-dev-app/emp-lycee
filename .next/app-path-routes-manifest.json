@@ -1,0 +1,10 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/actualite/page": "/actualite",
+  "/apropos/page": "/apropos",
+  "/espace-primaire/page": "/espace-primaire",
+  "/espace-secondaire/page": "/espace-secondaire",
+  "/favicon.ico/route": "/favicon.ico",
+  "/page": "/"
+}

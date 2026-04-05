@@ -44,7 +44,7 @@ function Promoteur() {
         >
           <div className="bg-black/40 h-full w-full flex items-cente p-8">
             {item.title && (
-              <p className="text-white text-2xl md:text-3xl max-w-xl mt-30 text-right">
+              <p className="text-white text-2xl md:text-3xl max-w-100 mt-30 text-right">
                 {item.title}
               </p>
             )}
