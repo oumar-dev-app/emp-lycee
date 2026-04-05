@@ -13,7 +13,7 @@ function Counter({ target, suffix = "" }: { target: number; suffix?: string }) {
   useEffect(() => {
     const timeout = setTimeout(() => {
       setIsReady(true);
-    }, 300); // petit délai
+    }, 500); // petit délai
 
     return () => clearTimeout(timeout);
   }, []);
