@@ -46,7 +46,7 @@ function Counter({ target, suffix = "" }: { target: number; suffix?: string }) {
 
     let start = 0;
     const duration = 10000;
-    const increment = target / (duration / 10);
+    const increment = target / (duration / 20);
 
     const interval = setInterval(() => {
       start += increment;
