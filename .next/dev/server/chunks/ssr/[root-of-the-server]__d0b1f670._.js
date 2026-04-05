@@ -66,301 +66,324 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$ico
 ;
 ;
 ;
+const bgImage = [
+    {
+        id: 1,
+        image: "/apropos.jpg"
+    }
+];
 function ActualitePage() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$_Components$2f$SliderActualite$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/actualite/page.tsx",
-                lineNumber: 7,
+                lineNumber: 15,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "max-w-7xl m-auto p-10 mt-10",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "grid grid-cols-1 md:grid-cols-2 gap-5",
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "border border-white shadow-2xl p-10 rounded-xl space-y-5",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                    className: "text-2xl font-bold",
-                                    children: "Performances et distinctions :"
-                                }, void 0, false, {
-                                    fileName: "[project]/app/actualite/page.tsx",
-                                    lineNumber: 11,
-                                    columnNumber: 25
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "flex items-center gap-4",
-                                    children: [
-                                        " ",
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaCheck"], {
-                                            className: "text-yellow-500"
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/actualite/page.tsx",
-                                            lineNumber: 12,
-                                            columnNumber: 65
-                                        }, this),
-                                        " 1er du CAP de Kalaban-Coro et 5è national au DEF 2019 (Kossi Roland KPADENOU)"
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/app/actualite/page.tsx",
-                                    lineNumber: 12,
-                                    columnNumber: 25
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "flex items-center gap-4",
-                                    children: [
-                                        " ",
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaCheck"], {
-                                            className: "text-yellow-500"
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/actualite/page.tsx",
-                                            lineNumber: 13,
-                                            columnNumber: 65
-                                        }, this),
-                                        "  DEF 2020 : 100%"
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/app/actualite/page.tsx",
-                                    lineNumber: 13,
-                                    columnNumber: 25
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "flex items-center gap-4",
-                                    children: [
-                                        " ",
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaCheck"], {
-                                            className: "text-yellow-500"
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/actualite/page.tsx",
-                                            lineNumber: 14,
-                                            columnNumber: 65
-                                        }, this),
-                                        "DEF 2021 : plusieurs élèves classés parmi les meilleurs"
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/app/actualite/page.tsx",
-                                    lineNumber: 14,
-                                    columnNumber: 25
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "flex items-center gap-4",
-                                    children: [
-                                        " ",
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaCheck"], {
-                                            className: "text-yellow-500"
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/actualite/page.tsx",
-                                            lineNumber: 15,
-                                            columnNumber: 65
-                                        }, this),
-                                        " DEF 2022 : 95%"
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/app/actualite/page.tsx",
-                                    lineNumber: 15,
-                                    columnNumber: 25
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "flex items-center gap-4",
-                                    children: [
-                                        " ",
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaCheck"], {
-                                            className: "text-yellow-500"
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/actualite/page.tsx",
-                                            lineNumber: 16,
-                                            columnNumber: 65
-                                        }, this),
-                                        "DEF 2022 : 95%"
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/app/actualite/page.tsx",
-                                    lineNumber: 16,
-                                    columnNumber: 25
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "flex items-center gap-4",
-                                    children: [
-                                        " ",
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaCheck"], {
-                                            className: "text-yellow-500"
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/actualite/page.tsx",
-                                            lineNumber: 17,
-                                            columnNumber: 65
-                                        }, this),
-                                        "DEF 2023 : 90%"
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/app/actualite/page.tsx",
-                                    lineNumber: 17,
-                                    columnNumber: 25
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "flex items-center gap-4",
-                                    children: [
-                                        " ",
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaCheck"], {
-                                            className: "text-yellow-500"
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/actualite/page.tsx",
-                                            lineNumber: 18,
-                                            columnNumber: 65
-                                        }, this),
-                                        " DEF 2024 : 97% "
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/app/actualite/page.tsx",
-                                    lineNumber: 18,
-                                    columnNumber: 25
-                                }, this)
-                            ]
-                        }, void 0, true, {
+                children: bgImage.map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        style: {
+                            backgroundImage: `url(${item.image})`
+                        },
+                        className: "w-full h-full bg-cover bg-center rounded-2xl",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "bg-white/90 w-full h-full",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "grid grid-cols-1 md:grid-cols-2 gap-5",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "border border-white shadow-2xl p-10 rounded-xl space-y-5",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                                className: "text-2xl font-bold",
+                                                children: "Performances et distinctions :"
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/actualite/page.tsx",
+                                                lineNumber: 27,
+                                                columnNumber: 41
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: "flex items-center gap-4",
+                                                children: [
+                                                    " ",
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaCheck"], {
+                                                        className: "text-yellow-500"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/actualite/page.tsx",
+                                                        lineNumber: 28,
+                                                        columnNumber: 81
+                                                    }, this),
+                                                    " 1er du CAP de Kalaban-Coro et 5è national au DEF 2019 (Kossi Roland KPADENOU)"
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/app/actualite/page.tsx",
+                                                lineNumber: 28,
+                                                columnNumber: 41
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: "flex items-center gap-4",
+                                                children: [
+                                                    " ",
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaCheck"], {
+                                                        className: "text-yellow-500"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/actualite/page.tsx",
+                                                        lineNumber: 29,
+                                                        columnNumber: 81
+                                                    }, this),
+                                                    "  DEF 2020 : 100%"
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/app/actualite/page.tsx",
+                                                lineNumber: 29,
+                                                columnNumber: 41
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: "flex items-center gap-4",
+                                                children: [
+                                                    " ",
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaCheck"], {
+                                                        className: "text-yellow-500"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/actualite/page.tsx",
+                                                        lineNumber: 30,
+                                                        columnNumber: 81
+                                                    }, this),
+                                                    "DEF 2021 : plusieurs élèves classés parmi les meilleurs"
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/app/actualite/page.tsx",
+                                                lineNumber: 30,
+                                                columnNumber: 41
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: "flex items-center gap-4",
+                                                children: [
+                                                    " ",
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaCheck"], {
+                                                        className: "text-yellow-500"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/actualite/page.tsx",
+                                                        lineNumber: 31,
+                                                        columnNumber: 81
+                                                    }, this),
+                                                    " DEF 2022 : 95%"
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/app/actualite/page.tsx",
+                                                lineNumber: 31,
+                                                columnNumber: 41
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: "flex items-center gap-4",
+                                                children: [
+                                                    " ",
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaCheck"], {
+                                                        className: "text-yellow-500"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/actualite/page.tsx",
+                                                        lineNumber: 32,
+                                                        columnNumber: 81
+                                                    }, this),
+                                                    "DEF 2022 : 95%"
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/app/actualite/page.tsx",
+                                                lineNumber: 32,
+                                                columnNumber: 41
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: "flex items-center gap-4",
+                                                children: [
+                                                    " ",
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaCheck"], {
+                                                        className: "text-yellow-500"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/actualite/page.tsx",
+                                                        lineNumber: 33,
+                                                        columnNumber: 81
+                                                    }, this),
+                                                    "DEF 2023 : 90%"
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/app/actualite/page.tsx",
+                                                lineNumber: 33,
+                                                columnNumber: 41
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: "flex items-center gap-4",
+                                                children: [
+                                                    " ",
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaCheck"], {
+                                                        className: "text-yellow-500"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/actualite/page.tsx",
+                                                        lineNumber: 34,
+                                                        columnNumber: 81
+                                                    }, this),
+                                                    " DEF 2024 : 97% "
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/app/actualite/page.tsx",
+                                                lineNumber: 34,
+                                                columnNumber: 41
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/app/actualite/page.tsx",
+                                        lineNumber: 26,
+                                        columnNumber: 37
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "border border-white shadow-2xl p-10 rounded-xl space-y-5",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                                className: "text-2xl font-bold",
+                                                children: "Baccalauréat :"
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/actualite/page.tsx",
+                                                lineNumber: 37,
+                                                columnNumber: 41
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: "flex items-center gap-4",
+                                                children: [
+                                                    " ",
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaCheck"], {
+                                                        className: "text-yellow-500"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/actualite/page.tsx",
+                                                        lineNumber: 38,
+                                                        columnNumber: 81
+                                                    }, this),
+                                                    "3è national au Bac 2022 "
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/app/actualite/page.tsx",
+                                                lineNumber: 38,
+                                                columnNumber: 41
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: "flex items-center gap-4",
+                                                children: [
+                                                    " ",
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaCheck"], {
+                                                        className: "text-yellow-500"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/actualite/page.tsx",
+                                                        lineNumber: 39,
+                                                        columnNumber: 81
+                                                    }, this),
+                                                    "Bac 2023 : établissement distingué"
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/app/actualite/page.tsx",
+                                                lineNumber: 39,
+                                                columnNumber: 41
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: "flex items-center gap-4",
+                                                children: [
+                                                    " ",
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaCheck"], {
+                                                        className: "text-yellow-500"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/actualite/page.tsx",
+                                                        lineNumber: 40,
+                                                        columnNumber: 81
+                                                    }, this),
+                                                    " Bac 2024 : 1ère nationale "
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/app/actualite/page.tsx",
+                                                lineNumber: 40,
+                                                columnNumber: 41
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/app/actualite/page.tsx",
+                                        lineNumber: 36,
+                                        columnNumber: 37
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "border border-white shadow-2xl p-10 rounded-xl space-y-5",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                                className: "text-2xl font-bold",
+                                                children: "Concours internationaux :"
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/actualite/page.tsx",
+                                                lineNumber: 43,
+                                                columnNumber: 41
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: "flex items-center gap-4",
+                                                children: [
+                                                    " ",
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaCheck"], {
+                                                        className: "text-yellow-500"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/actualite/page.tsx",
+                                                        lineNumber: 44,
+                                                        columnNumber: 81
+                                                    }, this),
+                                                    "Olympiades de mathématiques 2024 : médaille de bronze"
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/app/actualite/page.tsx",
+                                                lineNumber: 44,
+                                                columnNumber: 41
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: "flex items-center gap-4",
+                                                children: [
+                                                    " ",
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaCheck"], {
+                                                        className: "text-yellow-500"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/actualite/page.tsx",
+                                                        lineNumber: 46,
+                                                        columnNumber: 81
+                                                    }, this),
+                                                    "Olympiades 2025 : 1ère et 2ème places académiques"
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/app/actualite/page.tsx",
+                                                lineNumber: 46,
+                                                columnNumber: 41
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/app/actualite/page.tsx",
+                                        lineNumber: 42,
+                                        columnNumber: 37
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/app/actualite/page.tsx",
+                                lineNumber: 25,
+                                columnNumber: 33
+                            }, this)
+                        }, void 0, false, {
                             fileName: "[project]/app/actualite/page.tsx",
-                            lineNumber: 10,
-                            columnNumber: 21
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "border border-white shadow-2xl p-10 rounded-xl space-y-5",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                    className: "text-2xl font-bold",
-                                    children: "Baccalauréat :"
-                                }, void 0, false, {
-                                    fileName: "[project]/app/actualite/page.tsx",
-                                    lineNumber: 21,
-                                    columnNumber: 25
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "flex items-center gap-4",
-                                    children: [
-                                        " ",
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaCheck"], {
-                                            className: "text-yellow-500"
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/actualite/page.tsx",
-                                            lineNumber: 22,
-                                            columnNumber: 65
-                                        }, this),
-                                        "3è national au Bac 2022 "
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/app/actualite/page.tsx",
-                                    lineNumber: 22,
-                                    columnNumber: 25
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "flex items-center gap-4",
-                                    children: [
-                                        " ",
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaCheck"], {
-                                            className: "text-yellow-500"
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/actualite/page.tsx",
-                                            lineNumber: 23,
-                                            columnNumber: 65
-                                        }, this),
-                                        "Bac 2023 : établissement distingué"
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/app/actualite/page.tsx",
-                                    lineNumber: 23,
-                                    columnNumber: 25
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "flex items-center gap-4",
-                                    children: [
-                                        " ",
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaCheck"], {
-                                            className: "text-yellow-500"
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/actualite/page.tsx",
-                                            lineNumber: 24,
-                                            columnNumber: 65
-                                        }, this),
-                                        " Bac 2024 : 1ère nationale "
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/app/actualite/page.tsx",
-                                    lineNumber: 24,
-                                    columnNumber: 25
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/app/actualite/page.tsx",
-                            lineNumber: 20,
-                            columnNumber: 21
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "border border-white shadow-2xl p-10 rounded-xl space-y-5",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                    className: "text-2xl font-bold",
-                                    children: "Concours internationaux :"
-                                }, void 0, false, {
-                                    fileName: "[project]/app/actualite/page.tsx",
-                                    lineNumber: 27,
-                                    columnNumber: 25
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "flex items-center gap-4",
-                                    children: [
-                                        " ",
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaCheck"], {
-                                            className: "text-yellow-500"
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/actualite/page.tsx",
-                                            lineNumber: 28,
-                                            columnNumber: 65
-                                        }, this),
-                                        "Olympiades de mathématiques 2024 : médaille de bronze"
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/app/actualite/page.tsx",
-                                    lineNumber: 28,
-                                    columnNumber: 25
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "flex items-center gap-4",
-                                    children: [
-                                        " ",
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaCheck"], {
-                                            className: "text-yellow-500"
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/actualite/page.tsx",
-                                            lineNumber: 30,
-                                            columnNumber: 65
-                                        }, this),
-                                        "Olympiades 2025 : 1ère et 2ème places académiques"
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/app/actualite/page.tsx",
-                                    lineNumber: 30,
-                                    columnNumber: 25
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/app/actualite/page.tsx",
-                            lineNumber: 26,
-                            columnNumber: 21
+                            lineNumber: 24,
+                            columnNumber: 29
                         }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/app/actualite/page.tsx",
-                    lineNumber: 9,
-                    columnNumber: 17
-                }, this)
+                    }, item.id, false, {
+                        fileName: "[project]/app/actualite/page.tsx",
+                        lineNumber: 19,
+                        columnNumber: 25
+                    }, this))
             }, void 0, false, {
                 fileName: "[project]/app/actualite/page.tsx",
-                lineNumber: 8,
+                lineNumber: 16,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/actualite/page.tsx",
-        lineNumber: 6,
+        lineNumber: 14,
         columnNumber: 9
     }, this);
 }
