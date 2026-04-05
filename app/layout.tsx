@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Navabar from "@/_Components/Navabar";
+
 import Footer from "@/_Components/Footer";
+import Header1 from "@/_Components/Header1";
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,7 +32,7 @@ export default function RootLayout({
         className="font-poppins antialiased"
       >
         <header className="space-y-5">
-          <Navabar />
+         <Header1/>
         </header>
         <main>
           {children}

@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { DataLinks } from './DataLinks';
 import Link from 'next/link';
 import { BiMap } from 'react-icons/bi';
