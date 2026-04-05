@@ -57,7 +57,7 @@ function Counter({ target, suffix = "" }: { target: number; suffix?: string }) {
       } else {
         setCount(Math.floor(start));
       }
-    }, 16);
+    }, 20);
 
     return () => clearInterval(interval);
   }, [visible, target]);
