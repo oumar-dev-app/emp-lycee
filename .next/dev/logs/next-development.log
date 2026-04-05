@@ -1,122 +1,12 @@
-[00:00:05.187] Server  LOG     ✓ Ready in 4.2s
-[00:00:25.983] Server  LOG     ○ Compiling /actualite ...
-[00:00:28.659] Server  ERROR   Each child in a list should have a unique "key" prop.
+[00:00:10.999] Server  LOG     ✓ Ready in 8.7s
+[00:00:30.430] Server  LOG     ○ Compiling / ...
+[00:00:46.998] Server  ERROR   Each child in a list should have a unique "key" prop.
 
 Check the top-level render call using <ul>. See https://react.dev/link/warning-keys for more information.
-[00:00:33.740] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+[00:00:53.256] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
 
 Check the render method of `div`.  It was passed a child from Footer.
-[00:00:33.740] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <div> p 
-
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/actualite" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.tsx">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <script>
-                      <script>
-                      <script>
-                      <script>
-                      <RootLayout>
-                        <html lang="en">
-                          <body className="font-poppi...">
-                            <header>
-                            <main>
-                            <Footer>
-                              <footer className={"bg-black..."}>
-                                <div className="max-w-7xl ...">
-                                  <div>
->                                 <p className="text-center text-white text-sm font-bold">
->                                   <div className="flex justify-center">
-                                    ...
-                  ...
-
-[00:00:33.740] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-https://react.dev/link/hydration-mismatch
-[00:00:33.740] Browser WARN    Image with src "/logoModifier.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:41.361] Server  LOG     ✓ Compiled in 161ms
-[00:00:47.211] Server  ERROR   Each child in a list should have a unique "key" prop.
-
-Check the top-level render call using <ul>. See https://react.dev/link/warning-keys for more information.
-[00:00:51.579] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
-
-Check the render method of `div`.  It was passed a child from Footer.
-[00:00:51.579] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <div> p 
-
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/actualite" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.tsx">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <script>
-                      <script>
-                      <script>
-                      <script>
-                      <RootLayout>
-                        <html lang="en">
-                          <body className="font-poppi...">
-                            <header>
-                            <main>
-                            <Footer>
-                              <footer className={"bg-black..."}>
-                                <div className="max-w-7xl ...">
-                                  <div>
->                                 <p className="text-center text-white text-sm font-bold">
->                                   <div className="flex justify-center">
-                                    ...
-                  ...
-
-[00:00:51.579] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-https://react.dev/link/hydration-mismatch
-[00:00:51.580] Browser WARN    Image with src "/logoModifier.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:42.639] Server  LOG     ✓ Compiled in 1207ms
-[00:03:00.929] Server  ERROR   Each child in a list should have a unique "key" prop.
-
-Check the top-level render call using <ul>. See https://react.dev/link/warning-keys for more information.
-[00:03:05.037] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
-
-Check the render method of `div`.  It was passed a child from Footer.
-[00:03:05.037] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+[00:00:53.256] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
 This will cause a hydration error.%s <div> p 
 
   ...
@@ -152,7 +42,7 @@ This will cause a hydration error.%s <div> p
                                     ...
                   ...
 
-[00:03:05.037] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+[00:00:53.261] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -163,15 +53,93 @@ This will cause a hydration error.%s <div> p
 It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
 
 https://react.dev/link/hydration-mismatch
-[00:03:05.037] Browser WARN    Image with src "/logoModifier.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:03:17.796] Server  LOG     ○ Compiling /apropos ...
-[00:03:49.134] Server  ERROR   Each child in a list should have a unique "key" prop.
+[00:00:53.261] Browser WARN    Image with src "/logoModifier.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:15.330] Server  LOG     ✓ Compiled in 122ms
+[00:01:53.265] Server  LOG     ✓ Compiled in 116ms
+[00:04:12.269] Server  LOG     ✓ Compiled in 85ms
+[00:04:13.805] Server  ERROR   ⨯ ReferenceError: pathname is not defined
+[00:04:14.440] Browser ERROR   uncaughtError: ReferenceError: pathname is not defined
+[00:04:35.648] Browser ERROR   ./_Components/Footer.tsx:17:15
+Parsing ecmascript source code failed
+  15 |             {DataLinks.map((links) => {
+  16 |               const isActive = pathname.startsWith(link.href
+> 17 |               return (
+     |               ^^^^^^
+  18 |                 <ul>
+  19 |                   <li key={links.href}>
+  20 |                     <Link href={links.href}
 
-Check the top-level render call using <ul>. See https://react.dev/link/warning-keys for more information.
-[00:03:52.555] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+Expected '</', got 'return'
+
+Import trace:
+  Server Component:
+    ./_Components/Footer.tsx
+    ./app/layout.tsx
+[00:05:04.730] Server  LOG     ✓ Compiled in 316ms
+[00:05:07.072] Server  ERROR   ⨯ ReferenceError: usePathname is not defined
+[00:05:12.837] Browser ERROR   uncaughtError: ReferenceError: usePathname is not defined
+[00:05:20.481] Browser ERROR   ./_Components/Footer.tsx:7:10
+Ecmascript file had an error
+   5 | import { BsTelephone, BsWhatsapp } from 'react-icons/bs';
+   6 | import Logo from './Logo';
+>  7 | import { usePathname } from 'next/navigation';
+     |          ^^^^^^^^^^^
+   8 |
+   9 | function Footer() {
+  10 |     const pathname = usePathname();
+
+You're importing a component that needs `usePathname`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./_Components/Footer.tsx
+    ./app/layout.tsx
+[00:05:31.586] Browser ERROR   ./_Components/Footer.tsx:7:10
+Ecmascript file had an error
+   5 | import { BsTelephone, BsWhatsapp } from 'react-icons/bs';
+   6 | import Logo from './Logo';
+>  7 | import { usePathname } from 'next/navigation';
+     |          ^^^^^^^^^^^
+   8 |
+   9 | function Footer() {
+  10 |   const pathname = usePathname();
+
+You're importing a component that needs `usePathname`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./_Components/Footer.tsx
+    ./app/layout.tsx
+[00:05:51.916] Browser ERROR   ./_Components/Footer.tsx:7:10
+Ecmascript file had an error
+   5 | import { BsTelephone, BsWhatsapp } from 'react-icons/bs';
+   6 | import Logo from './Logo';
+>  7 | import { usePathname } from 'next/navigation';
+     |          ^^^^^^^^^^^
+   8 |
+   9 | function Footer() {
+  10 |   const pathname = usePathname();
+
+You're importing a component that needs `usePathname`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./_Components/Footer.tsx
+    ./app/layout.tsx
+[00:06:23.669] Server  LOG     ✓ Compiled in 6.3s
+[00:06:25.863] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the render method of `Footer`. See https://react.dev/link/warning-keys for more information.
+[00:06:33.026] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
 
 Check the render method of `div`.  It was passed a child from Footer.
-[00:03:52.555] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+[00:06:33.026] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
 This will cause a hydration error.%s <div> p 
 
   ...
@@ -193,58 +161,6 @@ This will cause a hydration error.%s <div> p
                       <script>
                       <script>
                       <script>
-                      <RootLayout>
-                        <html lang="en">
-                          <body className="font-poppi...">
-                            <header>
-                            <main>
-                            <Footer>
-                              <footer className={"bg-black..."}>
-                                <div className="max-w-7xl ...">
-                                  <div>
->                                 <p className="text-center text-white text-sm font-bold">
->                                   <div className="flex justify-center">
-                                    ...
-                  ...
-
-[00:03:52.555] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-https://react.dev/link/hydration-mismatch
-[00:03:52.555] Browser WARN    Image with src "/logoModifier.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:04:04.745] Server  ERROR   Each child in a list should have a unique "key" prop.
-
-Check the top-level render call using <ul>. See https://react.dev/link/warning-keys for more information.
-[00:04:11.989] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
-
-Check the render method of `div`.  It was passed a child from Footer.
-[00:04:11.989] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <div> p 
-
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.tsx">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <script>
-                      <script>
                       <script>
                       <script>
                       <RootLayout>
@@ -261,7 +177,7 @@ This will cause a hydration error.%s <div> p
                                     ...
                   ...
 
-[00:04:11.989] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+[00:06:33.026] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -272,220 +188,7 @@ This will cause a hydration error.%s <div> p
 It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
 
 https://react.dev/link/hydration-mismatch
-[00:04:11.989] Browser WARN    Image with src "/logoModifier.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:16.828] Server  ERROR   Each child in a list should have a unique "key" prop.
-
-Check the top-level render call using <ul>. See https://react.dev/link/warning-keys for more information.
-[00:05:21.698] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
-
-Check the render method of `div`.  It was passed a child from Footer.
-[00:05:22.261] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <div> p 
-
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.tsx">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <script>
-                      <script>
-                      <script>
-                      <script>
-                      <RootLayout>
-                        <html lang="en">
-                          <body className="font-poppi...">
-                            <header>
-                            <main>
-                            <Footer>
-                              <footer className={"bg-black..."}>
-                                <div className="max-w-7xl ...">
-                                  <div>
->                                 <p className="text-center text-white text-sm font-bold">
->                                   <div className="flex justify-center">
-                                    ...
-                  ...
-
-[00:05:22.261] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-https://react.dev/link/hydration-mismatch
-[00:05:22.261] Browser WARN    Image with src "/logoModifier.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:07:42.511] Server  ERROR   Each child in a list should have a unique "key" prop.
-
-Check the top-level render call using <ul>. See https://react.dev/link/warning-keys for more information.
-[00:07:46.925] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
-
-Check the render method of `div`.  It was passed a child from Footer.
-[00:07:47.674] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <div> p 
-
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.tsx">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <script>
-                      <script>
-                      <script>
-                      <script>
-                      <RootLayout>
-                        <html lang="en">
-                          <body className="font-poppi...">
-                            <header>
-                            <main>
-                            <Footer>
-                              <footer className={"bg-black..."}>
-                                <div className="max-w-7xl ...">
-                                  <div>
->                                 <p className="text-center text-white text-sm font-bold">
->                                   <div className="flex justify-center">
-                                    ...
-                  ...
-
-[00:07:47.674] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-https://react.dev/link/hydration-mismatch
-[00:07:47.674] Browser WARN    Image with src "/logoModifier.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:07:58.294] Server  ERROR   Each child in a list should have a unique "key" prop.
-
-Check the top-level render call using <ul>. See https://react.dev/link/warning-keys for more information.
-[00:08:03.142] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
-
-Check the render method of `div`.  It was passed a child from Footer.
-[00:08:03.142] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <div> p 
-
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.tsx">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <script>
-                      <script>
-                      <script>
-                      <script>
-                      <RootLayout>
-                        <html lang="en">
-                          <body className="font-poppi...">
-                            <header>
-                            <main>
-                            <Footer>
-                              <footer className={"bg-black..."}>
-                                <div className="max-w-7xl ...">
-                                  <div>
->                                 <p className="text-center text-white text-sm font-bold">
->                                   <div className="flex justify-center">
-                                    ...
-                  ...
-
-[00:08:03.142] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-https://react.dev/link/hydration-mismatch
-[00:08:03.142] Browser WARN    Image with src "/logoModifier.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:10:10.409] Server  ERROR   Each child in a list should have a unique "key" prop.
-
-Check the top-level render call using <ul>. See https://react.dev/link/warning-keys for more information.
-[00:10:15.038] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
-
-Check the render method of `div`.  It was passed a child from Footer.
-[00:10:15.038] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <div> p 
-
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.tsx">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <script>
-                      <script>
-                      <script>
-                      <script>
-                      <RootLayout>
-                        <html lang="en">
-                          <body className="font-poppi...">
-                            <header>
-                            <main>
-                            <Footer>
-                              <footer className={"bg-black..."}>
-                                <div className="max-w-7xl ...">
-                                  <div>
->                                 <p className="text-center text-white text-sm font-bold">
->                                   <div className="flex justify-center">
-                                    ...
-                  ...
-
-[00:10:15.038] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-https://react.dev/link/hydration-mismatch
-[00:10:15.039] Browser WARN    Image with src "/logoModifier.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:06:33.026] Browser WARN    Image with src "/logoModifier.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:06:41.051] Server  LOG     ○ Compiling /apropos ...
+[00:06:53.323] Server  LOG     ✓ Finished filesystem cache database compaction in 22.5s
+[00:06:54.370] Server  LOG     ✓ Finished writing to filesystem cache in 17.0s
