@@ -45,7 +45,7 @@ function Counter({ target, suffix = "" }: { target: number; suffix?: string }) {
     if (!visible) return;
 
     let start = 0;
-    const duration = 2000;
+    const duration = 5000;
     const increment = target / (duration / 16);
 
     const interval = setInterval(() => {
