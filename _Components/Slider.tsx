@@ -15,7 +15,7 @@ const images = [
   },
 ];
 
-function Promoteur() {
+function Slider() {
   const [index, setIndex] = useState(0);
 
   // Slider automatique
@@ -32,15 +32,16 @@ function Promoteur() {
       {images.map((item, i) => (
         <div
           key={item.id}
-          className={`absolute top-0 left-0 w-full h-full bg-cover bg-center transition-opacity duration-1000 ${
-            i === index ? "opacity-100" : "opacity-0"
-          }`}
+          className={`absolute top-0 left-0 w-full h-full bg-cover bg-center transition-opacity duration-1000 ${i === index ? "opacity-100" : "opacity-0"
+            }`}
           style={{ backgroundImage: `url(${item.img})` }}
         >
-          <div className="bg-black/65 h-full w-full flex items-center p-8">
-            <p className="text-white text-2xl md:text-3xl max-w-xl text-right">
-              {item.title}
-            </p>
+          <div className="bg-black/67 h-full w-full flex items-cente p-8 shadow-2xl">
+            {item.title && (
+              <p className="text-white text-2xl md:text-3xl max-w-100 mt-30 text-right">
+                {item.title}
+              </p>
+            )}
           </div>
         </div>
       ))}
@@ -48,4 +49,4 @@ function Promoteur() {
   );
 }
 
-export default Promoteur;
+export default Slider;

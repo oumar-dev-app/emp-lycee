@@ -1,21 +1,29 @@
-import React from 'react'
-import { DataLinks } from './DataLinks';
-import Link from 'next/link';
+
+import Logo from "./Logo";
+import Mobilemenu from "./Mobilemenu";
+import Navbar from "./Navbar";
+
+
 
 function Header() {
   return (
-    <div className='flex items-center gap-8'>
-      {DataLinks.map((links) => {
-        return(
-          <div key={links.name} className='font-bold text-sm hover:text-yellow-600 hover:underline'>
-            <Link href={links.href}>
-            {links.name}
-            </Link>
+    <header className="max-w-7xl m-auto">
+        <div> 
+           <div className="flex items-center justify-between ">
+            <div className="w-full md:w-1/3 flex items-center gap-2.5 justify-between md:gap-0">
+               <Logo />
+              <Mobilemenu />
+            </div>
+            <div className="flex justify-between  items-center gap-10">
+              <Navbar />
+
+            </div>
           </div>
-        )
-      })}
-    </div>
+        </div>
+
+    </header>
   )
 }
 
 export default Header;
+

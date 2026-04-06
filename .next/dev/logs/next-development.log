@@ -1,194 +1,3317 @@
-[00:00:10.999] Server  LOG     ✓ Ready in 8.7s
-[00:00:30.430] Server  LOG     ○ Compiling / ...
-[00:00:46.998] Server  ERROR   Each child in a list should have a unique "key" prop.
-
-Check the top-level render call using <ul>. See https://react.dev/link/warning-keys for more information.
-[00:00:53.256] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
-
-Check the render method of `div`.  It was passed a child from Footer.
-[00:00:53.256] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <div> p 
-
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.tsx">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <script>
-                      <script>
-                      <script>
-                      <script>
-                      <RootLayout>
-                        <html lang="en">
-                          <body className="font-poppi...">
-                            <header>
-                            <main>
-                            <Footer>
-                              <footer className={"bg-black..."}>
-                                <div className="max-w-7xl ...">
-                                  <div>
->                                 <p className="text-center text-white text-sm font-bold">
->                                   <div className="flex justify-center">
-                                    ...
-                  ...
-
-[00:00:53.261] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-https://react.dev/link/hydration-mismatch
-[00:00:53.261] Browser WARN    Image with src "/logoModifier.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:01:15.330] Server  LOG     ✓ Compiled in 122ms
-[00:01:53.265] Server  LOG     ✓ Compiled in 116ms
-[00:04:12.269] Server  LOG     ✓ Compiled in 85ms
-[00:04:13.805] Server  ERROR   ⨯ ReferenceError: pathname is not defined
-[00:04:14.440] Browser ERROR   uncaughtError: ReferenceError: pathname is not defined
-[00:04:35.648] Browser ERROR   ./_Components/Footer.tsx:17:15
-Parsing ecmascript source code failed
-  15 |             {DataLinks.map((links) => {
-  16 |               const isActive = pathname.startsWith(link.href
-> 17 |               return (
-     |               ^^^^^^
-  18 |                 <ul>
-  19 |                   <li key={links.href}>
-  20 |                     <Link href={links.href}
-
-Expected '</', got 'return'
+[00:00:21.996] Server  LOG     ✓ Ready in 19.9s
+[00:01:19.152] Server  LOG     ○ Compiling / ...
+[00:02:05.285] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
 
 Import trace:
   Server Component:
-    ./_Components/Footer.tsx
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
     ./app/layout.tsx
-[00:05:04.730] Server  LOG     ✓ Compiled in 316ms
-[00:05:07.072] Server  ERROR   ⨯ ReferenceError: usePathname is not defined
-[00:05:12.837] Browser ERROR   uncaughtError: ReferenceError: usePathname is not defined
-[00:05:20.481] Browser ERROR   ./_Components/Footer.tsx:7:10
-Ecmascript file had an error
-   5 | import { BsTelephone, BsWhatsapp } from 'react-icons/bs';
-   6 | import Logo from './Logo';
->  7 | import { usePathname } from 'next/navigation';
-     |          ^^^^^^^^^^^
-   8 |
-   9 | function Footer() {
-  10 |     const pathname = usePathname();
 
-You're importing a component that needs `usePathname`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
 
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:02:05.286] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
 
 Import trace:
   Server Component:
-    ./_Components/Footer.tsx
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
     ./app/layout.tsx
-[00:05:31.586] Browser ERROR   ./_Components/Footer.tsx:7:10
-Ecmascript file had an error
-   5 | import { BsTelephone, BsWhatsapp } from 'react-icons/bs';
-   6 | import Logo from './Logo';
->  7 | import { usePathname } from 'next/navigation';
-     |          ^^^^^^^^^^^
-   8 |
-   9 | function Footer() {
-  10 |   const pathname = usePathname();
 
-You're importing a component that needs `usePathname`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
 
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:02:06.371] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
 
 Import trace:
   Server Component:
-    ./_Components/Footer.tsx
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
     ./app/layout.tsx
-[00:05:51.916] Browser ERROR   ./_Components/Footer.tsx:7:10
-Ecmascript file had an error
-   5 | import { BsTelephone, BsWhatsapp } from 'react-icons/bs';
-   6 | import Logo from './Logo';
->  7 | import { usePathname } from 'next/navigation';
-     |          ^^^^^^^^^^^
-   8 |
-   9 | function Footer() {
-  10 |   const pathname = usePathname();
 
-You're importing a component that needs `usePathname`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
 
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:02:06.372] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
 
 Import trace:
   Server Component:
-    ./_Components/Footer.tsx
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
     ./app/layout.tsx
-[00:06:23.669] Server  LOG     ✓ Compiled in 6.3s
-[00:06:25.863] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+
+[00:02:07.371] Server  ERROR   Each child in a list should have a unique "key" prop.
 
 Check the render method of `Footer`. See https://react.dev/link/warning-keys for more information.
-[00:06:33.026] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+[00:02:07.497] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the render method of `Footer`. See https://react.dev/link/warning-keys for more information.
+[00:02:10.747] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:02:10.750] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:02:12.188] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:15.482] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
 
 Check the render method of `div`.  It was passed a child from Footer.
-[00:06:33.026] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <div> p 
+[00:02:15.482] Browser WARN    Image with src "/logoModifier.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:20.236] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
 
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.tsx">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <script>
-                      <script>
-                      <script>
-                      <script>
-                      <script>
-                      <script>
-                      <RootLayout>
-                        <html lang="en">
-                          <body className="font-poppi...">
-                            <header>
-                            <main>
-                            <Footer>
-                              <footer className={"bg-black..."}>
-                                <div className="max-w-7xl ...">
-                                  <div>
->                                 <p className="text-center text-white text-sm font-bold">
->                                   <div className="flex justify-center">
-                                    ...
-                  ...
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
 
-[00:06:33.026] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
 
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
+[00:02:20.237] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
 
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
 
-https://react.dev/link/hydration-mismatch
-[00:06:33.026] Browser WARN    Image with src "/logoModifier.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:06:41.051] Server  LOG     ○ Compiling /apropos ...
-[00:06:53.323] Server  LOG     ✓ Finished filesystem cache database compaction in 22.5s
-[00:06:54.370] Server  LOG     ✓ Finished writing to filesystem cache in 17.0s
+
+[00:02:46.502] Server  LOG     ○ Compiling /apropos ...
+[00:02:47.313] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:02:47.313] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:03:33.225] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:03:33.227] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:03:35.557] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the render method of `Footer`. See https://react.dev/link/warning-keys for more information.
+[00:04:06.785] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:04:06.785] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:05:35.646] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:05:35.647] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:05:42.643] Server  LOG     ○ Compiling /espace-primaire ...
+[00:05:43.037] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:05:43.038] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:06:40.436] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:06:40.437] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:06:41.347] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:06:41.348] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:06:41.511] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:06:41.512] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:06:45.737] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:06:45.738] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:06:47.393] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the render method of `Footer`. See https://react.dev/link/warning-keys for more information.
+[00:06:47.419] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:06:47.420] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:06:47.420] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:06:47.420] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:06:47.420] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:06:47.421] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:06:48.702] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:06:48.702] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:06:48.703] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:06:48.703] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:06:48.703] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:06:48.703] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:06:48.788] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:49.327] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `div`.  It was passed a child from Footer.
+[00:06:49.327] Browser WARN    Image with src "/logoModifier.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:07:17.774] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:07:17.775] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:07:23.330] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:07:23.331] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:07:24.163] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the render method of `Footer`. See https://react.dev/link/warning-keys for more information.
+[00:07:25.135] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:07:25.136] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:07:25.136] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:07:25.136] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:07:25.137] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:07:25.137] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:07:25.233] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:26.387] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `div`.  It was passed a child from Footer.
+[00:07:26.387] Browser WARN    Image with src "/logoModifier.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:08:38.283] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:08:38.284] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:08:38.285] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:08:38.285] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:08:38.285] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:08:38.286] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:08:38.292] Browser ERROR   Failed to fetch RSC payload for http://localhost:3001/. Falling back to browser navigation. {}
+[00:08:46.727] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:08:46.728] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:08:47.638] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:08:47.638] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:08:47.765] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:08:47.766] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:08:47.975] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:08:47.976] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:08:48.129] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:08:48.129] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:08:48.304] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:08:48.305] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:08:48.419] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:08:48.420] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:08:48.522] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:08:48.522] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:08:54.726] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the render method of `Footer`. See https://react.dev/link/warning-keys for more information.
+[00:08:54.885] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the render method of `Footer`. See https://react.dev/link/warning-keys for more information.
+[00:08:55.466] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:08:55.467] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:08:55.589] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:08:55.589] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:08:55.720] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:08:55.720] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:08:57.156] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:08:57.157] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:08:57.299] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:08:57.305] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:08:57.575] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:08:57.576] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:08:57.857] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:08:57.857] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:08:57.857] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:08:57.858] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:08:57.858] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:08:57.858] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:08:57.863] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:57.997] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:08:57.998] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:08:58.198] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:08:58.199] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:08:58.377] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:08:58.378] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:08:58.627] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:08:58.628] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:08:58.840] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:08:58.840] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:08:59.886] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `div`.  It was passed a child from Footer.
+[00:08:59.886] Browser WARN    Image with src "/logoModifier.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:09:40.389] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:09:40.390] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:09:42.688] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:09:42.689] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:09:42.767] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:09:42.768] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:09:46.120] Server  LOG     ✓ Finished filesystem cache database compaction in 14.4s
+[00:10:09.883] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:10:09.884] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:10:11.774] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the render method of `Footer`. See https://react.dev/link/warning-keys for more information.
+[00:10:11.846] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:10:11.847] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:10:11.847] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:10:11.847] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:10:11.847] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:10:11.847] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:10:13.559] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:10:13.560] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:10:13.560] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:10:13.560] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:10:13.560] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:10:13.560] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:10:13.705] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:14.584] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `div`.  It was passed a child from Footer.
+[00:10:14.584] Browser WARN    Image with src "/logoModifier.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:10:18.183] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:10:18.184] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:10:31.623] Server  LOG     ✓ Finished filesystem cache database compaction in 18.4s
+[00:11:39.706] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:11:39.707] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:11:48.695] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:11:48.695] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:11:51.068] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:11:51.069] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:11:53.778] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:11:53.778] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:11:56.068] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:11:56.068] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:12:13.760] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:12:13.761] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:12:35.157] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:12:35.162] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:14:48.329] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:14:48.330] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:15:07.338] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:15:07.338] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:15:58.734] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:15:58.737] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:16:23.209] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:16:23.210] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:17:05.472] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:17:05.472] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:17:13.833] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:17:13.833] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:17:21.263] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:17:21.264] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:17:21.339] Server  LOG     ✓ Compiled in 427.5s
+[00:17:23.050] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the render method of `Footer`. See https://react.dev/link/warning-keys for more information.
+[00:17:23.225] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:17:23.225] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:17:23.225] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:17:23.225] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:17:23.225] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:17:23.226] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:17:23.226] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:17:23.226] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:17:23.227] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:17:23.228] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:17:24.434] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:17:24.434] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:17:24.434] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:17:24.434] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:17:24.435] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:17:24.435] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:17:24.435] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:17:24.435] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:17:24.435] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:17:24.435] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:17:24.574] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:24.889] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `div`.  It was passed a child from Footer.
+[00:17:24.889] Browser WARN    Image with src "/logoModifier.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:18:32.314] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:18:32.315] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:19:02.873] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:19:02.874] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:20:00.345] Server  LOG     ✓ Compiled in 103s
+[00:20:20.166] Server  LOG     ✓ Compiled in 19.8s
+[00:20:27.947] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:20:27.947] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:20:40.533] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:20:40.533] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:20:41.348] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the render method of `Footer`. See https://react.dev/link/warning-keys for more information.
+[00:20:42.461] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:20:42.461] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:20:42.461] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:20:42.461] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:20:42.462] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:20:42.462] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:20:42.462] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:20:42.462] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:20:42.463] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:20:42.463] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:20:42.616] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:20:43.216] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `div`.  It was passed a child from Footer.
+[00:20:43.216] Browser WARN    Image with src "/logoModifier.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:21:29.151] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:21:29.151] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:21:32.714] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:21:32.715] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:21:32.856] Server  LOG     ✓ Compiled in 50.1s
+[00:21:33.795] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:21:33.805] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:21:33.805] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:21:33.805] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:21:33.851] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:21:33.852] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:21:33.852] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:21:33.870] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:21:33.872] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:21:33.872] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:21:35.451] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:21:35.451] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:21:35.451] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:21:35.451] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:21:35.451] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:21:35.451] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:21:35.452] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:21:35.452] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:21:35.452] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:21:35.452] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:21:35.550] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:21:35.796] Browser WARN    Image with src "/logoModifier.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:21:48.528] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `div`.  It was passed a child from Footer.
+[00:22:30.783] Server  LOG     ✓ Compiled in 55.1s
+[00:22:35.017] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:22:35.018] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:22:37.979] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:22:37.979] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:22:38.076] Server  LOG     ✓ Compiled in 7.2s
+[00:22:38.644] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the render method of `Footer`. See https://react.dev/link/warning-keys for more information.
+[00:22:40.279] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:22:40.279] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:22:40.279] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:22:40.280] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:22:40.280] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:22:40.280] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:22:40.280] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:22:40.281] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:22:40.281] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:22:40.281] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:22:40.399] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:22:41.299] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `div`.  It was passed a child from Footer.
+[00:22:41.299] Browser WARN    Image with src "/logoModifier.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:23:32.525] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:23:32.526] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:23:32.892] Server  LOG     ✓ Compiled in 52.1s
+[00:23:33.465] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the render method of `Footer`. See https://react.dev/link/warning-keys for more information.
+[00:23:33.542] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:23:33.542] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:23:33.542] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:23:33.542] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:23:33.543] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:23:33.543] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:23:33.543] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:23:33.544] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:23:33.544] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:23:33.544] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:23:34.698] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:23:34.698] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:23:34.698] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:23:34.698] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:23:34.698] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:23:34.698] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:23:34.699] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:23:34.699] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:23:34.699] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:23:34.699] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:23:37.570] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:23:37.640] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `div`.  It was passed a child from Footer.
+[00:23:37.640] Browser WARN    Image with src "/logoModifier.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:23:53.582] Server  LOG     ✓ Compiled in 16s
+[00:24:00.385] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:24:00.386] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:24:01.172] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the render method of `Footer`. See https://react.dev/link/warning-keys for more information.
+[00:24:02.594] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:24:02.594] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:24:02.594] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:24:02.595] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:24:02.595] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:24:02.595] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:24:02.595] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:24:02.596] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:24:02.596] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:24:02.596] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:24:02.694] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:24:03.027] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `div`.  It was passed a child from Footer.
+[00:24:03.027] Browser WARN    Image with src "/logoModifier.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:24:45.618] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:24:45.619] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:24:48.409] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:24:48.409] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:24:48.506] Server  LOG     ✓ Compiled in 45.7s
+[00:24:49.153] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the render method of `Footer`. See https://react.dev/link/warning-keys for more information.
+[00:24:50.292] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:24:50.292] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:24:50.292] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:24:50.293] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:24:50.293] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:24:50.293] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:24:50.293] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:24:50.294] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:24:50.294] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:24:50.294] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:24:50.425] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:24:50.729] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `div`.  It was passed a child from Footer.
+[00:24:50.729] Browser WARN    Image with src "/logoModifier.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:25:09.262] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:25:09.262] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:25:09.528] Server  LOG     ✓ Compiled in 2.5s
+[00:25:10.204] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the render method of `Footer`. See https://react.dev/link/warning-keys for more information.
+[00:25:11.356] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:25:11.356] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:25:11.358] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:25:11.358] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:25:11.359] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:25:11.361] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:25:11.362] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:25:11.363] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:25:11.368] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:25:11.368] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:25:11.512] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:25:11.845] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `div`.  It was passed a child from Footer.
+[00:25:11.845] Browser WARN    Image with src "/logoModifier.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:25:59.337] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:25:59.338] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:26:02.544] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:26:02.544] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:26:12.633] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+
+[00:26:12.633] Server  WARN    ⚠ [next]/internal/font/google/poppins_15f2850e.module.css
+next/font: warning:
+Failed to download `Poppins` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/poppins_15f2850e.module.css
+    [next]/internal/font/google/poppins_15f2850e.js
+    ./app/layout.tsx
+
+

@@ -1,4 +1,7 @@
 {
+  "/actualite/page": "app/actualite/page.js",
   "/apropos/page": "app/apropos/page.js",
+  "/espace-primaire/page": "app/espace-primaire/page.js",
+  "/espace-secondaire/page": "app/espace-secondaire/page.js",
   "/page": "app/page.js"
 }

@@ -1,0 +1,16 @@
+/* [next]/internal/font/google/poppins_15f2850e.module.css [app-client] (css) */
+@font-face {
+  font-family: Poppins Fallback;
+  src: local(Arial);
+  ascent-override: 93.62%;
+  descent-override: 31.21%;
+  line-gap-override: 8.92%;
+  size-adjust: 112.16%;
+}
+
+.poppins_15f2850e-module__UNR8Ya__className {
+  font-family: Poppins, Poppins Fallback;
+  font-style: normal;
+}
+
+/*# sourceMappingURL=%5Bnext%5D_internal_font_google_poppins_15f2850e_module_css_bad6b30c._.single.css.map*/

@@ -169,7 +169,7 @@ const images = [
         title: "On n’est pas premier par hasard !"
     }
 ];
-function Promoteur() {
+function Slider() {
     const [index, setIndex] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(0);
     // Slider automatique
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
@@ -186,18 +186,18 @@ function Promoteur() {
                     backgroundImage: `url(${item.img})`
                 },
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "bg-black/65 h-full w-full flex items-center p-8",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-white text-2xl md:text-3xl max-w-xl text-right",
+                    className: "bg-black/67 h-full w-full flex items-cente p-8 shadow-2xl",
+                    children: item.title && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "text-white text-2xl md:text-3xl max-w-100 mt-30 text-right",
                         children: item.title
                     }, void 0, false, {
                         fileName: "[project]/_Components/Slider.tsx",
                         lineNumber: 41,
-                        columnNumber: 13
+                        columnNumber: 15
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/_Components/Slider.tsx",
-                    lineNumber: 40,
+                    lineNumber: 39,
                     columnNumber: 11
                 }, this)
             }, item.id, false, {
@@ -211,7 +211,7 @@ function Promoteur() {
         columnNumber: 5
     }, this);
 }
-const __TURBOPACK__default__export__ = Promoteur;
+const __TURBOPACK__default__export__ = Slider;
 }),
 ];
 

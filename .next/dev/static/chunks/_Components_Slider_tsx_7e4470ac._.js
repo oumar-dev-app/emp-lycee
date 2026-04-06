@@ -24,24 +24,24 @@ const images = [
         title: "On n’est pas premier par hasard !"
     }
 ];
-function Promoteur() {
+function Slider() {
     _s();
     const [index, setIndex] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(0);
     // Slider automatique
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
-        "Promoteur.useEffect": ()=>{
+        "Slider.useEffect": ()=>{
             const interval = setInterval({
-                "Promoteur.useEffect.interval": ()=>{
+                "Slider.useEffect.interval": ()=>{
                     setIndex({
-                        "Promoteur.useEffect.interval": (prev)=>(prev + 1) % images.length
-                    }["Promoteur.useEffect.interval"]);
+                        "Slider.useEffect.interval": (prev)=>(prev + 1) % images.length
+                    }["Slider.useEffect.interval"]);
                 }
-            }["Promoteur.useEffect.interval"], 5000); // change toutes les 4s
+            }["Slider.useEffect.interval"], 5000); // change toutes les 4s
             return ({
-                "Promoteur.useEffect": ()=>clearInterval(interval)
-            })["Promoteur.useEffect"];
+                "Slider.useEffect": ()=>clearInterval(interval)
+            })["Slider.useEffect"];
         }
-    }["Promoteur.useEffect"], []);
+    }["Slider.useEffect"], []);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "h-125 overflow-hidden relative",
         children: images.map((item, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -50,18 +50,18 @@ function Promoteur() {
                     backgroundImage: `url(${item.img})`
                 },
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "bg-black/65 h-full w-full flex items-center p-8",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-white text-2xl md:text-3xl max-w-xl text-right",
+                    className: "bg-black/67 h-full w-full flex items-cente p-8 shadow-2xl",
+                    children: item.title && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "text-white text-2xl md:text-3xl max-w-100 mt-30 text-right",
                         children: item.title
                     }, void 0, false, {
                         fileName: "[project]/_Components/Slider.tsx",
                         lineNumber: 41,
-                        columnNumber: 13
+                        columnNumber: 15
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/_Components/Slider.tsx",
-                    lineNumber: 40,
+                    lineNumber: 39,
                     columnNumber: 11
                 }, this)
             }, item.id, false, {
@@ -75,11 +75,11 @@ function Promoteur() {
         columnNumber: 5
     }, this);
 }
-_s(Promoteur, "c3fuAdVwNN91t4bNS1qBXl5hAWY=");
-_c = Promoteur;
-const __TURBOPACK__default__export__ = Promoteur;
+_s(Slider, "c3fuAdVwNN91t4bNS1qBXl5hAWY=");
+_c = Slider;
+const __TURBOPACK__default__export__ = Slider;
 var _c;
-__turbopack_context__.k.register(_c, "Promoteur");
+__turbopack_context__.k.register(_c, "Slider");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
 }
