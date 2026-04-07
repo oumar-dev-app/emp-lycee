@@ -179,12 +179,13 @@ const images = [
     {
         id: 1,
         img: "/Slider2.jpg",
-        title: "Discipline–Effort–Succès : le succès au bout de l’effort dans la discipline."
+        title: "DISCIPLINE-EFFORT-SUCCÈS:",
+        desc: "le succès au bout de l’effort dans la discipline."
     },
     {
         id: 2,
         img: "/Slider1.jpg",
-        title: "On n’est pas premier par hasard !"
+        title: "ON N'EST PAS PREMIER PAR HASARD !"
     }
 ];
 function Slider() {
@@ -212,29 +213,53 @@ function Slider() {
                 style: {
                     backgroundImage: `url(${item.img})`
                 },
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "m-8 rounded-2xl flex items-cente",
-                    children: item.title && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-white text-3xl bg-black/80 p-5 rounded-2xl  h-50 w-150 capitalize md:text-3xl max-w-100 mt-30 text-right",
-                        children: item.title
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "w-full h-full bg-black/70 absolute top-0 left-0 gb-gradient-to-b from-transparent to-black/90"
+                    }, void 0, false, {
+                        fileName: "[project]/_Components/Slider.tsx",
+                        lineNumber: 40,
+                        columnNumber: 12
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: " m-8 rounded-2xl absolute",
+                        children: item.title && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "text-white text-3xl  rounded-2xl capitalize font-bold md:text-3xl max-w-140 mt-30 text-right",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                    children: item.title
+                                }, void 0, false, {
+                                    fileName: "[project]/_Components/Slider.tsx",
+                                    lineNumber: 44,
+                                    columnNumber: 17
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    children: item.desc
+                                }, void 0, false, {
+                                    fileName: "[project]/_Components/Slider.tsx",
+                                    lineNumber: 47,
+                                    columnNumber: 17
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/_Components/Slider.tsx",
+                            lineNumber: 43,
+                            columnNumber: 15
+                        }, this)
                     }, void 0, false, {
                         fileName: "[project]/_Components/Slider.tsx",
                         lineNumber: 41,
-                        columnNumber: 15
+                        columnNumber: 11
                     }, this)
-                }, void 0, false, {
-                    fileName: "[project]/_Components/Slider.tsx",
-                    lineNumber: 39,
-                    columnNumber: 11
-                }, this)
-            }, item.id, false, {
+                ]
+            }, item.id, true, {
                 fileName: "[project]/_Components/Slider.tsx",
-                lineNumber: 33,
+                lineNumber: 34,
                 columnNumber: 9
             }, this))
     }, void 0, false, {
         fileName: "[project]/_Components/Slider.tsx",
-        lineNumber: 31,
+        lineNumber: 32,
         columnNumber: 5
     }, this);
 }

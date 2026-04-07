@@ -6,12 +6,13 @@ const images = [
   {
     id: 1,
     img: "/Slider2.jpg",
-    title: "Discipline–Effort–Succès : le succès au bout de l’effort dans la discipline."
+    title: "DISCIPLINE-EFFORT-SUCCÈS:",
+    desc: "le succès au bout de l’effort dans la discipline."
   },
   {
     id: 2,
     img: "/Slider1.jpg",
-    title: "On n’est pas premier par hasard !"
+    title: "ON N'EST PAS PREMIER PAR HASARD !"
   },
 ];
 
@@ -36,11 +37,15 @@ function Slider() {
             }`}
           style={{ backgroundImage: `url(${item.img})` }}
         >
-          <div className="m-8 rounded-2xl flex items-cente">
+           <div className="w-full h-full bg-black/70 absolute top-0 left-0 gb-gradient-to-b from-transparent to-black/90"></div>
+          <div className=" m-8 rounded-2xl absolute">
             {item.title && (
-              <p className="text-white text-3xl bg-black/80 p-5 rounded-2xl  h-50 w-150 capitalize md:text-3xl max-w-100 mt-30 text-right">
-                {item.title}
-              </p>
+              <div className="text-white text-3xl  rounded-2xl capitalize font-bold md:text-3xl max-w-140 mt-30 text-right">
+                <h1>
+                  {item.title}
+                </h1>
+                <p>{item.desc}</p>
+              </div>
             )}
           </div>
         </div>
