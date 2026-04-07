@@ -5,8 +5,8 @@ import Space_secondaire from '@/_Components/Space-secondair';
 function page() {
   return (
     <div>
-      <Slider/>
-     <Space_secondaire/>
+      <Slider />
+      <Space_secondaire />
     </div>
   )
 }
