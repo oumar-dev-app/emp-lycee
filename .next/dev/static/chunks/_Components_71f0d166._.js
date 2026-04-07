@@ -213,9 +213,9 @@ function Slider() {
                     backgroundImage: `url(${item.img})`
                 },
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "bg-black/67 h-full w-full flex items-cente p-8 shadow-2xl",
+                    className: "m-8 rounded-2xl flex items-cente",
                     children: item.title && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-white text-2xl md:text-3xl max-w-100 mt-30 text-right",
+                        className: "text-white text-3xl bg-black/80 p-5 rounded-2xl  h-50 w-150 capitalize md:text-3xl max-w-100 mt-30 text-right",
                         children: item.title
                     }, void 0, false, {
                         fileName: "[project]/_Components/Slider.tsx",

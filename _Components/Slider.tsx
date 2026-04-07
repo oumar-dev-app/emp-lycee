@@ -36,9 +36,9 @@ function Slider() {
             }`}
           style={{ backgroundImage: `url(${item.img})` }}
         >
-          <div className="bg-black/80 h-full w-full flex items-cente p-8 shadow-2xl">
+          <div className="m-8 rounded-2xl flex items-cente">
             {item.title && (
-              <p className="text-white text-2xl md:text-3xl max-w-100 mt-30 text-right">
+              <p className="text-white text-3xl bg-black/80 p-5 rounded-2xl  h-50 w-150 capitalize md:text-3xl max-w-100 mt-30 text-right">
                 {item.title}
               </p>
             )}
