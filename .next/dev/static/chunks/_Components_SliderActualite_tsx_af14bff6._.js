@@ -15,18 +15,17 @@ var _s = __turbopack_context__.k.signature();
 const images = [
     {
         id: 1,
-        img: "/Slider1.jpg",
-        title: "Discipline–Effort–Succès : le succès au bout de l’effort dans la discipline."
+        img: "/Slider2.jpg",
+        title: "DISCIPLINE-EFFORT-SUCCÈS:",
+        desc1: "Le succès au bout de l’effort dans la discipline.",
+        desc2: " On n'est pas premier par hasard  !"
     },
     {
         id: 2,
-        img: "/Slider4.jpg",
-        title: ""
-    },
-    {
-        id: 3,
-        img: "/Actualite.jpg",
-        title: "On n’est pas premier par hasard !"
+        img: "/Slider1.jpg",
+        title: "DISCIPLINE-EFFORT-SUCCÈS:",
+        desc1: "Le succès au bout de l’effort dans la discipline.",
+        desc2: " On n'est pas premier par hasard !"
     }
 ];
 function Promoteur() {
@@ -54,29 +53,79 @@ function Promoteur() {
                 style: {
                     backgroundImage: `url(${item.img})`
                 },
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "m-8 rounded-2xl flex items-cente",
-                    children: item.title && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-white text-3xl bg-black/80 p-5 rounded-2xl  h-50 w-150 capitalize md:text-3xl max-w-100 mt-30 text-right",
-                        children: item.title
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "w-full h-full bg-black/70 absolute top-0 left-0 gb-gradient-to-b from-transparent to-black/90"
                     }, void 0, false, {
                         fileName: "[project]/_Components/SliderActualite.tsx",
-                        lineNumber: 47,
-                        columnNumber: 15
+                        lineNumber: 43,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: `absolute top-0 left-0 w-full h-full bg-cover bg-center transition-opacity duration-1000 ${i === index ? "opacity-100" : "opacity-0"}`,
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: " m-8 rounded-2xl absolute",
+                            children: item.title && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "mt-25 space-y-5",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                        className: "text-white text-5xl font-bold capitalize ",
+                                        children: item.title
+                                    }, void 0, false, {
+                                        fileName: "[project]/_Components/SliderActualite.tsx",
+                                        lineNumber: 50,
+                                        columnNumber: 19
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "space-y-4",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: "text-white text-2xl ",
+                                                children: item.desc1
+                                            }, void 0, false, {
+                                                fileName: "[project]/_Components/SliderActualite.tsx",
+                                                lineNumber: 54,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: "text-white text-2xl ",
+                                                children: item.desc2
+                                            }, void 0, false, {
+                                                fileName: "[project]/_Components/SliderActualite.tsx",
+                                                lineNumber: 55,
+                                                columnNumber: 21
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/_Components/SliderActualite.tsx",
+                                        lineNumber: 53,
+                                        columnNumber: 19
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/_Components/SliderActualite.tsx",
+                                lineNumber: 49,
+                                columnNumber: 17
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/_Components/SliderActualite.tsx",
+                            lineNumber: 46,
+                            columnNumber: 13
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/_Components/SliderActualite.tsx",
+                        lineNumber: 44,
+                        columnNumber: 9
                     }, this)
-                }, void 0, false, {
-                    fileName: "[project]/_Components/SliderActualite.tsx",
-                    lineNumber: 45,
-                    columnNumber: 11
-                }, this)
-            }, item.id, false, {
+                ]
+            }, item.id, true, {
                 fileName: "[project]/_Components/SliderActualite.tsx",
-                lineNumber: 38,
+                lineNumber: 37,
                 columnNumber: 9
             }, this))
     }, void 0, false, {
         fileName: "[project]/_Components/SliderActualite.tsx",
-        lineNumber: 36,
+        lineNumber: 35,
         columnNumber: 5
     }, this);
 }

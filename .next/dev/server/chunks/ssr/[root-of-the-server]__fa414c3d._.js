@@ -153,7 +153,7 @@ function Footer() {
                                                     lineNumber: 24,
                                                     columnNumber: 23
                                                 }, this)
-                                            }, links.href, false, {
+                                            }, links.id, false, {
                                                 fileName: "[project]/_Components/Footer.tsx",
                                                 lineNumber: 23,
                                                 columnNumber: 21

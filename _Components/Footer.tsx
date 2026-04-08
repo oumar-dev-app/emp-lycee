@@ -20,7 +20,7 @@ function Footer() {
                 const isActive = pathname.startsWith(links.href)
                 return (
                   <ul className='font-bold text-sm'>
-                    <li key={links.href}>
+                    <li key={links.id}>
                       <Link href={links.href}
                         className={`hover:text-red-600  group hoverEffect 
                         ${pathname === links.href ? "text-red-500" : ""}`}

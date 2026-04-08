@@ -27,7 +27,7 @@ function Infratructure() {
                     }
                 </div>
                 <div className='border border-white shadow-2xl p-10 rounded-xl space-y-5'>
-                    <h1 className='text-2xl font-bold'>Infrastructures :</h1>
+                    <h1 className='text-2xl font-bold'>Infrastructures:</h1>
                     <p className='flex items-center gap-4'> <FaCheck  className="text-yellow-500"/> Caméras de surveillance (18 au secondaire, 24 au fondamental) </p>
                     <p className='flex items-center gap-4'> <FaCheck  className="text-yellow-500"/> Bibliothèque équipée </p>
                     <p className='flex items-center gap-4'> <FaCheck  className="text-yellow-500"/> Salle informatique moderne </p>

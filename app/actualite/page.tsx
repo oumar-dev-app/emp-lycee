@@ -23,7 +23,7 @@ export default function ActualitePage() {
                         >
                             <div className="bg-white/90 w-full h-full">
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-                                    <div className='border border-white shadow-2xl p-10 rounded-xl space-y-5'>
+                                    <div className='border border-white  shadow-2xl p-10 rounded-xl space-y-5'>
                                         <h1 className='text-2xl font-bold'>Performances et distinctions :</h1>
                                         <p className='flex items-center gap-4'> <FaCheck className="text-yellow-500" /> 1er du CAP de Kalaban-Coro et 5è national au DEF 2019 (Kossi Roland KPADENOU)</p>
                                         <p className='flex items-center gap-4'> <FaCheck className="text-yellow-500" />  DEF 2020 : 100%</p>
@@ -33,7 +33,7 @@ export default function ActualitePage() {
                                         <p className='flex items-center gap-4'> <FaCheck className="text-yellow-500" />DEF 2023 : 90%</p>
                                         <p className='flex items-center gap-4'> <FaCheck className="text-yellow-500" /> DEF 2024 : 97% </p>
                                     </div>
-                                    <div className='border border-white shadow-2xl p-10 rounded-xl space-y-5'>
+                                    <div className='border border-white  shadow-2xl p-10 rounded-xl space-y-5'>
                                         <h1 className='text-2xl font-bold'>Baccalauréat :</h1>
                                         <p className='flex items-center gap-4'> <FaCheck className="text-yellow-500" />3è national au Bac 2022 </p>
                                         <p className='flex items-center gap-4'> <FaCheck className="text-yellow-500" />Bac 2023 : établissement distingué</p>

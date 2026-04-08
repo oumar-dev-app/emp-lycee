@@ -7,12 +7,15 @@ const images = [
     id: 1,
     img: "/Slider2.jpg",
     title: "DISCIPLINE-EFFORT-SUCCÈS:",
-    desc: "le succès au bout de l’effort dans la discipline."
+    desc1: "le succès au bout de l’effort dans la discipline.",
+    desc2: " On n'est pas premier par hasard  !"
   },
   {
     id: 2,
     img: "/Slider1.jpg",
-    title: "ON N'EST PAS PREMIER PAR HASARD !"
+    title: "DISCIPLINE-EFFORT-SUCCÈS:",
+    desc1: "le succès au bout de l’effort dans la discipline.",
+    desc2: " On n'est pas premier par hasard !"
   },
 ];
 
@@ -37,16 +40,25 @@ function Slider() {
             }`}
           style={{ backgroundImage: `url(${item.img})` }}
         >
-           <div className="w-full h-full bg-black/70 absolute top-0 left-0 gb-gradient-to-b from-transparent to-black/90"></div>
-          <div className=" m-8 rounded-2xl absolute">
-            {item.title && (
-              <div className="text-white text-3xl  rounded-2xl capitalize font-bold md:text-3xl max-w-140 mt-30 text-right">
-                <h1>
-                  {item.title}
-                </h1>
-                <p>{item.desc}</p>
-              </div>
-            )}
+          <div className="w-full h-full bg-black/70 absolute top-0 left-0 gb-gradient-to-b from-transparent to-black/90"></div>
+          <div className={`absolute top-0 left-0 w-full h-full bg-cover bg-center transition-opacity duration-1000 ${i === index ? "opacity-100" : "opacity-0"
+            }`}>
+            <div className=" m-8 rounded-2xl absolute">
+              {item.title && (
+
+                <div className="mt-25 space-y-5">
+                  <h1 className="text-white text-5xl font-bold capitalize ">
+                    {item.title}
+                  </h1>
+                  <div className="space-y-4">
+                    <p className="text-white text-2xl ">{item.desc1}</p>
+                    <p className="text-white text-2xl ">{item.desc2}</p>
+                  </div>
+                </div>
+
+
+              )}
+            </div>
           </div>
         </div>
       ))}

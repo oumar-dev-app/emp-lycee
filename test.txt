@@ -1,3 +1,6 @@
 curl -X POST http://localhost:3000/api/category \
 -H "Content-Type: application/json" \
 -d '{"nom":"pomme", "couleur":"vert"}'
+
+
+className="text-white text-3xl  rounded-2xl capitalize font-bold md:text-3xl max-w-140 mt-30 text-right"
