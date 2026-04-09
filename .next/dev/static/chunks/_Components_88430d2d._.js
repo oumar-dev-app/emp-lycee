@@ -371,114 +371,42 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
 }
 }),
-"[project]/_Components/SideMenu.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
-"use strict";
+"[project]/_Components/SideMenu.tsx [app-client] (ecmascript)", ((__turbopack_context__, module, exports) => {
 
-__turbopack_context__.s([
-    "default",
-    ()=>__TURBOPACK__default__export__
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$_Components$2f$DataLinks$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/_Components/DataLinks.ts [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/navigation.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-icons/fa/index.mjs [app-client] (ecmascript)");
-;
-var _s = __turbopack_context__.k.signature();
-'use client';
-;
-;
-;
-;
-const SideMenu = ({ isOpen, onClose })=>{
-    _s();
-    const pathname = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["usePathname"])();
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: `fixed inset-y-0 left-0 z-50 w-full shadow-xl 
-    ${isOpen ? "translate-x-0" : "-translate-x-full"} hoverEffect`,
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "min-w-72 max-w-96 bg-black h-screen p-10 border-r border-blue-800 flex flex-col gap-6",
-            children: [
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "flex justify-end",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                        onClick: onClose,
-                        className: "hover:text-red-500 hoverEffect text-white",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaTimes"], {}, void 0, false, {
-                            fileName: "[project]/_Components/SideMenu.tsx",
-                            lineNumber: 31,
-                            columnNumber: 26
-                        }, ("TURBOPACK compile-time value", void 0))
-                    }, void 0, false, {
-                        fileName: "[project]/_Components/SideMenu.tsx",
-                        lineNumber: 27,
-                        columnNumber: 21
-                    }, ("TURBOPACK compile-time value", void 0))
-                }, void 0, false, {
-                    fileName: "[project]/_Components/SideMenu.tsx",
-                    lineNumber: 26,
-                    columnNumber: 17
-                }, ("TURBOPACK compile-time value", void 0)),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "flex  justify-between gap-5",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex flex-col text-white space-y-3 font-semibold text-sm tracking-wide",
-                        children: __TURBOPACK__imported__module__$5b$project$5d2f$_Components$2f$DataLinks$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["DataLinks"].map((link)=>{
-                            return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                href: link.href,
-                                onClick: onClose,
-                                className: `hover:text-red-600 hoverEffect 
-                            ${pathname === link.href && "text-red-500"}`,
-                                children: link.name
-                            }, link.href, false, {
-                                fileName: "[project]/_Components/SideMenu.tsx",
-                                lineNumber: 41,
-                                columnNumber: 33
-                            }, ("TURBOPACK compile-time value", void 0));
-                        })
-                    }, void 0, false, {
-                        fileName: "[project]/_Components/SideMenu.tsx",
-                        lineNumber: 36,
-                        columnNumber: 21
-                    }, ("TURBOPACK compile-time value", void 0))
-                }, void 0, false, {
-                    fileName: "[project]/_Components/SideMenu.tsx",
-                    lineNumber: 35,
-                    columnNumber: 17
-                }, ("TURBOPACK compile-time value", void 0)),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "mt-7",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(MobileLogo, {}, void 0, false, {
-                        fileName: "[project]/_Components/SideMenu.tsx",
-                        lineNumber: 55,
-                        columnNumber: 21
-                    }, ("TURBOPACK compile-time value", void 0))
-                }, void 0, false, {
-                    fileName: "[project]/_Components/SideMenu.tsx",
-                    lineNumber: 54,
-                    columnNumber: 17
-                }, ("TURBOPACK compile-time value", void 0))
-            ]
-        }, void 0, true, {
+const { jsxDEV: _jsxDEV } = __turbopack_context__.r("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+/*#__PURE__*/ _jsxDEV("div", {
+    className: " relative w-full h-full rounded-2xl overflow-hidden group ",
+    children: [
+        /*#__PURE__*/ _jsxDEV("div", {
+            style: {
+                backgroundImage: `url(${item.image})`
+            },
+            className: " absolute inset-0 bg-cover bg-center  transform transition-all duration-700 ease-out group-hover:scale-110 group-hover:duration-200 group-hover:brightness-110 "
+        }, void 0, false, {
             fileName: "[project]/_Components/SideMenu.tsx",
-            lineNumber: 25,
-            columnNumber: 13
-        }, ("TURBOPACK compile-time value", void 0))
-    }, void 0, false, {
-        fileName: "[project]/_Components/SideMenu.tsx",
-        lineNumber: 21,
-        columnNumber: 9
-    }, ("TURBOPACK compile-time value", void 0));
-};
-_s(SideMenu, "xbyQPtUVMO7MNj7WjJlpdWqRcTo=", false, function() {
-    return [
-        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["usePathname"]
-    ];
-});
-_c = SideMenu;
-const __TURBOPACK__default__export__ = SideMenu;
-var _c;
-__turbopack_context__.k.register(_c, "SideMenu");
+            lineNumber: 8,
+            columnNumber: 3
+        }, /*TURBOPACK member replacement*/ __turbopack_context__.e),
+        /*#__PURE__*/ _jsxDEV("div", {
+            className: "absolute inset-0 bg-white/90"
+        }, void 0, false, {
+            fileName: "[project]/_Components/SideMenu.tsx",
+            lineNumber: 21,
+            columnNumber: 3
+        }, /*TURBOPACK member replacement*/ __turbopack_context__.e),
+        /*#__PURE__*/ _jsxDEV("div", {
+            className: "relative z-10 space-y-5 p-5"
+        }, void 0, false, {
+            fileName: "[project]/_Components/SideMenu.tsx",
+            lineNumber: 24,
+            columnNumber: 3
+        }, /*TURBOPACK member replacement*/ __turbopack_context__.e)
+    ]
+}, item.id, true, {
+    fileName: "[project]/_Components/SideMenu.tsx",
+    lineNumber: 1,
+    columnNumber: 1
+}, /*TURBOPACK member replacement*/ __turbopack_context__.e);
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
 }
