@@ -8,10 +8,10 @@ function Mobilemenu() {
     return (
         <div>
             <button onClick={() => setIsSidebarOpen(!isSidebarOpen)}
-            className='bg-gray-400 rounded-lg md:hidden text-white m-2'
+            className='bg-gray-400 rounded-lg md:hidden shadow-2xl text-white m-2'
                 >
                 <FaBars 
-                size={20}
+                size={23}
                     className='hover:text-red-500 hoverEffect  m-2 md:hidden hover:cursor-pointer md:gap-0' />
             </button>
             <div className='md:hidden'>

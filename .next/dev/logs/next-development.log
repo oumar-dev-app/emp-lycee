@@ -57,3 +57,12 @@ Check the render method of `Footer`. See https://react.dev/link/warning-keys for
 
 Check the render method of `div`.  It was passed a child from Footer.
 [00:52:22.562] Browser WARN    Image with src "/logoModifier.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:53:53.269] Server  LOG     ✓ Compiled in 5s
+[00:53:54.490] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the render method of `Footer`. See https://react.dev/link/warning-keys for more information.
+[00:53:57.349] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:53:57.664] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `div`.  It was passed a child from Footer.
+[00:53:58.271] Browser WARN    Image with src "/logoModifier.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
