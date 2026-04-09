@@ -48,7 +48,6 @@ function Promoteur() {
                                         </p>
                                     </div>
                                 </div>
-                                <Adresse />
                             </div>
 
 

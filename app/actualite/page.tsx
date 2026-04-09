@@ -13,7 +13,7 @@ export default function ActualitePage() {
     return (
         <div>
             <SliderAcutialite />
-            <div className='max-w-7xl  mt-10'>
+            <div className='max-w-7xl m-auto mt-10 mb-10'>
                 <div className="m-3">
                     {
                     bgImage.map((item) => (

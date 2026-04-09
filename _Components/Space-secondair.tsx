@@ -10,7 +10,7 @@ const bgImage = [
 
 function Space_secondaire() {
   return (
-    <div className='max-w-7xl m-auto md:p-10 mt-10 '>
+    <div className='max-w-7xl m-auto md:p-10 mt-10 mb-10 '>
       <div className='m-3'>
         {
           bgImage.map((item) => (
