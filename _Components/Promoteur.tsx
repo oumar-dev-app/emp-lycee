@@ -38,7 +38,7 @@ function Promoteur() {
                                     }
                                 </div>
 
-                                <div className='border border-white/25 shadow-2xl p-10 rounded-xl'>
+                                <div className='border border-white shadow-2xl p-10 rounded-xl'>
                                     <h1 className='text-2xl font-bold'>Mot de Promoteur</h1>
                                     <p>
                                         Nous invitons les parents d'élèves à venir inscrire leurs enfants afin de leur garantir une formation de
