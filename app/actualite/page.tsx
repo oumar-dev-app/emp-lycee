@@ -23,7 +23,7 @@ export default function ActualitePage() {
                         >
                             <div className="bg-white/90 w-full h-full">
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-                                    <div className='border border-white  shadow-2xl p-10 rounded-xl space-y-5'>
+                                    <div className='border border-white/16 shadow-2xl p-6 md:p-10 rounded-xl space-y-5'>
                                         <h1 className='text-2xl font-bold'>Performances et distinctions :</h1>
                                         <p className='flex items-center gap-4'> <FaCheck className="text-yellow-500 shrink-0" /> 1er du CAP de Kalaban-Coro et 5è national au DEF 2019 (Kossi Roland KPADENOU)</p>
                                         <p className='flex items-center gap-4'> <FaCheck className="text-yellow-500 shrink-0" />  DEF 2020 : 100%</p>
@@ -33,13 +33,13 @@ export default function ActualitePage() {
                                         <p className='flex items-center gap-4'> <FaCheck className="text-yellow-500 shrink-0" />DEF 2023 : 90%</p>
                                         <p className='flex items-center gap-4'> <FaCheck className="text-yellow-500 shrink-0" /> DEF 2024 : 97% </p>
                                     </div>
-                                    <div className='border border-white  shadow-2xl p-10 rounded-xl space-y-5'>
+                                    <div className='border border-white/16 shadow-2xl p-6 md:p-10 rounded-xl space-y-5'>
                                         <h1 className='text-2xl font-bold'>Baccalauréat :</h1>
                                         <p className='flex items-center gap-4'> <FaCheck className="text-yellow-500 shrink-0" /> 3è national au Bac 2022 </p>
                                         <p className='flex items-center gap-4'> <FaCheck className="text-yellow-500 shrink-0" /> Bac 2023 : établissement distingué</p>
                                         <p className='flex items-center gap-4'> <FaCheck className="text-yellow-500 shrink-0" /> Bac 2024 : 1ère nationale </p>
                                     </div>
-                                    <div className='border border-white shadow-2xl p-10 rounded-xl space-y-5'>
+                                    <div className='border border-white/16 shadow-2xl p-6 md:p-10 rounded-xl space-y-5'>
                                         <h1 className='text-2xl font-bold'>Concours internationaux :</h1>
                                         <p className='flex items-center gap-4'> <FaCheck className="text-yellow-500 shrink-0" /> Olympiades de mathématiques 2024 : médaille de bronze
                                         </p>
