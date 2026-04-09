@@ -22,11 +22,11 @@ function Space_primaire() {
           >
             <div className="bg-white/90 w-full h-full">
               <div className='l space-y-5'>
-                <div className='border border-white shadow-2xl p-10 rounded-xl space-y-5' >
+                <div className='border border-white/25 shadow-2xl p-10 rounded-xl space-y-5' >
                   <p className='font-bold  text-center'>L’école fondamentale EPMS assure une formation solide du primaire jusqu’au collège avec un encadrement de qualité.</p>
                 </div>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
-                  <div className='border border-white shadow-2xl p-6 md:p-10 rounded-xl space-y-5'>
+                  <div className='border border-white/25 shadow-2xl p-6 md:p-10 rounded-xl space-y-5'>
                     <h1 className='text-2xl font-bold'>Résultats:</h1>
                     <ul className='space-y-5'>
                       <li className='flex items-start gap-4'><FaCheck className="text-yellow-500 shrink-0" /> DEF 2020 : 100% </li>

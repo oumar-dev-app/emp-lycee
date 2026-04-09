@@ -30,7 +30,7 @@ function Space_secondaire() {
                 {/* GRID RESPONSIVE */}
                 <div className='grid grid-cols-1 md:grid-cols-2  gap-5'>
 
-                  <div className=' border border-white shadow-2xl p-6 md:p-10 rounded-xl space-y-5'>
+                  <div className=' border border-white/25 shadow-2xl p-6 md:p-10 rounded-xl space-y-5'>
                     <h1 className='text-2xl font-bold'>Résultats et performances :</h1>
                     <ul className='space-y-5'>
                       <li className='flex items-center gap-4'>
@@ -48,7 +48,7 @@ function Space_secondaire() {
                     </ul>
                   </div>
 
-                  <div className='border border-white shadow-2xl p-6 md:p-10 rounded-xl space-y-5'>
+                  <div className='border border-white/25 shadow-2xl p-6 md:p-10 rounded-xl space-y-5'>
                     <h1 className='text-2xl font-bold'>Excellence :</h1>
                     <p className='flex items-center gap-4'>
                       <FaCheck className="text-yellow-500 shrink-0" />Olympiades internationales de mathématiques

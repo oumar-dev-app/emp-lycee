@@ -13,3 +13,4 @@ Check the render method of `div`.  It was passed a child from Footer.
 
 Check the render method of `Footer`. See https://react.dev/link/warning-keys for more information.
 [00:21:25.788] Server  LOG     ✓ Compiled in 547.7s
+[00:30:26.127] Server  LOG     ✓ Compiled in 98.4s
