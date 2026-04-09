@@ -112,15 +112,14 @@ function Space_primaire() {
                                                 className: "space-y-5",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                        className: "flex items-center gap-4",
+                                                        className: "flex items-start gap-4",
                                                         children: [
-                                                            " ",
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaCheck"], {
-                                                                className: "text-yellow-500"
+                                                                className: "text-yellow-500 shrink-0"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/_Components/Space-primaire.tsx",
                                                                 lineNumber: 32,
-                                                                columnNumber: 64
+                                                                columnNumber: 62
                                                             }, this),
                                                             " DEF 2020 : 100% "
                                                         ]
@@ -130,15 +129,14 @@ function Space_primaire() {
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                        className: "flex items-center gap-4",
+                                                        className: "flex items-start gap-4",
                                                         children: [
-                                                            " ",
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaCheck"], {
-                                                                className: "text-yellow-500"
+                                                                className: "text-yellow-500 shrink-0"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/_Components/Space-primaire.tsx",
                                                                 lineNumber: 33,
-                                                                columnNumber: 64
+                                                                columnNumber: 62
                                                             }, this),
                                                             " DEF 2021 : 3 élèves parmi les 10 meilleurs "
                                                         ]
@@ -148,15 +146,14 @@ function Space_primaire() {
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                        className: "flex items-center gap-4",
+                                                        className: "flex items-start gap-4",
                                                         children: [
-                                                            " ",
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaCheck"], {
-                                                                className: "text-yellow-500"
+                                                                className: "text-yellow-500 shrink-0"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/_Components/Space-primaire.tsx",
                                                                 lineNumber: 34,
-                                                                columnNumber: 64
+                                                                columnNumber: 62
                                                             }, this),
                                                             " DEF 2022 : 95%  "
                                                         ]
@@ -166,15 +163,14 @@ function Space_primaire() {
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                        className: "flex items-center gap-4",
+                                                        className: "flex items-start gap-4",
                                                         children: [
-                                                            " ",
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaCheck"], {
-                                                                className: "text-yellow-500"
+                                                                className: "text-yellow-500 shrink-0"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/_Components/Space-primaire.tsx",
                                                                 lineNumber: 35,
-                                                                columnNumber: 64
+                                                                columnNumber: 62
                                                             }, this),
                                                             " DEF 2023 : 90% "
                                                         ]
@@ -184,15 +180,14 @@ function Space_primaire() {
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                        className: "flex items-center gap-4",
+                                                        className: "flex items-start gap-4",
                                                         children: [
-                                                            " ",
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaCheck"], {
-                                                                className: "text-yellow-500"
+                                                                className: "text-yellow-500 shrink-0"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/_Components/Space-primaire.tsx",
                                                                 lineNumber: 36,
-                                                                columnNumber: 64
+                                                                columnNumber: 62
                                                             }, this),
                                                             " DEF 2024 : 97% "
                                                         ]
@@ -229,7 +224,7 @@ function Space_primaire() {
                                                 children: [
                                                     " ",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaCheck"], {
-                                                        className: "text-yellow-500"
+                                                        className: "text-yellow-500 shrink-0"
                                                     }, void 0, false, {
                                                         fileName: "[project]/_Components/Space-primaire.tsx",
                                                         lineNumber: 42,
@@ -247,7 +242,7 @@ function Space_primaire() {
                                                 children: [
                                                     " ",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaCheck"], {
-                                                        className: "text-yellow-500"
+                                                        className: "text-yellow-500 shrink-0"
                                                     }, void 0, false, {
                                                         fileName: "[project]/_Components/Space-primaire.tsx",
                                                         lineNumber: 43,
@@ -265,7 +260,7 @@ function Space_primaire() {
                                                 children: [
                                                     " ",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaCheck"], {
-                                                        className: "text-yellow-500"
+                                                        className: "text-yellow-500 shrink-0"
                                                     }, void 0, false, {
                                                         fileName: "[project]/_Components/Space-primaire.tsx",
                                                         lineNumber: 44,

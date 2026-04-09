@@ -46,13 +46,13 @@ function DifferentCentre() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "flex items-center gap-4",
                             children: [
-                                "  ",
+                                " ",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaCheck"], {
-                                    className: "text-yellow-500"
+                                    className: "text-yellow-500 shrink-0"
                                 }, void 0, false, {
                                     fileName: "[project]/_Components/DifferentCentre.tsx",
                                     lineNumber: 15,
-                                    columnNumber: 52
+                                    columnNumber: 51
                                 }, this),
                                 "Nombre d’élèves : (à renseigner)"
                             ]
@@ -64,13 +64,13 @@ function DifferentCentre() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "flex items-center gap-4",
                             children: [
-                                "  ",
+                                " ",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaCheck"], {
-                                    className: "text-yellow-500"
+                                    className: "text-yellow-500 shrink-0"
                                 }, void 0, false, {
                                     fileName: "[project]/_Components/DifferentCentre.tsx",
                                     lineNumber: 16,
-                                    columnNumber: 52
+                                    columnNumber: 51
                                 }, this),
                                 "Années d’existence : depuis octobre 2013 "
                             ]
@@ -99,13 +99,13 @@ function DifferentCentre() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "flex items-center gap-4",
                             children: [
-                                "  ",
+                                " ",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaCheck"], {
-                                    className: "text-yellow-500"
+                                    className: "text-yellow-500 shrink-0"
                                 }, void 0, false, {
                                     fileName: "[project]/_Components/DifferentCentre.tsx",
                                     lineNumber: 20,
-                                    columnNumber: 52
+                                    columnNumber: 51
                                 }, this),
                                 "Former les élites de demain "
                             ]
@@ -117,13 +117,13 @@ function DifferentCentre() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "flex items-center gap-4",
                             children: [
-                                "  ",
+                                " ",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaCheck"], {
-                                    className: "text-yellow-500"
+                                    className: "text-yellow-500 shrink-0"
                                 }, void 0, false, {
                                     fileName: "[project]/_Components/DifferentCentre.tsx",
                                     lineNumber: 21,
-                                    columnNumber: 52
+                                    columnNumber: 51
                                 }, this),
                                 "Réussir grâce aux nouvelles technologies de l’information et de la communication "
                             ]
@@ -152,13 +152,12 @@ function DifferentCentre() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "flex items-center gap-4",
                             children: [
-                                " ",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaCheck"], {
-                                    className: "text-yellow-500"
+                                    className: "text-yellow-500 shrink-0"
                                 }, void 0, false, {
                                     fileName: "[project]/_Components/DifferentCentre.tsx",
                                     lineNumber: 26,
-                                    columnNumber: 51
+                                    columnNumber: 50
                                 }, this),
                                 " Meilleur cadre de travail "
                             ]
@@ -170,13 +169,12 @@ function DifferentCentre() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "flex items-center gap-4",
                             children: [
-                                " ",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaCheck"], {
-                                    className: "text-yellow-500"
+                                    className: "text-yellow-500 shrink-0"
                                 }, void 0, false, {
                                     fileName: "[project]/_Components/DifferentCentre.tsx",
                                     lineNumber: 27,
-                                    columnNumber: 51
+                                    columnNumber: 50
                                 }, this),
                                 " Effectifs limités "
                             ]
@@ -188,13 +186,12 @@ function DifferentCentre() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "flex items-center gap-4",
                             children: [
-                                " ",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaCheck"], {
-                                    className: "text-yellow-500"
+                                    className: "text-yellow-500 shrink-0"
                                 }, void 0, false, {
                                     fileName: "[project]/_Components/DifferentCentre.tsx",
                                     lineNumber: 28,
-                                    columnNumber: 51
+                                    columnNumber: 50
                                 }, this),
                                 " Personnel enseignant qualifié "
                             ]
@@ -206,13 +203,12 @@ function DifferentCentre() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "flex items-center gap-4",
                             children: [
-                                " ",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaCheck"], {
-                                    className: "text-yellow-500"
+                                    className: "text-yellow-500 shrink-0"
                                 }, void 0, false, {
                                     fileName: "[project]/_Components/DifferentCentre.tsx",
                                     lineNumber: 29,
-                                    columnNumber: 51
+                                    columnNumber: 50
                                 }, this),
                                 " Cours d’informatique gratuits "
                             ]
@@ -224,13 +220,12 @@ function DifferentCentre() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "flex items-center gap-4",
                             children: [
-                                " ",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaCheck"], {
-                                    className: "text-yellow-500"
+                                    className: "text-yellow-500 shrink-0"
                                 }, void 0, false, {
                                     fileName: "[project]/_Components/DifferentCentre.tsx",
                                     lineNumber: 30,
-                                    columnNumber: 51
+                                    columnNumber: 50
                                 }, this),
                                 " Bon taux de réussite "
                             ]
@@ -283,13 +278,13 @@ function DifferentCentre() {
                             children: [
                                 "  ",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaCheck"], {
-                                    className: "text-yellow-500"
+                                    className: "text-yellow-500 shrink-0"
                                 }, void 0, false, {
                                     fileName: "[project]/_Components/DifferentCentre.tsx",
                                     lineNumber: 42,
                                     columnNumber: 52
                                 }, this),
-                                "DEF 2024 : 97% "
+                                " DEF 2024 : 97% "
                             ]
                         }, void 0, true, {
                             fileName: "[project]/_Components/DifferentCentre.tsx",
@@ -301,13 +296,13 @@ function DifferentCentre() {
                             children: [
                                 "  ",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaCheck"], {
-                                    className: "text-yellow-500"
+                                    className: "text-yellow-500 shrink-0"
                                 }, void 0, false, {
                                     fileName: "[project]/_Components/DifferentCentre.tsx",
                                     lineNumber: 43,
                                     columnNumber: 52
                                 }, this),
-                                "Bac 2024 : 1ère nationale (17,50 en TSE) "
+                                " Bac 2024 : 1ère nationale (17,50 en TSE) "
                             ]
                         }, void 0, true, {
                             fileName: "[project]/_Components/DifferentCentre.tsx",
@@ -319,13 +314,13 @@ function DifferentCentre() {
                             children: [
                                 "  ",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaCheck"], {
-                                    className: "text-yellow-500"
+                                    className: "text-yellow-500 shrink-0"
                                 }, void 0, false, {
                                     fileName: "[project]/_Components/DifferentCentre.tsx",
                                     lineNumber: 44,
                                     columnNumber: 52
                                 }, this),
-                                "Plusieurs élèves classés parmi les meilleurs au niveau national "
+                                " Plusieurs élèves classés parmi les meilleurs au niveau national "
                             ]
                         }, void 0, true, {
                             fileName: "[project]/_Components/DifferentCentre.tsx",

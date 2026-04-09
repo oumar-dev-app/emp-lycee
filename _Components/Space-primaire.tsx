@@ -29,19 +29,19 @@ function Space_primaire() {
                   <div className='border border-white shadow-2xl p-10 rounded-xl space-y-5' >
                     <h1 className='text-2xl font-bold'>Résultats:</h1>
                     <ul className='space-y-5'>
-                      <li className='flex items-center gap-4'> <FaCheck className="text-yellow-500" /> DEF 2020 : 100% </li>
-                      <li className='flex items-center gap-4'> <FaCheck className="text-yellow-500" /> DEF 2021 : 3 élèves parmi les 10 meilleurs </li>
-                      <li className='flex items-center gap-4'> <FaCheck className="text-yellow-500" /> DEF 2022 : 95%  </li>
-                      <li className='flex items-center gap-4'> <FaCheck className="text-yellow-500" /> DEF 2023 : 90% </li>
-                      <li className='flex items-center gap-4'> <FaCheck className="text-yellow-500" /> DEF 2024 : 97% </li>
+                      <li className='flex items-start gap-4'><FaCheck className="text-yellow-500 shrink-0" /> DEF 2020 : 100% </li>
+                      <li className='flex items-start gap-4'><FaCheck className="text-yellow-500 shrink-0" /> DEF 2021 : 3 élèves parmi les 10 meilleurs </li>
+                      <li className='flex items-start gap-4'><FaCheck className="text-yellow-500 shrink-0" /> DEF 2022 : 95%  </li>
+                      <li className='flex items-start gap-4'><FaCheck className="text-yellow-500 shrink-0" /> DEF 2023 : 90% </li>
+                      <li className='flex items-start gap-4'><FaCheck className="text-yellow-500 shrink-0" /> DEF 2024 : 97% </li>
                     </ul>
                   </div>
 
                   <div className='border border-white shadow-2xl p-10 rounded-xl space-y-5'>
                     <h1 className='text-2xl font-bold'>Atouts spécifiques :</h1>
-                    <p className='flex items-center gap-4'> <FaCheck className="text-yellow-500" />Cours d’informatique gratuits</p>
-                    <p className='flex items-center gap-4'> <FaCheck className="text-yellow-500" />Encadrement personnalisé </p>
-                    <p className='flex items-center gap-4'> <FaCheck className="text-yellow-500" />Bon taux de réussite  </p>
+                    <p className='flex items-center gap-4'> <FaCheck className="text-yellow-500 shrink-0" />Cours d’informatique gratuits</p>
+                    <p className='flex items-center gap-4'> <FaCheck className="text-yellow-500 shrink-0" />Encadrement personnalisé </p>
+                    <p className='flex items-center gap-4'> <FaCheck className="text-yellow-500 shrink-0" />Bon taux de réussite  </p>
                   </div>
                 </div>
 
