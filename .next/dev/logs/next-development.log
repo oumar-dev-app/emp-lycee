@@ -12,3 +12,4 @@ Check the render method of `div`.  It was passed a child from Footer.
 [00:08:03.597] Server  ERROR   Each child in a list should have a unique "key" prop.
 
 Check the render method of `Footer`. See https://react.dev/link/warning-keys for more information.
+[00:21:25.788] Server  LOG     ✓ Compiled in 547.7s
