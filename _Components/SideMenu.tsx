@@ -3,9 +3,9 @@ import { FC } from 'react'
 import { DataLinks } from './DataLinks';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-
 import { FaTimes } from "react-icons/fa";
-import Logo from './Logo';
+import MobileLogo from './MobileLogo';
+
 
 
 
@@ -52,7 +52,7 @@ const SideMenu: FC<SidebarProps> = ({ isOpen, onClose }) => {
 
                 </div>
                 <div className='mt-7'>
-                    <Logo />
+                    <MobileLogo />
                 </div>
 
             </div>
