@@ -8,60 +8,79 @@ const images = [
     img: "/Slider2.jpg",
     title: "DISCIPLINE-EFFORT-SUCCÈS:",
     desc1: "Le succès au bout de l’effort dans la discipline.",
-    desc2: " On n'est pas premier par hasard  !"
+    desc2: "On n'est pas premier par hasard !",
   },
   {
     id: 2,
     img: "/Slider1.jpg",
     title: "DISCIPLINE-EFFORT-SUCCÈS:",
     desc1: "Le succès au bout de l’effort dans la discipline.",
-    desc2: " On n'est pas premier par hasard !"
+    desc2: "On n'est pas premier par hasard !",
   },
 ];
 
-function Promoteur() {
+function Slider() {
   const [index, setIndex] = useState(0);
 
-  // Slider automatique
   useEffect(() => {
     const interval = setInterval(() => {
       setIndex((prev) => (prev + 1) % images.length);
-    }, 4000);
+    }, 5000);
 
     return () => clearInterval(interval);
   }, []);
 
   return (
-    <div className="h-125 overflow-hidden relative">
+    <div className="relative h-125 overflow-hidden">
+
       {images.map((item, i) => (
         <div
           key={item.id}
-          className={`absolute top-0 left-0 w-full h-full bg-cover bg-center transition-opacity duration-1000 ${i === index ? "opacity-100" : "opacity-0"
-            }`}
-          style={{ backgroundImage: `url(${item.img})` }}
-        >
-          <div className="w-full h-full bg-black/70 absolute top-0 left-0 gb-gradient-to-b from-transparent to-black/90"></div>
-        <div className={`absolute top-0 left-0 w-full h-full bg-cover bg-center transition-opacity duration-1000 ${i === index ? "opacity-100" : "opacity-0"
-            }`}>
-            <div className=" m-8 rounded-2xl absolute">
-              {item.title && (
+          className={`
+            absolute inset-0
+            transition-opacity duration-1000 ease-in-out
 
-                <div className="mt-25 space-y-5">
-                  <h1 className="text-white text-5xl font-bold capitalize ">
-                    {item.title}
-                  </h1>
-                  <div className="space-y-4">
-                    <p className="text-white text-2xl ">{item.desc1}</p>
-                    <p className="text-white text-2xl ">{item.desc2}</p>
-                  </div>
-                </div>
-              )}
+            ${i === index ? "opacity-100 z-20" : "opacity-0 z-10"}
+          `}
+        >
+
+          {/* 🖼 IMAGE */}
+          <div
+            className={`
+              absolute inset-0 bg-cover bg-center
+              transition-transform duration-5000 ease-out
+
+              ${i === index ? "scale-110" : "scale-100"}
+            `}
+            style={{ backgroundImage: `url(${item.img})` }}
+          />
+
+          {/* 🌫 OVERLAY */}
+          <div className="absolute inset-0 bg-black/70"></div>
+
+          {/* 📝 TEXTE (FIXE) */}
+          <div className="relative z-30 h-full flex flex-col justify-center px-10 space-y-6">
+
+            <h1 className="text-white text-4xl md:text-5xl font-bold">
+              {item.title}
+            </h1>
+
+            <div className="space-y-3">
+              <p className="text-white text-lg md:text-2xl">
+                {item.desc1}
+              </p>
+              <p className="text-white text-lg md:text-2xl">
+                {item.desc2}
+              </p>
             </div>
+
           </div>
+
         </div>
       ))}
+
     </div>
   );
 }
 
-export default Promoteur;
+export default Slider;
