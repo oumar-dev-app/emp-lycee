@@ -4,7 +4,6 @@ import Link from 'next/link';
 function MobileLogo() {
     return (
         <Link href={"/"} className='relative inline-block'>
-
             <Image
                 src={"/logoModifier.png"}
                 alt='logo'
@@ -15,8 +14,7 @@ function MobileLogo() {
             />
 
             <div className='absolute inset-0 bg-black/80 rounded-xl'></div>
-
-        </Link> 
+        </Link>
     )
 }
 

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Adresse() {
     return (
-        <div className='grid grid-cols-1 md:grid-cols-2 gap-5 mt-8'>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-5 mt-8 m-3'>
             <div className='border border-white rounded-xl space-y-3 p-3 shadow-2xl'>
                 <h1 className=' font-bold'>Adresse</h1>
                 <p>

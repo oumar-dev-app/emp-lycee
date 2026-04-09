@@ -10,8 +10,8 @@ const imgInfra = [
 ]
 function Infratructure() {
     return (
-        <div className='max-w-7xl m-auto p-10 '>
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
+        <div className='max-w-7xl m-auto'>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-5 m-3'>
                 <div className='shadow-2xl rounded-xl'>
                     {
                         imgInfra.map((item) => (

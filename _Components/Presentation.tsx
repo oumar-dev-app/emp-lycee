@@ -6,9 +6,9 @@ import { FaCheck } from 'react-icons/fa';
 
 function Presentation() {
   return (
-    <div >
+    <div className='max-w-7xl m-auto'>
     
-      <div className='max-w-7xl m-auto p-10'>
+      <div className='m-3'>
         <div className='l space-y-5'>
           <div className='border border-white/25 shadow-2xl p-6 md:p-10 rounded-xl space-y-5'>
             <p className='font-bold  text-center'>Créé en 2013 et ouvert en octobre 2013,
