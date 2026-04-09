@@ -7,8 +7,8 @@ function Logo() {
       <Image 
       src={"/logoModifier.png"}
       alt='logo'
-      width={130}
-      height={130}
+      width={110}
+      height={110}
       priority
       />
     </Link>
