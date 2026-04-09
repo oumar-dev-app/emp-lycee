@@ -30,34 +30,34 @@ function Space_secondaire() {
                 {/* GRID RESPONSIVE */}
                 <div className='grid grid-cols-1 md:grid-cols-2  gap-5'>
 
-                  <div className=' border border-white/25 shadow-2xl p-6 md:p-10 rounded-xl space-y-5'>
+                  <div className=' border border-white shadow-2xl p-6 md:p-10 rounded-xl space-y-5'>
                     <h1 className='text-2xl font-bold'>Résultats et performances :</h1>
                     <ul className='space-y-5'>
                       <li className='flex items-center gap-4'>
-                        <FaCheck className="text-yellow-500 shrink-0" /> 3è national au Bac 2022
+                        <FaCheck className="text-yellow-500" /> 3è national au Bac 2022
                       </li>
                       <li className='flex items-center gap-4'>
-                        <FaCheck className="text-yellow-500 shrink-0" /> Bac 2023 : établissement parmi les meilleurs (Tchiwara)
+                        <FaCheck className="text-yellow-500" /> Bac 2023 : établissement parmi les meilleurs (Tchiwara)
                       </li>
                       <li className='flex items-center gap-4'>
-                        <FaCheck className="text-yellow-500 shrink-0" /> 1ère nationale au Bac 2024 (17,50 en TSE)
+                        <FaCheck className="text-yellow-500" /> 1ère nationale au Bac 2024 (17,50 en TSE)
                       </li>
                       <li className='flex items-center gap-4'>
-                        <FaCheck className="text-yellow-500 shrink-0" /> Plusieurs distinctions académiques
+                        <FaCheck className="text-yellow-500" /> Plusieurs distinctions académiques
                       </li>
                     </ul>
                   </div>
 
-                  <div className='border border-white/25 shadow-2xl p-6 md:p-10 rounded-xl space-y-5'>
+                  <div className='border border-white shadow-2xl p-6 md:p-10 rounded-xl space-y-5'>
                     <h1 className='text-2xl font-bold'>Excellence :</h1>
                     <p className='flex items-center gap-4'>
-                      <FaCheck className="text-yellow-500 shrink-0" />Olympiades internationales de mathématiques
+                      <FaCheck className="text-yellow-500" />Olympiades internationales de mathématiques
                     </p>
                     <p className='flex items-center gap-4'>
-                      <FaCheck className="text-yellow-500 shrink-0" />Médaille de bronze à Johannesburg
+                      <FaCheck className="text-yellow-500" />Médaille de bronze à Johannesburg
                     </p>
                     <p className='flex items-center gap-4'>
-                      <FaCheck className="text-yellow-500 shrink-0" />Double classement national et académique
+                      <FaCheck className="text-yellow-500" />Double classement national et académique
                     </p>
                   </div>
 
