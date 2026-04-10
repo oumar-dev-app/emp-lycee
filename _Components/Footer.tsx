@@ -10,7 +10,7 @@ import { usePathname } from 'next/navigation';
 function Footer() {
   const pathname = usePathname();
   return (
-    <footer className='bg-black p-10 '>
+    <footer className='bg-black '>
       <div className='max-w-7xl   m-auto'>
         <div className='text-white grid grid-cols-1 md:grid-cols-3 gap-10'>
           <div className='flex justify-center items-center'>

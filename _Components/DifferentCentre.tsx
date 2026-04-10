@@ -1,7 +1,3 @@
-import React from 'react'
-import Presentation from './Presentation';
-import DifferentEcole from './DifferentEcole';
-import DerniereDifferent from './DerniereDifferent';
 import { FaCheck } from "react-icons/fa";
 import Link from 'next/link';
 
@@ -21,7 +17,7 @@ function DifferentCentre() {
           <p className='flex items-center gap-4'> <FaCheck className="text-yellow-500 shrink-0" />Réussir grâce aux nouvelles
             technologies de l’information et de la communication </p>
         </div>
-        <div className='border border-white/16 shadow-2xl p-6 mb-10  m-3 md:p-10 rounded-xl space-y-5'>
+        <div className='border border-white/16 shadow-2xl p-6 mt-10  m-3 md:p-10 rounded-xl space-y-5'>
           <h1 className='text-2xl font-bold'>Atouts</h1>
           <p className='flex items-center gap-4'><FaCheck className="text-yellow-500 shrink-0" /> Meilleur cadre de travail </p>
           <p className='flex items-center gap-4'><FaCheck className="text-yellow-500 shrink-0" /> Effectifs limités </p>
