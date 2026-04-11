@@ -20,7 +20,7 @@ export default function AproposPage() {
                             key={item.id}
                             className='w-full h-full bg-cover bg-center'
                         >
-                            <div className="bg-white/90 w-full h-full">
+                            <div className="bg-white/93  w-full h-full">
                                 <Presentation />
                                 <Infratructure />
                             </div>

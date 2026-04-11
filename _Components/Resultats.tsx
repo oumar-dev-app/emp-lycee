@@ -40,21 +40,21 @@ function Resultats() {
   }, []);
 
   return (
-    <div className='bg-blue-950 p-2 '>
-      <div className='mt-10 mb-10'>
+    <div className='bg-blue-950 p-2'>
+      <div className='mt-15 mb-15'>
         <h1 className='text-2xl font-bold text-center text-white mb-20'>Résultats globaux</h1>
         <div className='grid grid-cols-3 text-center  mt-5 mb-5 text-white'>
-          <div>
+          <div className='space-y-5'>
             <h1 className='text-yellow-500 text-4xl font-bold'>{def}%</h1>
-            <p className='font-bold'>DEF</p>
+            <p className='font-bold text-2xl'>DEF</p>
           </div>
-          <div>
+          <div className='space-y-5'>
             <h1 className='text-yellow-500 text-4xl font-bold'>{bac}%</h1>
-            <p className='font-bold'>BAC</p>
+            <p className='font-bold text-2xl'>BAC</p>
           </div>
-          <div>
+          <div className='space-y-5'>
             <h1 className='text-yellow-500 text-4xl font-bold'>{bti}%</h1>
-            <p className='font-bold'>BTI</p>
+            <p className='font-bold text-2xl'>BTI</p>
           </div>
         </div>
       </div>

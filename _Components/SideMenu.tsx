@@ -38,7 +38,7 @@ const SideMenu: FC<SidebarProps> = ({ isOpen, onClose }) => {
       : "-translate-x-full scale-90 duration-400 ease-in"}
   `}
 >
-        <div className='min-w-72 max-w-96 bg-black h-screen p-10 border-r border-blue-800 flex flex-col gap-6'>
+        <div className='min-w-72 max-w-96 bg-black h-screen p-10 border-r-2 border-green-800 flex flex-col gap-6'>
 
           {/*  Bouton fermer */}
           <div className='flex justify-end'>

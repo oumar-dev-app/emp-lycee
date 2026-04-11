@@ -3,7 +3,7 @@ const image = [
     {
         id: 1,
         img: "/promoteur.jpg",
-        title: "promoteur"
+        title: "promoteur1"
     }
 ]
 
@@ -16,7 +16,7 @@ const bgImage = [
 
 function Promoteur() {
     return (
-        <div className='max-w-7xl m-auto mt-10'>
+        <div className='max-w-7xl m-auto mt-20 mb-15'>
             <div className='m-3'>
                 {
                     bgImage.map((item) => (
@@ -25,13 +25,13 @@ function Promoteur() {
                             key={item.id}
                             className='w-full h-full bg-cover bg-center rounded-2xl'
                         >
-                            <div className="bg-white/90 w-full h-full">
-                                <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
+                            <div className="bg-white/93 w-full h-full">
+                                <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
                                     <div className='shadow-2xl rounded-xl'>
                                         {
                                             image.map((item) => (
                                                 <div key={item.id}
-                                                    className=' h-140 w-full bg-cover bg-center rounded-xl'
+                                                    className=' h-100 w-full bg-cover bg-center rounded-xl'
                                                     style={{ backgroundImage: `url(${item.img})` }}
                                                 >
                                                 </div>
@@ -39,7 +39,7 @@ function Promoteur() {
                                         }
                                     </div>
 
-                                    <div className='border border-white shadow-2xl p-10 rounded-xl'>
+                                    <div className='border border-white shadow-2xl p-5 rounded-xl space-y-5'>
                                         <h1 className='text-2xl font-bold'>Mot de Promoteur</h1>
                                         <p>
                                             Nous invitons les parents d'élèves à venir inscrire leurs enfants afin de leur garantir une formation de
