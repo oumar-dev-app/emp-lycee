@@ -78,7 +78,7 @@ function Footer() {
           <div className='flex justify-center'>
             <Logo />
           </div>
-          <p>Copy©Rigth 2026 by EMP-lycée </p>
+          <p>CopyRigth©2026 by EMP-lycée </p>
         </div>
       </div>
 
