@@ -771,6 +771,10 @@
     border-bottom-color: var(--color-blue-700);
   }
 
+  .border-b-green-500 {
+    border-bottom-color: var(--color-green-500);
+  }
+
   .border-b-green-600 {
     border-bottom-color: var(--color-green-600);
   }

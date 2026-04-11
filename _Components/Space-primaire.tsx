@@ -39,7 +39,7 @@ function Space_primaire() {
                 <div className='space-y-15'>
 
                   {/* Texte du haut */}
-                  <div className='border border-white border-b-6 border-b-blue-700 shadow-2xl p-10 rounded-xl space-y-5 hidden-left'>
+                  <div className='border border-white border-b-6 border-b-green-500 shadow-2xl p-10 rounded-xl space-y-5 hidden-left'>
                     <p className='font-bold text-center'>
                       L’école fondamentale EPMS assure une formation solide du primaire jusqu’au collège avec un encadrement de qualité.
                     </p>
