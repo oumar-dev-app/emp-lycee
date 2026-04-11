@@ -4,3 +4,26 @@ curl -X POST http://localhost:3000/api/category \
 
 
 className="text-white text-3xl  rounded-2xl capitalize font-bold md:text-3xl max-w-140 mt-30 text-right"
+
+
+
+
+
+function Promoteur() {
+
+    useEffect(() => {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add("show");
+                }
+            });
+        }, { threshold: 0.2 });
+
+        const elements = document.querySelectorAll(".hidden-left, .hidden-right");
+
+        elements.forEach((el) => observer.observe(el));
+    }, []);
+
+
+}

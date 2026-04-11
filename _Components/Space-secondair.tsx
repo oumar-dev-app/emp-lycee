@@ -1,4 +1,6 @@
-import React from 'react'
+"use client";
+
+import React, { useEffect } from 'react'
 import { FaCheck } from 'react-icons/fa';
 
 const bgImage = [
@@ -9,6 +11,21 @@ const bgImage = [
 ]
 
 function Space_secondaire() {
+
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("show");
+        }
+      });
+    }, { threshold: 0.2 });
+
+    const elements = document.querySelectorAll(".hidden-left, .hidden-right");
+
+    elements.forEach((el) => observer.observe(el));
+  }, []);
+
   return (
     <div className='max-w-7xl m-auto md:p-10 mt-18 mb-20 '>
       <div className='m-3'>
@@ -22,16 +39,17 @@ function Space_secondaire() {
               <div className="bg-white/93 w-full h-full">
                 <div className='space-y-18'>
 
-                  <div className='border-2 border-white border-b-4 border-b-green-600 shadow-2xl p-6 md:p-10 rounded-xl space-y-5'>
+                  {/* TEXTE HAUT → GAUCHE */}
+                  <div className='border-2 border-white border-b-4 border-b-green-600 shadow-2xl p-6 md:p-10 rounded-xl space-y-5 hidden-left'>
                     <p className='font-bold text-center'>
                       Le lycée LPDJICOUL offre toutes les séries avec un enseignement de qualité et une préparation rigoureuse aux examens.
                     </p>
                   </div>
 
-                  {/* GRID RESPONSIVE */}
-                  <div className='grid grid-cols-1 md:grid-cols-2  gap-8'>
+                  <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
 
-                    <div className=' text-white bg-gray-500 shadow-2xl p-4 md:p-10 rounded-xl space-y-5'>
+                    {/* GAUCHE */}
+                    <div className='text-white bg-gray-500 shadow-2xl p-4 md:p-10 rounded-xl space-y-5 hidden-left'>
                       <h1 className='text-2xl font-bold'>Résultats et performances :</h1>
                       <ul className='space-y-5'>
                         <li className='flex items-center gap-4'>
@@ -49,16 +67,17 @@ function Space_secondaire() {
                       </ul>
                     </div>
 
-                    <div className=' text-white bg-gray-500 shadow-2xl p-4 md:p-10 rounded-xl space-y-5'>
+                    {/* DROITE */}
+                    <div className='text-white bg-gray-500 shadow-2xl p-4 md:p-10 rounded-xl space-y-5 hidden-right'>
                       <h1 className='text-2xl font-bold'>Excellence :</h1>
                       <p className='flex items-center gap-4'>
-                        <FaCheck className="text-yellow-500 shrink-0" />Olympiades internationales de mathématiques
+                        <FaCheck className="text-yellow-500 shrink-0" /> Olympiades internationales de mathématiques
                       </p>
                       <p className='flex items-center gap-4'>
-                        <FaCheck className="text-yellow-500 shrink-0" />Médaille de bronze à Johannesburg
+                        <FaCheck className="text-yellow-500 shrink-0" /> Médaille de bronze à Johannesburg
                       </p>
                       <p className='flex items-center gap-4'>
-                        <FaCheck className="text-yellow-500 shrink-0" />Double classement national et académique
+                        <FaCheck className="text-yellow-500 shrink-0" /> Double classement national et académique
                       </p>
                     </div>
 
@@ -66,15 +85,10 @@ function Space_secondaire() {
 
                 </div>
               </div>
-
-
             </div>
           ))
         }
-
       </div>
-
-
     </div>
   )
 }

@@ -16,6 +16,24 @@
   }
 }
 
+/* Animation */
+.hidden-left {
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: all 0.7s ease;
+}
+
+.hidden-right {
+  opacity: 0;
+  transform: translateX(100px);
+  transition: all 0.7s ease;
+}
+
+.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
 @theme{
   --font-poppins: Poppins, sans-serif;
 }

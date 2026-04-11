@@ -57,7 +57,9 @@ __turbopack_context__.s([
     ()=>__TURBOPACK__default__export__
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-icons/fa/index.mjs [app-rsc] (ecmascript)");
+;
 ;
 ;
 const bgImage = [
@@ -67,6 +69,19 @@ const bgImage = [
     }
 ];
 function Space_primaire() {
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        const observer = new IntersectionObserver((entries)=>{
+            entries.forEach((entry)=>{
+                if (entry.isIntersecting) {
+                    entry.target.classList.add("show");
+                }
+            });
+        }, {
+            threshold: 0.2
+        });
+        const elements = document.querySelectorAll(".hidden-left, .hidden-right");
+        elements.forEach((el)=>observer.observe(el));
+    }, []);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "max-w-7xl m-auto mt-20 mb-20",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -82,32 +97,32 @@ function Space_primaire() {
                             className: "space-y-15",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "border border-white border-b-4 border-b-green-600 shadow-2xl p-10 rounded-xl space-y-5",
+                                    className: "border border-white border-b-6 border-b-blue-700 shadow-2xl p-10 rounded-xl space-y-5 hidden-left",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "font-bold  text-center",
+                                        className: "font-bold text-center",
                                         children: "L’école fondamentale EPMS assure une formation solide du primaire jusqu’au collège avec un encadrement de qualité."
                                     }, void 0, false, {
                                         fileName: "[project]/_Components/Space-primaire.tsx",
-                                        lineNumber: 24,
+                                        lineNumber: 42,
                                         columnNumber: 21
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/_Components/Space-primaire.tsx",
-                                    lineNumber: 23,
+                                    lineNumber: 41,
                                     columnNumber: 19
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "grid grid-cols-1 md:grid-cols-2 gap-8",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "text-white bg-gray-500 shadow-2xl p-6 md:p-10 rounded-xl space-y-5",
+                                            className: "text-white bg-gray-500 shadow-2xl p-6 md:p-10 rounded-xl space-y-5 hidden-left",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                                     className: "text-2xl font-bold",
                                                     children: "Résultats:"
                                                 }, void 0, false, {
                                                     fileName: "[project]/_Components/Space-primaire.tsx",
-                                                    lineNumber: 28,
+                                                    lineNumber: 51,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -120,14 +135,14 @@ function Space_primaire() {
                                                                     className: "text-yellow-500 shrink-0"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/_Components/Space-primaire.tsx",
-                                                                    lineNumber: 30,
+                                                                    lineNumber: 53,
                                                                     columnNumber: 64
                                                                 }, this),
-                                                                " DEF 2020 : 100% "
+                                                                " DEF 2020 : 100%"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/_Components/Space-primaire.tsx",
-                                                            lineNumber: 30,
+                                                            lineNumber: 53,
                                                             columnNumber: 25
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -137,14 +152,14 @@ function Space_primaire() {
                                                                     className: "text-yellow-500 shrink-0"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/_Components/Space-primaire.tsx",
-                                                                    lineNumber: 31,
+                                                                    lineNumber: 54,
                                                                     columnNumber: 64
                                                                 }, this),
-                                                                " DEF 2021 : 3 élèves parmi les 10 meilleurs "
+                                                                " DEF 2021 : 3 élèves parmi les 10 meilleurs"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/_Components/Space-primaire.tsx",
-                                                            lineNumber: 31,
+                                                            lineNumber: 54,
                                                             columnNumber: 25
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -154,14 +169,14 @@ function Space_primaire() {
                                                                     className: "text-yellow-500 shrink-0"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/_Components/Space-primaire.tsx",
-                                                                    lineNumber: 32,
+                                                                    lineNumber: 55,
                                                                     columnNumber: 64
                                                                 }, this),
-                                                                " DEF 2022 : 95%  "
+                                                                " DEF 2022 : 95%"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/_Components/Space-primaire.tsx",
-                                                            lineNumber: 32,
+                                                            lineNumber: 55,
                                                             columnNumber: 25
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -171,14 +186,14 @@ function Space_primaire() {
                                                                     className: "text-yellow-500 shrink-0"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/_Components/Space-primaire.tsx",
-                                                                    lineNumber: 33,
+                                                                    lineNumber: 56,
                                                                     columnNumber: 64
                                                                 }, this),
-                                                                " DEF 2023 : 90% "
+                                                                " DEF 2023 : 90%"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/_Components/Space-primaire.tsx",
-                                                            lineNumber: 33,
+                                                            lineNumber: 56,
                                                             columnNumber: 25
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -188,129 +203,126 @@ function Space_primaire() {
                                                                     className: "text-yellow-500 shrink-0"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/_Components/Space-primaire.tsx",
-                                                                    lineNumber: 34,
+                                                                    lineNumber: 57,
                                                                     columnNumber: 64
                                                                 }, this),
-                                                                " DEF 2024 : 97% "
+                                                                " DEF 2024 : 97%"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/_Components/Space-primaire.tsx",
-                                                            lineNumber: 34,
+                                                            lineNumber: 57,
                                                             columnNumber: 25
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/_Components/Space-primaire.tsx",
-                                                    lineNumber: 29,
+                                                    lineNumber: 52,
                                                     columnNumber: 23
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/_Components/Space-primaire.tsx",
-                                            lineNumber: 27,
+                                            lineNumber: 50,
                                             columnNumber: 21
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: " bg-gray-500 text-white shadow-2xl p-6 md:p-10 rounded-xl space-y-5",
+                                            className: "bg-gray-500 text-white shadow-2xl p-6 md:p-10 rounded-xl space-y-5 hidden-right",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                                     className: "text-2xl font-bold",
                                                     children: "Atouts spécifiques :"
                                                 }, void 0, false, {
                                                     fileName: "[project]/_Components/Space-primaire.tsx",
-                                                    lineNumber: 39,
+                                                    lineNumber: 63,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     className: "flex items-center gap-4",
                                                     children: [
-                                                        " ",
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaCheck"], {
                                                             className: "text-yellow-500 shrink-0"
                                                         }, void 0, false, {
                                                             fileName: "[project]/_Components/Space-primaire.tsx",
-                                                            lineNumber: 40,
-                                                            columnNumber: 63
+                                                            lineNumber: 64,
+                                                            columnNumber: 62
                                                         }, this),
                                                         "Cours d’informatique gratuits"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/_Components/Space-primaire.tsx",
-                                                    lineNumber: 40,
+                                                    lineNumber: 64,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     className: "flex items-center gap-4",
                                                     children: [
-                                                        " ",
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaCheck"], {
                                                             className: "text-yellow-500 shrink-0"
                                                         }, void 0, false, {
                                                             fileName: "[project]/_Components/Space-primaire.tsx",
-                                                            lineNumber: 41,
-                                                            columnNumber: 63
+                                                            lineNumber: 65,
+                                                            columnNumber: 62
                                                         }, this),
-                                                        "Encadrement personnalisé "
+                                                        "Encadrement personnalisé"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/_Components/Space-primaire.tsx",
-                                                    lineNumber: 41,
+                                                    lineNumber: 65,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     className: "flex items-center gap-4",
                                                     children: [
-                                                        " ",
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaCheck"], {
                                                             className: "text-yellow-500 shrink-0"
                                                         }, void 0, false, {
                                                             fileName: "[project]/_Components/Space-primaire.tsx",
-                                                            lineNumber: 42,
-                                                            columnNumber: 63
+                                                            lineNumber: 66,
+                                                            columnNumber: 62
                                                         }, this),
-                                                        "Bon taux de réussite  "
+                                                        "Bon taux de réussite"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/_Components/Space-primaire.tsx",
-                                                    lineNumber: 42,
+                                                    lineNumber: 66,
                                                     columnNumber: 23
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/_Components/Space-primaire.tsx",
-                                            lineNumber: 38,
+                                            lineNumber: 62,
                                             columnNumber: 21
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/_Components/Space-primaire.tsx",
-                                    lineNumber: 26,
+                                    lineNumber: 47,
                                     columnNumber: 19
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/_Components/Space-primaire.tsx",
-                            lineNumber: 22,
+                            lineNumber: 38,
                             columnNumber: 17
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/_Components/Space-primaire.tsx",
-                        lineNumber: 21,
+                        lineNumber: 37,
                         columnNumber: 15
                     }, this)
                 }, item.id, false, {
                     fileName: "[project]/_Components/Space-primaire.tsx",
-                    lineNumber: 16,
+                    lineNumber: 32,
                     columnNumber: 13
                 }, this))
         }, void 0, false, {
             fileName: "[project]/_Components/Space-primaire.tsx",
-            lineNumber: 13,
+            lineNumber: 29,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/_Components/Space-primaire.tsx",
-        lineNumber: 12,
+        lineNumber: 28,
         columnNumber: 5
     }, this);
 }

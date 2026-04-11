@@ -1,28 +1,77 @@
+"use client";
+
+import { useEffect } from "react";
 import { FaCheck } from "react-icons/fa";
-import Link from 'next/link';
+import Link from "next/link";
 
 function DifferentCentre() {
+
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("show");
+        }
+      });
+    }, { threshold: 0.2 });
+
+    const elements = document.querySelectorAll(
+      ".hidden-left, .hidden-right"
+    );
+
+    elements.forEach((el) => observer.observe(el));
+  }, []);
+
   return (
     <div className='bg-green-900'>
-      <div className='grid grid-cols-1 md:grid-cols-2 gap-6  max-w-7xl m-auto rounded-xl  text-white'>
-        <div className='border border-white/16 shadow-2xl  p-6 m-3 md:p-10 rounded-xl space-y-5'>
+
+      <div className='grid grid-cols-1 md:grid-cols-2 gap-6 max-w-7xl m-auto rounded-xl text-white'>
+
+        {/* 1 → GAUCHE */}
+        <div className='border border-white/16 shadow-2xl p-6 m-3 md:p-10 rounded-xl space-y-5 hidden-left'>
           <h1 className='text-2xl font-bold'>Chiffres clés</h1>
-          <p className='flex items-center gap-4'> <FaCheck className="text-yellow-500 shrink-0" />Nombre d’élèves : (à renseigner)</p>
-          <p className='flex items-center gap-4'> <FaCheck className="text-yellow-500 shrink-0" />Années d’existence : depuis octobre 2013 </p>
+          <p className='flex items-center gap-4'>
+            <FaCheck className="text-yellow-500 shrink-0" />
+            Nombre d’élèves : (à renseigner)
+          </p>
+          <p className='flex items-center gap-4'>
+            <FaCheck className="text-yellow-500 shrink-0" />
+            Années d’existence : depuis octobre 2013
+          </p>
         </div>
-        <div className='border border-white/16 shadow-2xl  p-6  m-3 md:p-10 rounded-xl space-y-5'>
+
+        {/* 2 → DROITE */}
+        <div className='border border-white/16 shadow-2xl p-6 m-3 md:p-10 rounded-xl space-y-5 hidden-right'>
           <h1 className='text-2xl font-bold'>Nos valeurs</h1>
-          <p className='flex items-center gap-4'> <FaCheck className="text-yellow-500 shrink-0" />Former les élites de demain </p>
-          <p className='flex items-center gap-4'> <FaCheck className="text-yellow-500 shrink-0" />Réussir grâce aux nouvelles
-            technologies de l’information et de la communication </p>
+          <p className='flex items-center gap-4'>
+            <FaCheck className="text-yellow-500 shrink-0" />
+            Former les élites de demain
+          </p>
+          <p className='flex items-center gap-4'>
+            <FaCheck className="text-yellow-500 shrink-0" />
+            Réussir grâce aux nouvelles technologies de l’information et de la communication
+          </p>
         </div>
-        <div className='border border-white/16 shadow-2xl  p-6  m-3 md:p-10 rounded-xl space-y-5' >
+
+        {/* 3 → GAUCHE */}
+        <div className='border border-white/16 shadow-2xl p-6 m-3 md:p-10 rounded-xl space-y-5 hidden-left'>
           <h1 className='text-2xl font-bold'>Atouts</h1>
-          <p className='flex items-center gap-4'><FaCheck className="text-yellow-500 shrink-0" /> Meilleur cadre de travail </p>
-          <p className='flex items-center gap-4'><FaCheck className="text-yellow-500 shrink-0" /> Effectifs limités </p>
-          <p className='flex items-center gap-4'><FaCheck className="text-yellow-500 shrink-0" /> Personnel enseignant qualifié </p>
-          <p className='flex items-center gap-4'><FaCheck className="text-yellow-500 shrink-0" /> Cours d’informatique gratuits </p>
-          <p className='flex items-center gap-4'><FaCheck className="text-yellow-500 shrink-0" /> Bon taux de réussite </p>
+
+          <p className='flex items-center gap-4'>
+            <FaCheck className="text-yellow-500 shrink-0" /> Meilleur cadre de travail
+          </p>
+          <p className='flex items-center gap-4'>
+            <FaCheck className="text-yellow-500 shrink-0" /> Effectifs limités
+          </p>
+          <p className='flex items-center gap-4'>
+            <FaCheck className="text-yellow-500 shrink-0" /> Personnel enseignant qualifié
+          </p>
+          <p className='flex items-center gap-4'>
+            <FaCheck className="text-yellow-500 shrink-0" /> Cours d’informatique gratuits
+          </p>
+          <p className='flex items-center gap-4'>
+            <FaCheck className="text-yellow-500 shrink-0" /> Bon taux de réussite
+          </p>
 
           <div className='flex justify-end'>
             <button className='bg-amber-500 hover:bg-amber-400 cursor-pointer p-2 rounded-xl text-sm font-bold'>
@@ -31,13 +80,27 @@ function DifferentCentre() {
               </Link>
             </button>
           </div>
-
         </div>
-        <div className='border border-white/16 shadow-2xl  p-6 m-3 md:p-10 rounded-xl space-y-5'>
+
+        {/* 4 → DROITE */}
+        <div className='border border-white/16 shadow-2xl p-6 m-3 md:p-10 rounded-xl space-y-5 hidden-right'>
           <h1 className='text-2xl font-bold'>Actualités</h1>
-          <p className='flex items-center gap-4'>  <FaCheck className="text-yellow-500 shrink-0" /> DEF 2024 : 97% </p>
-          <p className='flex items-center gap-4'>  <FaCheck className="text-yellow-500 shrink-0" /> Bac 2024 : 1ère nationale (17,50 en TSE) </p>
-          <p className='flex items-center gap-4'>  <FaCheck className="text-yellow-500 shrink-0" /> Plusieurs élèves classés parmi les meilleurs au niveau national </p>
+
+          <p className='flex items-center gap-4'>
+            <FaCheck className="text-yellow-500 shrink-0" />
+            DEF 2024 : 97%
+          </p>
+
+          <p className='flex items-center gap-4'>
+            <FaCheck className="text-yellow-500 shrink-0" />
+            Bac 2024 : 1ère nationale (17,50 en TSE)
+          </p>
+
+          <p className='flex items-center gap-4'>
+            <FaCheck className="text-yellow-500 shrink-0" />
+            Plusieurs élèves classés parmi les meilleurs au niveau national
+          </p>
+
           <div className='flex justify-end mt-20'>
             <button className='bg-amber-500 p-2 hover:bg-amber-400 cursor-pointer rounded-xl text-sm font-bold'>
               <Link href={"/actualite"}>
@@ -47,14 +110,10 @@ function DifferentCentre() {
           </div>
 
         </div>
+
       </div>
     </div>
   )
 }
 
 export default DifferentCentre;
-
-
-
-
-
