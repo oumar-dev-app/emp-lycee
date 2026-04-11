@@ -39,33 +39,35 @@ function Slider() {
           className={`
             absolute inset-0
             transition-opacity duration-1000 ease-in-out
-
             ${i === index ? "opacity-100 z-20" : "opacity-0 z-10"}
           `}
         >
 
-          {/* 🖼 IMAGE */}
+          {/* IMAGE */}
           <div
             className={`
               absolute inset-0 bg-cover bg-center
               transition-transform duration-5000 ease-out
-
               ${i === index ? "scale-110" : "scale-100"}
             `}
             style={{ backgroundImage: `url(${item.img})` }}
           />
 
-          {/* 🌫 OVERLAY */}
+          {/* OVERLAY */}
           <div className="absolute inset-0 bg-black/70"></div>
 
-          {/* 📝 TEXTE (FIXE) */}
-          <div className="relative z-30 h-full flex flex-col justify-center px-10 space-y-6">
+          {/* TEXTE */}
+          <div className="relative z-30 h-full flex flex-col justify-center px-6 md:px-10 space-y-6">
 
-            <h1 className="text-white text-4xl md:text-5xl font-bold">
-              {item.title}
+            {/* TITLE MOBILE STACK + DESKTOP NORMAL */}
+            <h1 className="text-white text-3xl md:text-5xl font-bold leading-tight flex flex-col items-center text-center md:items-start md:text-left">
+              <span>DISCIPLINE</span>
+              <span>EFFORT</span>
+              <span>SUCCÈS</span>
             </h1>
 
-            <div className="space-y-3">
+            {/* DESCRIPTION */}
+            <div className="space-y-3 text-center md:text-left">
               <p className="text-white text-lg md:text-2xl">
                 {item.desc1}
               </p>
