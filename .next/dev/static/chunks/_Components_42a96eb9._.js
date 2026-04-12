@@ -401,7 +401,7 @@ function Presentation() {
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     ref: ref1,
-                    className: "border border-white border-b-4 border-b-green-600 shadow-2xl p-6 md:p-10 rounded-xl m-3 hidden-bottom",
+                    className: "border border-white border-b-6 border-b-green-600 shadow-2xl p-6 md:p-10 rounded-xl m-3 hidden-bottom",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         className: "font-bold text-center",
                         children: "Créé en 2013 et ouvert en octobre 2013, le Groupe Scolaire Amadou Sidibé (GSAS) est un établissement scolaire moderne qui œuvre pour une formation de qualité."

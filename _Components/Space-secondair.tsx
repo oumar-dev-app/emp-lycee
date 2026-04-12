@@ -40,7 +40,7 @@ function Space_secondaire() {
                 <div className='space-y-18'>
 
                   {/* TEXTE HAUT → GAUCHE */}
-                  <div className='border-2 border-white border-b-4 border-b-green-600 shadow-2xl p-6 md:p-10 rounded-xl space-y-5 hidden-left'>
+                  <div className='border-2 border-white border-b-6 border-b-green-600 shadow-2xl p-6 md:p-10 rounded-xl space-y-5 hidden-left'>
                     <p className='font-bold text-center'>
                       Le lycée LPDJICOUL offre toutes les séries avec un enseignement de qualité et une préparation rigoureuse aux examens.
                     </p>

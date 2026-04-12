@@ -30,7 +30,7 @@ function Presentation() {
         {/* INTRO */}
         <div
           ref={ref1}
-          className='border border-white border-b-4 border-b-green-600 shadow-2xl p-6 md:p-10 rounded-xl m-3 hidden-bottom'
+          className='border border-white border-b-6 border-b-green-600 shadow-2xl p-6 md:p-10 rounded-xl m-3 hidden-bottom'
         >
           <p className='font-bold text-center'>
             Créé en 2013 et ouvert en octobre 2013,

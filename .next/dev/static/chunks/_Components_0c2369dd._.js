@@ -15,7 +15,7 @@ var _s = __turbopack_context__.k.signature();
 const images = [
     {
         id: 1,
-        img: "/Slider2.jpg",
+        img: "/Lycee.jpeg",
         title: "DISCIPLINE-EFFORT-SUCCÈS:",
         desc1: "Le succès au bout de l’effort dans la discipline.",
         desc2: "On n'est pas premier par hasard !"
@@ -219,7 +219,7 @@ function Space_secondaire() {
                             className: "space-y-18",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "border-2 border-white border-b-4 border-b-green-600 shadow-2xl p-6 md:p-10 rounded-xl space-y-5 hidden-left",
+                                    className: "border-2 border-white border-b-6 border-b-green-600 shadow-2xl p-6 md:p-10 rounded-xl space-y-5 hidden-left",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "font-bold text-center",
                                         children: "Le lycée LPDJICOUL offre toutes les séries avec un enseignement de qualité et une préparation rigoureuse aux examens."
