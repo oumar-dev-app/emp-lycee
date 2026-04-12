@@ -54,32 +54,35 @@ function Resultats() {
   return (
     <div
       ref={sectionRef}
-      className='bg-gray-600 p-2 hidden-bottom'
+      className='bg-gray-600  p-2 hidden-bottom'
     >
-      <div className='mt-15 mb-15'>
-        <h1 className='text-2xl font-bold text-center text-white mb-20'>
-          Performances en 2025
-        </h1>
+      <div className='max-w-7xl m-auto '>
+        <div className='mt-15 mb-15 border border-white/25 rounded-2xl '>
+          <h1 className='text-2xl font-bold text-center text-white mb-20'>
+            Performances en 2025
+          </h1>
 
-        <div className='grid grid-cols-3 text-center mt-5 mb-5 text-white'>
+          <div className='grid grid-cols-3 text-center mt-5 mb-5 text-white'>
 
-          <div className='space-y-5'>
-            <h1 className='text-yellow-500 text-4xl font-bold'>{def}%</h1>
-            <p className='font-bold text-2xl'>DEF</p>
+            <div className='space-y-5'>
+              <h1 className='text-yellow-500 text-4xl font-bold'>{def}%</h1>
+              <p className='font-bold text-2xl'>DEF</p>
+            </div>
+
+            <div className='space-y-5'>
+              <h1 className='text-yellow-500 text-4xl font-bold'>{bac}%</h1>
+              <p className='font-bold text-2xl'>BAC</p>
+            </div>
+
+            <div className='space-y-5'>
+              <h1 className='text-yellow-500 text-4xl font-bold'>{bti}%</h1>
+              <p className='font-bold text-2xl'>BTI</p>
+            </div>
+
           </div>
-
-          <div className='space-y-5'>
-            <h1 className='text-yellow-500 text-4xl font-bold'>{bac}%</h1>
-            <p className='font-bold text-2xl'>BAC</p>
-          </div>
-
-          <div className='space-y-5'>
-            <h1 className='text-yellow-500 text-4xl font-bold'>{bti}%</h1>
-            <p className='font-bold text-2xl'>BTI</p>
-          </div>
-
         </div>
       </div>
+
     </div>
   );
 }
