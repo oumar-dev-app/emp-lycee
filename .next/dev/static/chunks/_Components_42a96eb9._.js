@@ -162,168 +162,192 @@ __turbopack_context__.s([
     ()=>__TURBOPACK__default__export__
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-icons/fa/index.mjs [app-client] (ecmascript)");
+;
+var _s = __turbopack_context__.k.signature();
+"use client";
 ;
 ;
 function Valeurs() {
+    _s();
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "Valeurs.useEffect": ()=>{
+            const observer = new IntersectionObserver({
+                "Valeurs.useEffect": (entries)=>{
+                    entries.forEach({
+                        "Valeurs.useEffect": (entry)=>{
+                            if (entry.isIntersecting) {
+                                entry.target.classList.add("show");
+                            }
+                        }
+                    }["Valeurs.useEffect"]);
+                }
+            }["Valeurs.useEffect"], {
+                threshold: 0.2
+            });
+            const elements = document.querySelectorAll(".hidden-left, .hidden-right");
+            elements.forEach({
+                "Valeurs.useEffect": (el)=>observer.observe(el)
+            }["Valeurs.useEffect"]);
+            return ({
+                "Valeurs.useEffect": ()=>observer.disconnect()
+            })["Valeurs.useEffect"];
+        }
+    }["Valeurs.useEffect"], []);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "max-w-7xl m-auto",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "grid grid-cols-1 md:grid-cols-2 m-3 gap-8",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "text-white bg-gray-500 shadow-2xl p-6 md:p-10 rounded-xl space-y-5",
+                    className: "text-white bg-gray-500 shadow-2xl p-6 md:p-10 rounded-xl space-y-5 hidden-left",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
                         className: "space-y-5",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                 className: "flex items-center gap-4",
                                 children: [
-                                    " ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaCheck"], {
                                         className: "text-yellow-500 shrink-0"
                                     }, void 0, false, {
                                         fileName: "[project]/_Components/Valeurs.tsx",
-                                        lineNumber: 10,
-                                        columnNumber: 66
+                                        lineNumber: 35,
+                                        columnNumber: 15
                                     }, this),
-                                    " Jardin d’enfants “LE ZENITH” (petite, moyenne, grande section) "
+                                    "Jardin d’enfants “LE ZENITH” (petite, moyenne, grande section)"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/_Components/Valeurs.tsx",
-                                lineNumber: 10,
-                                columnNumber: 25
+                                lineNumber: 34,
+                                columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                 className: "flex items-center gap-4",
                                 children: [
-                                    " ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaCheck"], {
                                         className: "text-yellow-500 shrink-0"
                                     }, void 0, false, {
                                         fileName: "[project]/_Components/Valeurs.tsx",
-                                        lineNumber: 11,
-                                        columnNumber: 66
+                                        lineNumber: 40,
+                                        columnNumber: 15
                                     }, this),
-                                    " École fondamentale EPMS (Mantènin Sidibé)"
+                                    "École fondamentale EPMS (Mantènin Sidibé)"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/_Components/Valeurs.tsx",
-                                lineNumber: 11,
-                                columnNumber: 25
+                                lineNumber: 39,
+                                columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                 className: "flex items-center gap-4",
                                 children: [
-                                    " ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaCheck"], {
                                         className: "text-yellow-500 shrink-0"
                                     }, void 0, false, {
                                         fileName: "[project]/_Components/Valeurs.tsx",
-                                        lineNumber: 12,
-                                        columnNumber: 66
+                                        lineNumber: 45,
+                                        columnNumber: 15
                                     }, this),
-                                    " Lycée LPDJICOUL (toutes les séries) "
+                                    "Lycée LPDJICOUL (toutes les séries)"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/_Components/Valeurs.tsx",
-                                lineNumber: 12,
-                                columnNumber: 25
+                                lineNumber: 44,
+                                columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                 className: "flex items-center gap-4",
                                 children: [
-                                    " ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaCheck"], {
                                         className: "text-yellow-500 shrink-0"
                                     }, void 0, false, {
                                         fileName: "[project]/_Components/Valeurs.tsx",
-                                        lineNumber: 13,
-                                        columnNumber: 66
+                                        lineNumber: 50,
+                                        columnNumber: 15
                                     }, this),
-                                    " Centre de formation professionnelle CFPBK-KCORO "
+                                    "Centre de formation professionnelle CFPBK-KCORO"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/_Components/Valeurs.tsx",
-                                lineNumber: 13,
-                                columnNumber: 25
+                                lineNumber: 49,
+                                columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/_Components/Valeurs.tsx",
-                        lineNumber: 9,
-                        columnNumber: 21
+                        lineNumber: 33,
+                        columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/_Components/Valeurs.tsx",
-                    lineNumber: 8,
-                    columnNumber: 17
+                    lineNumber: 32,
+                    columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "text-white bg-gray-500 shadow-2xl p-6 md:p-10 rounded-xl space-y-5",
+                    className: "text-white bg-gray-500 shadow-2xl p-6 md:p-10 rounded-xl space-y-5 hidden-right",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                             className: "text-2xl font-bold",
                             children: "Nos valeurs détaillées:"
                         }, void 0, false, {
                             fileName: "[project]/_Components/Valeurs.tsx",
-                            lineNumber: 18,
-                            columnNumber: 21
+                            lineNumber: 58,
+                            columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "flex items-center gap-4",
                             children: [
-                                " ",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaCheck"], {
                                     className: "text-yellow-500 shrink-0"
                                 }, void 0, false, {
                                     fileName: "[project]/_Components/Valeurs.tsx",
-                                    lineNumber: 19,
-                                    columnNumber: 61
+                                    lineNumber: 61,
+                                    columnNumber: 13
                                 }, this),
-                                "Former les élites de demain "
+                                "Former les élites de demain"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/_Components/Valeurs.tsx",
-                            lineNumber: 19,
-                            columnNumber: 21
+                            lineNumber: 60,
+                            columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "flex items-center gap-4",
                             children: [
-                                " ",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaCheck"], {
                                     className: "text-yellow-500 shrink-0"
                                 }, void 0, false, {
                                     fileName: "[project]/_Components/Valeurs.tsx",
-                                    lineNumber: 20,
-                                    columnNumber: 61
+                                    lineNumber: 66,
+                                    columnNumber: 13
                                 }, this),
-                                "Réussir avec les TIC "
+                                "Réussir avec les TIC"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/_Components/Valeurs.tsx",
-                            lineNumber: 20,
-                            columnNumber: 21
+                            lineNumber: 65,
+                            columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/_Components/Valeurs.tsx",
-                    lineNumber: 17,
-                    columnNumber: 17
+                    lineNumber: 57,
+                    columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/_Components/Valeurs.tsx",
-            lineNumber: 7,
-            columnNumber: 13
+            lineNumber: 29,
+            columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/_Components/Valeurs.tsx",
-        lineNumber: 6,
-        columnNumber: 9
+        lineNumber: 28,
+        columnNumber: 5
     }, this);
 }
+_s(Valeurs, "OD7bBpZva5O2jO+Puf00hKivP7c=");
 _c = Valeurs;
 const __TURBOPACK__default__export__ = Valeurs;
 var _c;
@@ -349,6 +373,7 @@ var _s = __turbopack_context__.k.signature();
 ;
 function Presentation() {
     _s();
+    const ref1 = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "Presentation.useEffect": ()=>{
             const observer = new IntersectionObserver({
@@ -364,56 +389,50 @@ function Presentation() {
             }["Presentation.useEffect"], {
                 threshold: 0.2
             });
-            const elements = document.querySelectorAll(".hidden-bottom");
-            elements.forEach({
-                "Presentation.useEffect": (el)=>observer.observe(el)
-            }["Presentation.useEffect"]);
+            if (ref1.current) observer.observe(ref1.current);
+            return ({
+                "Presentation.useEffect": ()=>observer.disconnect()
+            })["Presentation.useEffect"];
         }
     }["Presentation.useEffect"], []);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "max-w-7xl m-auto mb-10 mt-15",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "max-w-7xl m-auto mb-10 mt-15",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    ref: ref1,
                     className: "border border-white border-b-4 border-b-green-600 shadow-2xl p-6 md:p-10 rounded-xl m-3 hidden-bottom",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         className: "font-bold text-center",
                         children: "Créé en 2013 et ouvert en octobre 2013, le Groupe Scolaire Amadou Sidibé (GSAS) est un établissement scolaire moderne qui œuvre pour une formation de qualité."
                     }, void 0, false, {
                         fileName: "[project]/_Components/Presentation.tsx",
-                        lineNumber: 29,
+                        lineNumber: 35,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/_Components/Presentation.tsx",
-                    lineNumber: 28,
+                    lineNumber: 31,
                     columnNumber: 9
-                }, this)
-            }, void 0, false, {
-                fileName: "[project]/_Components/Presentation.tsx",
-                lineNumber: 25,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "hidden-bottom",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$_Components$2f$Valeurs$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$_Components$2f$Valeurs$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/_Components/Presentation.tsx",
-                    lineNumber: 40,
+                    lineNumber: 41,
                     columnNumber: 9
                 }, this)
-            }, void 0, false, {
-                fileName: "[project]/_Components/Presentation.tsx",
-                lineNumber: 39,
-                columnNumber: 7
-            }, this)
-        ]
-    }, void 0, true, {
+            ]
+        }, void 0, true, {
+            fileName: "[project]/_Components/Presentation.tsx",
+            lineNumber: 28,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
         fileName: "[project]/_Components/Presentation.tsx",
-        lineNumber: 23,
+        lineNumber: 26,
         columnNumber: 5
     }, this);
 }
-_s(Presentation, "OD7bBpZva5O2jO+Puf00hKivP7c=");
+_s(Presentation, "emFHDOqJPrzV+loLJzSjQFVNt04=");
 _c = Presentation;
 const __TURBOPACK__default__export__ = Presentation;
 var _c;

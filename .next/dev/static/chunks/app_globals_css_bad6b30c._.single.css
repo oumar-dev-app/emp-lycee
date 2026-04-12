@@ -60,7 +60,6 @@
     --color-green-900: #0d542b;
     --color-blue-400: #54a2ff;
     --color-blue-500: #3080ff;
-    --color-blue-700: #1447e6;
     --color-blue-950: #162456;
     --color-gray-400: #99a1af;
     --color-gray-500: #6a7282;
@@ -111,7 +110,6 @@
       --color-green-900: lab(30.797% -29.6927 17.382);
       --color-blue-400: lab(65.0361% -1.42065 -56.9802);
       --color-blue-500: lab(54.1736% 13.3369 -74.6839);
-      --color-blue-700: lab(36.9089% 35.0961 -85.6872);
       --color-blue-950: lab(15.6723% 8.86232 -32.2945);
       --color-gray-400: lab(65.9269% -.832707 -8.17473);
       --color-gray-500: lab(47.7841% -.393182 -10.0268);
@@ -769,10 +767,6 @@
     }
   }
 
-  .border-b-blue-700 {
-    border-bottom-color: var(--color-blue-700);
-  }
-
   .border-b-green-500 {
     border-bottom-color: var(--color-green-500);
   }
@@ -911,10 +905,6 @@
 
   .px-6 {
     padding-inline: calc(var(--spacing) * 6);
-  }
-
-  .px-10 {
-    padding-inline: calc(var(--spacing) * 10);
   }
 
   .text-center {
@@ -1132,12 +1122,6 @@
   @media (min-width: 48rem) {
     .md\:hidden {
       display: none;
-    }
-  }
-
-  @media (min-width: 48rem) {
-    .md\:inline {
-      display: inline;
     }
   }
 
