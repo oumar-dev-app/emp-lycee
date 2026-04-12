@@ -165,3 +165,4 @@ Check the render method of `Footer`. See https://react.dev/link/warning-keys for
 
 Check the render method of `div`.  It was passed a child from Footer.
 [02:26:01.275] Browser WARN    Image with src "/logoModifier.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:26:22.633] Server  LOG     ✓ Finished writing to filesystem cache in 24.4s

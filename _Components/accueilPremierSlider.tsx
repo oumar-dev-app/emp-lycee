@@ -16,7 +16,7 @@ const slides = [
     id: 2,
     image: "/d.jpeg",
     titre: "Kossi Roland Kpadenou",
-    desc: "troisième national au bac 2019 avec 17.63",
+    desc: "Troisième national au bac 2022 avec 17.63",
   },
 ];
 
