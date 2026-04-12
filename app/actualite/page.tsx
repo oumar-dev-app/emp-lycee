@@ -103,9 +103,9 @@ export default function ActualitePage() {
                 </div>
 
                 {/* SLIDER */}
-{/*                 <div className="mt-16">
+                 <div className="mt-16">
                   <PremierNationale />
-                </div> */}
+                </div> 
 
                 {/* CONCOURS */}
                 <div className="mt-10 text-white bg-gray-600 shadow-2xl p-6 md:p-10 rounded-xl space-y-5 hidden-right">

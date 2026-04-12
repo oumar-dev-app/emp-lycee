@@ -50,7 +50,7 @@ function Space_secondaire() {
 
                     {/* GAUCHE */}
                     <div className='text-white bg-gray-500 shadow-2xl p-4 md:p-10 rounded-xl space-y-5 hidden-left'>
-                      <h1 className='text-2xl font-bold'>Résultats et performances :</h1>
+                      <h1 className='text-2xl font-bold'>Résultats et performances:</h1>
                       <ul className='space-y-5'>
                         <li className='flex items-center gap-4'>
                           <FaCheck className="text-yellow-500 shrink-0" /> 3è national au Bac 2022

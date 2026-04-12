@@ -17,7 +17,7 @@ function Valeurs() {
       { threshold: 0.2 }
     );
 
-    const elements = document.querySelectorAll(".hidden-left, .hidden-left");
+    const elements = document.querySelectorAll(".hidden-right, .hidden-left");
 
     elements.forEach((el) => observer.observe(el));
 

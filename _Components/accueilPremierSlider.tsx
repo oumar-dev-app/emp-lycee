@@ -1,16 +1,15 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { FaYoutube } from "react-icons/fa";
-
 
 const slides = [
   {
     id: 1,
     image: "/premier2.jpeg",
     titre: "Bintou Flamousso Diallo",
-    desc: "Du Lycée Privé Djinèssira Coulibaly devient la première nationale",
+    desc: "Première nationale au bac 2024",
   },
   {
     id: 2,
@@ -24,6 +23,32 @@ function AccueilPremierSlider() {
   const [index, setIndex] = useState(0);
   const [animate, setAnimate] = useState(false);
 
+  const leftRef = useRef<HTMLDivElement | null>(null);
+  const rightRef = useRef<HTMLDivElement | null>(null);
+
+  // 🎬 Animation au scroll
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("show");
+          }
+        });
+      },
+      { threshold: 0.2 }
+    );
+
+    if (leftRef.current) observer.observe(leftRef.current);
+    if (rightRef.current) observer.observe(rightRef.current);
+
+    return () => {
+      if (leftRef.current) observer.unobserve(leftRef.current);
+      if (rightRef.current) observer.unobserve(rightRef.current);
+    };
+  }, []);
+
+  // 🔁 Slider auto
   useEffect(() => {
     const interval = setInterval(() => {
       setAnimate(true);
@@ -38,12 +63,15 @@ function AccueilPremierSlider() {
   }, []);
 
   return (
-    <div className=" py-20">
-      <div className="max-w-7xl m-auto    ">
+    <div className="py-20">
+      <div className="max-w-7xl m-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 shadow-2xl m-3 bg-gray-700 rounded-2xl">
 
           {/* IMAGE */}
-          <div className="shadow-2xl rounded-xl overflow-hidden relative h-100">
+          <div
+            ref={leftRef}
+            className="hidden-left shadow-2xl rounded-xl overflow-hidden relative h-[400px]"
+          >
             <div
               key={index}
               style={{ backgroundImage: `url(${slides[index].image})` }}
@@ -56,8 +84,10 @@ function AccueilPremierSlider() {
           </div>
 
           {/* TEXTE */}
-          <div className='text-white bg-gray-700 border border-white/25 shadow-2xl p-4 md:p-10 rounded-xl space-y-5'>
-
+          <div
+            ref={rightRef}
+            className="hidden-right text-white bg-gray-700 border border-white/25 shadow-2xl p-4 md:p-10 rounded-xl space-y-5"
+          >
             <div
               key={index + "text"}
               className={`
@@ -82,7 +112,6 @@ function AccueilPremierSlider() {
                 Voir sur <FaYoutube size={20} className="text-red-500" />
               </Link>
             </div>
-
           </div>
 
         </div>

@@ -36,7 +36,7 @@ function DifferentCentre() {
           </p>
           <p className='flex items-center gap-4'>
             <FaCheck className="text-yellow-500 shrink-0" />
-            Années d’existence : depuis octobre 2013
+            Periode d'activité : depuis Octobre 2013
           </p>
         </div>
 
