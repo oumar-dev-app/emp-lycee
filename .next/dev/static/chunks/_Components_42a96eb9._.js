@@ -17,7 +17,7 @@ var _s = __turbopack_context__.k.signature();
 const imgInfra = [
     {
         id: 1,
-        image: "/presentation_img.jpg"
+        image: "/infractructure.jpeg"
     }
 ];
 function Infratructure() {

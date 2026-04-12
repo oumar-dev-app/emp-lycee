@@ -199,13 +199,12 @@ function Footer() {
                                                 className: " rounded-xl space-y-3 m-3 p-3 shadow-2xl",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     children: [
-                                                        "Nous nous trouvons à ",
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                                             children: "Kalaban coro Sangha "
                                                         }, void 0, false, {
                                                             fileName: "[project]/_Components/Footer.tsx",
                                                             lineNumber: 48,
-                                                            columnNumber: 44
+                                                            columnNumber: 22
                                                         }, this),
                                                         "derriere le Radio Donko non loin de la mosque ",
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
@@ -351,7 +350,7 @@ function Footer() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            children: "CopyRigth©2026 by EMP-lycée "
+                            children: "Copyright©2026 by EMP-lycée "
                         }, void 0, false, {
                             fileName: "[project]/_Components/Footer.tsx",
                             lineNumber: 81,

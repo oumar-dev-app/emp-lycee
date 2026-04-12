@@ -45,7 +45,7 @@ function Footer() {
 
 
                     <p>
-                      Nous nous trouvons à <strong>Kalaban coro Sangha </strong>
+                     <strong>Kalaban coro Sangha </strong>
                       derriere le Radio Donko non loin de la mosque <strong>Karata Misiri</strong>
                     </p>
                   </div>
@@ -78,7 +78,7 @@ function Footer() {
           <div className='flex justify-center'>
             <Logo />
           </div>
-          <p>CopyRigth©2026 by EMP-lycée </p>
+          <p>Copyright©2026 by EMP-lycée </p>
         </div>
       </div>
 

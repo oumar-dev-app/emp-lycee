@@ -16,7 +16,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$ico
 const imgInfra = [
     {
         id: 1,
-        image: "/presentation_img.jpg"
+        image: "/infractructure.jpeg"
     }
 ];
 function Infratructure() {

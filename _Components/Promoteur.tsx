@@ -6,8 +6,8 @@ import Adresse from './Adresse';
 const image = [
     {
         id: 1,
-        img: "/promoteur.jpg",
-        title: "promoteur1"
+        img: "/promoteur.jpeg",
+        title: "promoteur"
     }
 ]
 

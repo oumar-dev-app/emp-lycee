@@ -379,8 +379,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 const image = [
     {
         id: 1,
-        img: "/promoteur.jpg",
-        title: "promoteur1"
+        img: "/promoteur.jpeg",
+        title: "promoteur"
     }
 ];
 const bgImage = [

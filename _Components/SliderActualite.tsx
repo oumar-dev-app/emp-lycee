@@ -5,17 +5,24 @@ import { useEffect, useState } from "react";
 const images = [
   {
     id: 1,
-    img: "/Slider2.jpg",
-    title: "DISCIPLINE-EFFORT-SUCCÈS:",
-    desc1: "Le succès au bout de l’effort dans la discipline.",
-    desc2: "On n'est pas premier par hasard !",
+    img: "/Rassemble.jpg",
+    title1: "L'école qui nous",
+    title2: "rassemble tous"
+
   },
   {
     id: 2,
-    img: "/Slider1.jpg",
-    title: "DISCIPLINE-EFFORT-SUCCÈS:",
-    desc1: "Le succès au bout de l’effort dans la discipline.",
-    desc2: "On n'est pas premier par hasard !",
+    img: "/LPDJICOUL.jpg",
+    title1: "LPDJICOUL",
+    desc1: "en visite au barrage",
+    desc2: "de Sélingue"
+  },
+  {
+    id: 3,
+    img: "/visite.jpeg",
+    title1: "Le Groupe Scolaire",
+    title2:"Amadou Sidibé",
+    title3: "en excursion à Siby",
   },
 ];
 
@@ -61,9 +68,9 @@ function Slider() {
 
             {/* TITLE MOBILE STACK + DESKTOP NORMAL */}
             <h1 className="text-white text-3xl md:text-5xl font-bold leading-tight flex flex-col items-center text-center md:items-start md:text-left">
-              <span>DISCIPLINE</span>
-              <span>EFFORT</span>
-              <span>SUCCÈS</span>
+              <span>{item.title1}</span>
+              <span>{item.title2}</span>
+              <span>{item.title3}</span>
             </h1>
 
             {/* DESCRIPTION */}

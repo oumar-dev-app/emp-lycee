@@ -6,7 +6,7 @@ import { FaCheck } from 'react-icons/fa';
 const imgInfra = [
     {
         id: 1,
-        image: "/presentation_img.jpg"
+        image: "/infractructure.jpeg"
     }
 ]
 

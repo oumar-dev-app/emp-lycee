@@ -397,8 +397,8 @@ var _s = __turbopack_context__.k.signature();
 const image = [
     {
         id: 1,
-        img: "/promoteur.jpg",
-        title: "promoteur1"
+        img: "/promoteur.jpeg",
+        title: "promoteur"
     }
 ];
 const bgImage = [
