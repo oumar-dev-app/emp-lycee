@@ -70,7 +70,7 @@ function AccueilPremierSlider() {
           {/* IMAGE */}
           <div
             ref={leftRef}
-            className="hidden-left shadow-2xl rounded-xl overflow-hidden relative h-[400px]"
+            className="hidden-left shadow-2xl rounded-xl overflow-hidden relative h-100"
           >
             <div
               key={index}

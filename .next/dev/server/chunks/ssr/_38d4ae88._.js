@@ -172,44 +172,10 @@ const slides = [
         titre: "Bintou Flamousso Diallo",
         description: "du Lycée Privé Djinèssira Coulibaly devient la première nationale",
         link: "https://youtu.be/9fXR4ZrPImY?si=t1hEXzfvhthyNCFk"
-    },
-    {
-        id: 2,
-        image: "/premier2.jpeg",
-        titre: "Deuxième Élève",
-        description: "Un autre élève remarquable dans le classement national",
-        link: "#"
     }
 ];
 function PremierNationale() {
-    const [currentIndex, setCurrentIndex] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(0);
-    const leftRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])(null);
-    const rightRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])(null);
-    // 🎬 Animation scroll
-    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
-        const observer = new IntersectionObserver((entries)=>{
-            entries.forEach((entry)=>{
-                if (entry.isIntersecting) {
-                    entry.target.classList.add("show");
-                }
-            });
-        }, {
-            threshold: 0.2
-        });
-        if (leftRef.current) observer.observe(leftRef.current);
-        if (rightRef.current) observer.observe(rightRef.current);
-        return ()=>{
-            if (leftRef.current) observer.unobserve(leftRef.current);
-            if (rightRef.current) observer.unobserve(rightRef.current);
-        };
-    }, []);
-    // 🔁 Slider auto
-    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
-        const interval = setInterval(()=>{
-            setCurrentIndex((prev)=>prev === slides.length - 1 ? 0 : prev + 1);
-        }, 4000);
-        return ()=>clearInterval(interval);
-    }, []);
+    const [currentIndex] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(0);
     const currentSlide = slides[currentIndex];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "bg-gray-600 rounded-2xl",
@@ -217,26 +183,24 @@ function PremierNationale() {
             className: "grid grid-cols-1 md:grid-cols-2 gap-8 mt-10",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    ref: leftRef,
-                    className: "hidden-left shadow-2xl rounded-xl overflow-hidden relative h-100",
+                    className: "shadow-2xl rounded-xl overflow-hidden relative h-[400px]",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         style: {
                             backgroundImage: `url(${currentSlide.image})`
                         },
-                        className: "h-full w-full bg-cover bg-center transition-all duration-700"
+                        className: "h-full w-full bg-cover bg-center"
                     }, void 0, false, {
                         fileName: "[project]/_Components/PremierNationale.tsx",
-                        lineNumber: 75,
+                        lineNumber: 29,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/_Components/PremierNationale.tsx",
-                    lineNumber: 71,
+                    lineNumber: 28,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    ref: rightRef,
-                    className: "hidden-right text-white bg-gray-600 border border-white/25 shadow-2xl p-4 md:p-10 rounded-xl space-y-5 transition-all duration-700",
+                    className: "text-white bg-gray-600 border border-white/25 shadow-2xl p-4 md:p-10 rounded-xl space-y-5",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             children: [
@@ -248,14 +212,14 @@ function PremierNationale() {
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/_Components/PremierNationale.tsx",
-                                    lineNumber: 87,
+                                    lineNumber: 39,
                                     columnNumber: 13
                                 }, this),
                                 currentSlide.description
                             ]
                         }, void 0, true, {
                             fileName: "[project]/_Components/PremierNationale.tsx",
-                            lineNumber: 86,
+                            lineNumber: 38,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -270,35 +234,35 @@ function PremierNationale() {
                                         className: "text-red-500"
                                     }, void 0, false, {
                                         fileName: "[project]/_Components/PremierNationale.tsx",
-                                        lineNumber: 96,
+                                        lineNumber: 48,
                                         columnNumber: 24
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/_Components/PremierNationale.tsx",
-                                lineNumber: 92,
+                                lineNumber: 44,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/_Components/PremierNationale.tsx",
-                            lineNumber: 91,
+                            lineNumber: 43,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/_Components/PremierNationale.tsx",
-                    lineNumber: 82,
+                    lineNumber: 36,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/_Components/PremierNationale.tsx",
-            lineNumber: 68,
+            lineNumber: 25,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/_Components/PremierNationale.tsx",
-        lineNumber: 67,
+        lineNumber: 24,
         columnNumber: 5
     }, this);
 }

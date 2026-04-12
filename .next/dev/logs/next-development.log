@@ -94,3 +94,44 @@ Check the render method of `Footer`. See https://react.dev/link/warning-keys for
 
 Check the render method of `div`.  It was passed a child from Footer.
 [00:31:44.230] Browser WARN    Image with src "/logoModifier.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:35:46.454] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./_Components/accueilPremierSlider.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:35:47.013] Server  LOG     ✓ Compiled in 244.5s
+[00:35:51.340] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the render method of `Footer`. See https://react.dev/link/warning-keys for more information.
+[00:35:53.651] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:35:54.248] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `div`.  It was passed a child from Footer.
+[00:35:54.248] Browser WARN    Image with src "/logoModifier.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:36:17.306] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./_Components/accueilPremierSlider.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:36:17.486] Server  LOG     ✓ Compiled in 23.8s
+[00:36:22.000] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the render method of `Footer`. See https://react.dev/link/warning-keys for more information.
+[00:36:23.684] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:36:24.558] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `div`.  It was passed a child from Footer.
+[00:36:24.558] Browser WARN    Image with src "/logoModifier.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:37:23.102] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the render method of `Footer`. See https://react.dev/link/warning-keys for more information.
+[00:37:27.543] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the render method of `Footer`. See https://react.dev/link/warning-keys for more information.
+[00:37:35.560] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the render method of `Footer`. See https://react.dev/link/warning-keys for more information.
+[00:37:43.525] Browser ERROR   uncaughtError: TypeError: can't access property "image", currentSlide is undefined
+[00:38:44.248] Server  LOG     ✓ Compiled in 140.4s
+[00:38:44.746] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:38:45.123] Server  LOG     ✓ Compiled in 824ms
+[00:38:47.701] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the render method of `Footer`. See https://react.dev/link/warning-keys for more information.
+[00:38:51.007] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:38:51.007] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `div`.  It was passed a child from Footer.
+[00:38:51.007] Browser WARN    Image with src "/logoModifier.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
