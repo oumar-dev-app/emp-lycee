@@ -29,7 +29,7 @@ function PremierNationale() {
     }, []);
 
     return (
-        <div className='bg-gray-600 '>
+        <div className='bg-gray-600 rounded-2xl'>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-8 mt-10'>
 
                 {/* IMAGE */}
@@ -48,7 +48,7 @@ function PremierNationale() {
                 </div>
 
                 {/* TEXTE */}
-                <div className='text-white bg-gray-600 shadow-2xl p-4 md:p-10 rounded-xl space-y-5'>
+                <div className='text-white bg-gray-600 border border-white/25 shadow-2xl p-4 md:p-10 rounded-xl space-y-5'>
                     <p>
                         <span>Bintou Flamousso Diallo </span>
                         du Lycée Privé Djinèssira Coulibaly devient la première nationale
