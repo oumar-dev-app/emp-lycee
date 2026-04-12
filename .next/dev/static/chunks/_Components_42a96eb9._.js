@@ -186,7 +186,7 @@ function Valeurs() {
             }["Valeurs.useEffect"], {
                 threshold: 0.2
             });
-            const elements = document.querySelectorAll(".hidden-left, .hidden-left");
+            const elements = document.querySelectorAll(".hidden-right, .hidden-left");
             elements.forEach({
                 "Valeurs.useEffect": (el)=>observer.observe(el)
             }["Valeurs.useEffect"]);
