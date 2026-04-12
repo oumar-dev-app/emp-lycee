@@ -58,7 +58,7 @@ function Resultats() {
     >
       <div className='mt-15 mb-15'>
         <h1 className='text-2xl font-bold text-center text-white mb-20'>
-          Résultats globaux
+          Performances en 2025
         </h1>
 
         <div className='grid grid-cols-3 text-center mt-5 mb-5 text-white'>

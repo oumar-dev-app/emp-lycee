@@ -56,7 +56,7 @@ function PremierNationale() {
 
                     <div className='bg-white rounded-xl p-2 w-30'>
                         <Link
-                            href="/"
+                            href="https://youtu.be/9fXR4ZrPImY?si=t1hEXzfvhthyNCFk"
                             className='flex items-center gap-3 text-black text-sm font-bold'
                         >
                             Voir sur <FaYoutube size={20} className='text-red-500' />
