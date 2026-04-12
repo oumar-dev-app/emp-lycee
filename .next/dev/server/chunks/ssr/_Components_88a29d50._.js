@@ -671,7 +671,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 const images = [
     {
         id: 1,
-        img: "/Slider2.jpg",
+        img: "/Lycee.jpeg",
         title: "DISCIPLINE-EFFORT-SUCCÈS:",
         desc1: "Le succès au bout de l’effort dans la discipline.",
         desc2: "On n'est pas premier par hasard !"

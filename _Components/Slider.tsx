@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 const images = [
   {
     id: 1,
-    img: "/Slider2.jpg",
+    img: "/Lycee.jpeg",
     title: "DISCIPLINE-EFFORT-SUCCÈS:",
     desc1: "Le succès au bout de l’effort dans la discipline.",
     desc2: "On n'est pas premier par hasard !",
