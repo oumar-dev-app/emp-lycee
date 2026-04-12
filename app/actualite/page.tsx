@@ -76,7 +76,7 @@ export default function ActualitePage() {
                   {/* DEF */}
                   <div className="text-white bg-gray-600 shadow-2xl p-6 md:p-10 rounded-xl space-y-5 hidden-left">
                     <h1 className="text-2xl font-bold">
-                      Performances et distinctions :
+                      Performances et distinctions
                     </h1>
 
                     {defData.map((text, i) => (
@@ -90,7 +90,7 @@ export default function ActualitePage() {
                   {/* BAC */}
                   <div className="text-white bg-gray-600 shadow-2xl p-6 md:p-10 rounded-xl space-y-5 hidden-right">
                     <h1 className="text-2xl font-bold">
-                      Baccalauréat :
+                      Baccalauréats
                     </h1>
 
                     {bacData.map((text, i) => (
@@ -110,7 +110,7 @@ export default function ActualitePage() {
                 {/* CONCOURS */}
                 <div className="mt-10 text-white bg-gray-600 shadow-2xl p-6 md:p-10 rounded-xl space-y-5 hidden-left">
                   <h1 className="text-2xl font-bold">
-                    Concours internationaux :
+                    Concours internationaux
                   </h1>
 
                   {concoursData.map((text, i) => (

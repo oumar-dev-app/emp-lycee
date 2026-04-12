@@ -55,7 +55,7 @@ function Valeurs() {
 
         {/* RIGHT */}
         <div className='text-white bg-gray-500 shadow-2xl p-6 md:p-10 rounded-xl space-y-5 hidden-right'>
-          <h1 className='text-2xl font-bold'>Nos valeurs détaillées:</h1>
+          <h1 className='text-2xl font-bold'>Nos valeurs détaillées</h1>
 
           <p className='flex items-center gap-4'>
             <FaCheck className="text-yellow-500 shrink-0" />

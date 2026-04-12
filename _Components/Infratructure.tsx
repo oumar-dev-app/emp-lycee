@@ -47,7 +47,7 @@ function Infratructure() {
 
                 {/* TEXTE → DROITE */}
                 <div className='text-white bg-gray-500 shadow-2xl p-4 md:p-10 rounded-xl space-y-5 hidden-right'>
-                    <h1 className='text-2xl font-bold'>Infrastructures:</h1>
+                    <h1 className='text-2xl font-bold'>Infrastructures</h1>
 
                     <p className='flex items-center gap-4'>
                         <FaCheck className="text-yellow-500 shrink-0" />
