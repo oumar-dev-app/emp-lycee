@@ -38,9 +38,9 @@ function AccueilPremierSlider() {
   }, []);
 
   return (
-    <div className="bg-gray-700 py-10">
-      <div className="max-w-7xl m-auto  shadow-2xl ">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 m-3 border border-white/20 rounded-2xl">
+    <div className=" py-10">
+      <div className="max-w-7xl m-auto    ">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 shadow-2xl m-3 bg-gray-700 rounded-2xl">
 
           {/* IMAGE */}
           <div className="shadow-2xl rounded-xl overflow-hidden relative h-100">
@@ -56,7 +56,7 @@ function AccueilPremierSlider() {
           </div>
 
           {/* TEXTE */}
-          <div className="text-white bg-gray-700 shadow-2xl p-6 md:p-10 rounded-xl space-y-5 flex flex-col justify-center">
+          <div className='text-white bg-gray-700 border border-white/25 shadow-2xl p-4 md:p-10 rounded-xl space-y-5'>
 
             <div
               key={index + "text"}

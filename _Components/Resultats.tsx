@@ -54,10 +54,10 @@ function Resultats() {
   return (
     <div
       ref={sectionRef}
-      className='bg-gray-600  p-2 hidden-bottom'
+      className='bg-blue-950  p-2 hidden-bottom'
     >
       <div className='max-w-7xl m-auto '>
-        <div className='mt-15 mb-15 border border-white/25 rounded-2xl '>
+        <div className='mt-15 mb-15 rounded-2xl '>
           <h1 className='text-2xl font-bold text-center text-white mb-20'>
             Performances en 2025
           </h1>
