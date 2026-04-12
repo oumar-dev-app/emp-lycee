@@ -162,7 +162,7 @@ function Valeurs() {
         }, {
             threshold: 0.2
         });
-        const elements = document.querySelectorAll(".hidden-left, .hidden-right");
+        const elements = document.querySelectorAll(".hidden-left, .hidden-left");
         elements.forEach((el)=>observer.observe(el));
         return ()=>observer.disconnect();
     }, []);
