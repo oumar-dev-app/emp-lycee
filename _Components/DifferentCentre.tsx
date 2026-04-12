@@ -32,7 +32,7 @@ function DifferentCentre() {
           <h1 className='text-2xl font-bold'>Chiffres clés</h1>
           <p className='flex items-center gap-4'>
             <FaCheck className="text-yellow-500 shrink-0" />
-            Nombre d’élèves : (à renseigner)
+             Effectif: + de 1000 élèves
           </p>
           <p className='flex items-center gap-4'>
             <FaCheck className="text-yellow-500 shrink-0" />
@@ -55,7 +55,7 @@ function DifferentCentre() {
 
         {/* 3 → GAUCHE */}
         <div className='border border-white/16 shadow-2xl p-6 m-3 md:p-10 rounded-xl space-y-5 hidden-left'>
-          <h1 className='text-2xl font-bold'>Atouts</h1>
+          <h1 className='text-2xl font-bold'>Nos atouts</h1>
 
           <p className='flex items-center gap-4'>
             <FaCheck className="text-yellow-500 shrink-0" /> Meilleur cadre de travail

@@ -6,7 +6,7 @@ curl -X POST http://localhost:3000/api/category \
 className="text-white text-3xl  rounded-2xl capitalize font-bold md:text-3xl max-w-140 mt-30 text-right"
 
 
-
+    desc2: "On n'est pas premier par hasard !",
 
 
 function Promoteur() {

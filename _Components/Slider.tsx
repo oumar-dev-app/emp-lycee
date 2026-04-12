@@ -8,14 +8,12 @@ const images = [
     img: "/Lycee.jpeg",
     title: "DISCIPLINE-EFFORT-SUCCÈS:",
     desc1: "Le succès au bout de l’effort dans la discipline.",
-    desc2: "On n'est pas premier par hasard !",
   },
   {
     id: 2,
     img: "/Slider1.jpg",
     title: "DISCIPLINE-EFFORT-SUCCÈS:",
     desc1: "Le succès au bout de l’effort dans la discipline.",
-    desc2: "On n'est pas premier par hasard !",
   },
 ];
 
@@ -70,9 +68,6 @@ function Slider() {
             <div className="space-y-3 text-center md:text-left">
               <p className="text-white text-lg md:text-2xl">
                 {item.desc1}
-              </p>
-              <p className="text-white text-lg md:text-2xl">
-                {item.desc2}
               </p>
             </div>
 

@@ -76,7 +76,7 @@ function Resultats() {
 
             <div className='space-y-5'>
               <h1 className='text-yellow-500 text-4xl font-bold'>{bti}%</h1>
-              <p className='font-bold text-2xl'>BTI</p>
+              <p className='font-bold text-2xl'>BT1</p>
             </div>
 
           </div>

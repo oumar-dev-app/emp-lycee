@@ -9,12 +9,12 @@ __turbopack_context__.s([
 const DataLinks = [
     {
         id: 1,
-        name: "Acceuil",
+        name: "Accueil",
         href: "/"
     },
     {
         id: 2,
-        name: "A propos",
+        name: "À propos",
         href: "/apropos"
     },
     {
