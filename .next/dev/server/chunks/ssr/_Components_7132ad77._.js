@@ -20,7 +20,7 @@ const slides = [
         id: 1,
         image: "/premier2.jpeg",
         titre: "Bintou Flamousso Diallo",
-        desc: "du Lycée Privé Djinèssira Coulibaly devient la première nationale"
+        desc: "Du Lycée Privé Djinèssira Coulibaly devient la première nationale"
     },
     {
         id: 2,
