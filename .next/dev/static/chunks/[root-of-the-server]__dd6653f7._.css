@@ -1139,6 +1139,10 @@
     padding-block: calc(var(--spacing) * 10);
   }
 
+  .py-20 {
+    padding-block: calc(var(--spacing) * 20);
+  }
+
   .text-center {
     text-align: center;
   }

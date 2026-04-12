@@ -38,7 +38,7 @@ function AccueilPremierSlider() {
   }, []);
 
   return (
-    <div className=" py-10">
+    <div className=" py-20">
       <div className="max-w-7xl m-auto    ">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 shadow-2xl m-3 bg-gray-700 rounded-2xl">
 
