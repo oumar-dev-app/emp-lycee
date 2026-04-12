@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import { FaYoutube } from "react-icons/fa";
 
 const slides = [
@@ -23,31 +23,6 @@ function AccueilPremierSlider() {
   const [index, setIndex] = useState(0);
   const [animate, setAnimate] = useState(false);
 
-  const leftRef = useRef<HTMLDivElement | null>(null);
-  const rightRef = useRef<HTMLDivElement | null>(null);
-
-  // 🎬 Animation au scroll
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("show");
-          }
-        });
-      },
-      { threshold: 0.2 }
-    );
-
-    if (leftRef.current) observer.observe(leftRef.current);
-    if (rightRef.current) observer.observe(rightRef.current);
-
-    return () => {
-      if (leftRef.current) observer.unobserve(leftRef.current);
-      if (rightRef.current) observer.unobserve(rightRef.current);
-    };
-  }, []);
-
   // 🔁 Slider auto
   useEffect(() => {
     const interval = setInterval(() => {
@@ -68,15 +43,12 @@ function AccueilPremierSlider() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 shadow-2xl m-3 bg-gray-700 rounded-2xl">
 
           {/* IMAGE */}
-          <div
-            ref={leftRef}
-            className="hidden-left shadow-2xl rounded-xl overflow-hidden relative h-100"
-          >
+          <div className="shadow-2xl rounded-xl overflow-hidden relative h-[400px]">
             <div
               key={index}
               style={{ backgroundImage: `url(${slides[index].image})` }}
               className={`
-                absolute w-full h-full bg-cover bg-center
+                absolute inset-0 w-full h-full bg-cover bg-center
                 transition-all duration-700
                 ${animate ? "-translate-y-full opacity-0" : "translate-y-0 opacity-100"}
               `}
@@ -84,15 +56,14 @@ function AccueilPremierSlider() {
           </div>
 
           {/* TEXTE */}
-          <div
-            ref={rightRef}
-            className="hidden-right text-white bg-gray-700 border border-white/25 shadow-2xl p-4 md:p-10 rounded-xl space-y-5"
-          >
+          <div className="text-white bg-gray-700 border border-white/25 shadow-2xl p-4 md:p-10 rounded-xl space-y-5 overflow-hidden">
+
             <div
               key={index + "text"}
               className={`
                 transition-all duration-700
-                ${animate ? "translate-y-10 opacity-0" : "translate-y-0 opacity-100"}
+                will-change-transform
+                ${animate ? "translate-y-8 opacity-0" : "translate-y-0 opacity-100"}
               `}
             >
               <h2 className="text-2xl font-bold">
@@ -112,6 +83,7 @@ function AccueilPremierSlider() {
                 Voir sur <FaYoutube size={20} className="text-red-500" />
               </Link>
             </div>
+
           </div>
 
         </div>
