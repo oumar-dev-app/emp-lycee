@@ -195,14 +195,43 @@ const slides = [
 function PremierNationale() {
     _s();
     const [currentIndex] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(0);
+    const leftRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
+    const rightRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
     const currentSlide = slides[currentIndex];
+    // 🎬 Animation scroll gauche → droite
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "PremierNationale.useEffect": ()=>{
+            const observer = new IntersectionObserver({
+                "PremierNationale.useEffect": (entries)=>{
+                    entries.forEach({
+                        "PremierNationale.useEffect": (entry)=>{
+                            if (entry.isIntersecting) {
+                                entry.target.classList.add("show");
+                            }
+                        }
+                    }["PremierNationale.useEffect"]);
+                }
+            }["PremierNationale.useEffect"], {
+                threshold: 0.2
+            });
+            if (leftRef.current) observer.observe(leftRef.current);
+            if (rightRef.current) observer.observe(rightRef.current);
+            return ({
+                "PremierNationale.useEffect": ()=>{
+                    if (leftRef.current) observer.unobserve(leftRef.current);
+                    if (rightRef.current) observer.unobserve(rightRef.current);
+                }
+            })["PremierNationale.useEffect"];
+        }
+    }["PremierNationale.useEffect"], []);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "bg-gray-600 rounded-2xl",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "grid grid-cols-1 md:grid-cols-2 gap-8 mt-10",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "shadow-2xl rounded-xl overflow-hidden relative h-[400px]",
+                    ref: leftRef,
+                    className: "hidden-left shadow-2xl rounded-xl overflow-hidden relative h-[400px]",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         style: {
                             backgroundImage: `url(${currentSlide.image})`
@@ -210,16 +239,17 @@ function PremierNationale() {
                         className: "h-full w-full bg-cover bg-center"
                     }, void 0, false, {
                         fileName: "[project]/_Components/PremierNationale.tsx",
-                        lineNumber: 29,
+                        lineNumber: 57,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/_Components/PremierNationale.tsx",
-                    lineNumber: 28,
+                    lineNumber: 53,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "text-white bg-gray-600 border border-white/25 shadow-2xl p-4 md:p-10 rounded-xl space-y-5",
+                    ref: rightRef,
+                    className: "hidden-right text-white bg-gray-600 border border-white/25 shadow-2xl p-4 md:p-10 rounded-xl space-y-5",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             children: [
@@ -231,14 +261,14 @@ function PremierNationale() {
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/_Components/PremierNationale.tsx",
-                                    lineNumber: 39,
+                                    lineNumber: 69,
                                     columnNumber: 13
                                 }, this),
                                 currentSlide.description
                             ]
                         }, void 0, true, {
                             fileName: "[project]/_Components/PremierNationale.tsx",
-                            lineNumber: 38,
+                            lineNumber: 68,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -253,39 +283,39 @@ function PremierNationale() {
                                         className: "text-red-500"
                                     }, void 0, false, {
                                         fileName: "[project]/_Components/PremierNationale.tsx",
-                                        lineNumber: 48,
+                                        lineNumber: 78,
                                         columnNumber: 24
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/_Components/PremierNationale.tsx",
-                                lineNumber: 44,
+                                lineNumber: 74,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/_Components/PremierNationale.tsx",
-                            lineNumber: 43,
+                            lineNumber: 73,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/_Components/PremierNationale.tsx",
-                    lineNumber: 36,
+                    lineNumber: 64,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/_Components/PremierNationale.tsx",
-            lineNumber: 25,
+            lineNumber: 50,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/_Components/PremierNationale.tsx",
-        lineNumber: 24,
+        lineNumber: 49,
         columnNumber: 5
     }, this);
 }
-_s(PremierNationale, "Qpne35sZ0j5y7Mo1LicFbZ1C3Xo=");
+_s(PremierNationale, "PcGOAT84FkezdTmG1NtGHpKuiJY=");
 _c = PremierNationale;
 const __TURBOPACK__default__export__ = PremierNationale;
 var _c;
