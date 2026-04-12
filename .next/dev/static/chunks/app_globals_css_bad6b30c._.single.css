@@ -65,6 +65,7 @@
     --color-gray-400: #99a1af;
     --color-gray-500: #6a7282;
     --color-gray-600: #4a5565;
+    --color-gray-700: #364153;
     --color-black: #000;
     --color-white: #fff;
     --spacing: .25rem;
@@ -117,6 +118,7 @@
       --color-gray-400: lab(65.9269% -.832707 -8.17473);
       --color-gray-500: lab(47.7841% -.393182 -10.0268);
       --color-gray-600: lab(35.6337% -1.58697 -10.8425);
+      --color-gray-700: lab(27.1134% -.956401 -12.3224);
     }
   }
 }
@@ -514,6 +516,10 @@
     height: calc(var(--spacing) * 125);
   }
 
+  .h-\[400px\] {
+    height: 400px;
+  }
+
   .h-full {
     height: 100%;
   }
@@ -528,6 +534,10 @@
 
   .w-30 {
     width: calc(var(--spacing) * 30);
+  }
+
+  .w-fit {
+    width: fit-content;
   }
 
   .w-full {
@@ -571,6 +581,11 @@
 
   .translate-y-0 {
     --tw-translate-y: calc(var(--spacing) * 0);
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+
+  .translate-y-10 {
+    --tw-translate-y: calc(var(--spacing) * 10);
     translate: var(--tw-translate-x) var(--tw-translate-y);
   }
 
@@ -792,6 +807,16 @@
     }
   }
 
+  .border-white\/20 {
+    border-color: #fff3;
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .border-white\/20 {
+      border-color: color-mix(in oklab, var(--color-white) 20%, transparent);
+    }
+  }
+
   .border-white\/25 {
     border-color: #ffffff40;
   }
@@ -878,6 +903,10 @@
     background-color: var(--color-gray-600);
   }
 
+  .bg-gray-700 {
+    background-color: var(--color-gray-700);
+  }
+
   .bg-green-900 {
     background-color: var(--color-green-900);
   }
@@ -948,6 +977,10 @@
 
   .px-6 {
     padding-inline: calc(var(--spacing) * 6);
+  }
+
+  .py-10 {
+    padding-block: calc(var(--spacing) * 10);
   }
 
   .text-center {

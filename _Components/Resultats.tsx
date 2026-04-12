@@ -54,7 +54,7 @@ function Resultats() {
   return (
     <div
       ref={sectionRef}
-      className='bg-blue-950 p-2 hidden-bottom'
+      className='bg-gray-600 p-2 hidden-bottom'
     >
       <div className='mt-15 mb-15'>
         <h1 className='text-2xl font-bold text-center text-white mb-20'>
