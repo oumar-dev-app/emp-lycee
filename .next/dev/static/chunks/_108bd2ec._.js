@@ -522,10 +522,10 @@ function ActualitePage() {
                                     }, void 0, false, {
                                         fileName: "[project]/app/actualite/page.tsx",
                                         lineNumber: 106,
-                                        columnNumber: 18
+                                        columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "mt-10 text-white bg-gray-600 shadow-2xl p-6 md:p-10 rounded-xl space-y-5 hidden-right",
+                                        className: "mt-10 text-white bg-gray-600 shadow-2xl p-6 md:p-10 rounded-xl space-y-5 hidden-left",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                                 className: "text-2xl font-bold",

@@ -48,7 +48,7 @@ function Space_primaire() {
                   <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
 
                     {/* GAUCHE */}
-                    <div className='text-white bg-gray-500 shadow-2xl p-6 md:p-10 rounded-xl space-y-5 hidden-left'>
+                    <div className='text-white bg-gray-500 shadow-2xl p-6 md:p-10 rounded-xl space-y-5 hidden-right'>
                       <h1 className='text-2xl font-bold'>Résultats:</h1>
                       <ul className='space-y-5'>
                         <li className='flex items-start gap-4'><FaCheck className="text-yellow-500 shrink-0" /> DEF 2020 : 100%</li>
@@ -60,7 +60,7 @@ function Space_primaire() {
                     </div>
 
                     {/* DROITE */}
-                    <div className='bg-gray-500 text-white shadow-2xl p-6 md:p-10 rounded-xl space-y-5 hidden-right'>
+                    <div className='bg-gray-500 text-white shadow-2xl p-6 md:p-10 rounded-xl space-y-5 hidden-left'>
                       <h1 className='text-2xl font-bold'>Atouts spécifiques :</h1>
                       <p className='flex items-center gap-4'><FaCheck className="text-yellow-500 shrink-0" />Cours d’informatique gratuits</p>
                       <p className='flex items-center gap-4'><FaCheck className="text-yellow-500 shrink-0" />Encadrement personnalisé</p>
