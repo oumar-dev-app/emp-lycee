@@ -27,31 +27,17 @@ const slides = [
         image: "/d.jpeg",
         titre: "Kossi Roland Kpadenou",
         desc: "Troisième national au bac 2022 avec 17.63"
+    },
+    {
+        id: 3,
+        image: "/Lycee.jpeg",
+        titre: "",
+        desc: "On n'est pas premier par hasard !"
     }
 ];
 function AccueilPremierSlider() {
     const [index, setIndex] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(0);
     const [animate, setAnimate] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
-    const leftRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])(null);
-    const rightRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])(null);
-    // 🎬 Animation au scroll
-    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
-        const observer = new IntersectionObserver((entries)=>{
-            entries.forEach((entry)=>{
-                if (entry.isIntersecting) {
-                    entry.target.classList.add("show");
-                }
-            });
-        }, {
-            threshold: 0.2
-        });
-        if (leftRef.current) observer.observe(leftRef.current);
-        if (rightRef.current) observer.observe(rightRef.current);
-        return ()=>{
-            if (leftRef.current) observer.unobserve(leftRef.current);
-            if (rightRef.current) observer.unobserve(rightRef.current);
-        };
-    }, []);
     // 🔁 Slider auto
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
         const interval = setInterval(()=>{
@@ -59,7 +45,7 @@ function AccueilPremierSlider() {
             setTimeout(()=>{
                 setIndex((prev)=>(prev + 1) % slides.length);
                 setAnimate(false);
-            }, 400);
+            }, 500);
         }, 3000);
         return ()=>clearInterval(interval);
     }, []);
@@ -71,64 +57,69 @@ function AccueilPremierSlider() {
                 className: "grid grid-cols-1 md:grid-cols-2 gap-8 shadow-2xl m-3 bg-gray-700 rounded-2xl",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        ref: leftRef,
-                        className: "hidden-left shadow-2xl rounded-xl overflow-hidden relative h-100",
+                        className: "relative h-[350px] md:h-[450px] overflow-hidden rounded-xl",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             style: {
                                 backgroundImage: `url(${slides[index].image})`
                             },
                             className: `
-                absolute w-full h-full bg-cover bg-center
+                absolute inset-0 bg-cover bg-center
                 transition-all duration-700
                 ${animate ? "-translate-y-full opacity-0" : "translate-y-0 opacity-100"}
               `
                         }, index, false, {
                             fileName: "[project]/_Components/accueilPremierSlider.tsx",
-                            lineNumber: 75,
+                            lineNumber: 53,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/_Components/accueilPremierSlider.tsx",
-                        lineNumber: 71,
+                        lineNumber: 52,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        ref: rightRef,
-                        className: "hidden-right text-white bg-gray-700 border border-white/25 shadow-2xl p-4 md:p-10 rounded-xl space-y-5",
+                        className: "relative text-white bg-gray-700 border border-white/25 shadow-2xl p-6 md:p-10 rounded-xl flex flex-col justify-between",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: `
-                transition-all duration-700
-                ${animate ? "translate-y-10 opacity-0" : "translate-y-0 opacity-100"}
-              `,
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                        className: "text-2xl font-bold",
-                                        children: slides[index].titre
-                                    }, void 0, false, {
-                                        fileName: "[project]/_Components/accueilPremierSlider.tsx",
-                                        lineNumber: 98,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "mt-2 text-lg",
-                                        children: slides[index].desc
-                                    }, void 0, false, {
-                                        fileName: "[project]/_Components/accueilPremierSlider.tsx",
-                                        lineNumber: 102,
-                                        columnNumber: 15
-                                    }, this)
-                                ]
-                            }, index + "text", true, {
+                                className: "min-h-[150px] overflow-hidden",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: `
+                  transition-all duration-700
+                  ${animate ? "translate-y-8 opacity-0" : "translate-y-0 opacity-100"}
+                `,
+                                    children: [
+                                        slides[index].titre && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                            className: "text-2xl font-bold",
+                                            children: slides[index].titre
+                                        }, void 0, false, {
+                                            fileName: "[project]/_Components/accueilPremierSlider.tsx",
+                                            lineNumber: 77,
+                                            columnNumber: 19
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "mt-2 text-lg",
+                                            children: slides[index].desc
+                                        }, void 0, false, {
+                                            fileName: "[project]/_Components/accueilPremierSlider.tsx",
+                                            lineNumber: 82,
+                                            columnNumber: 17
+                                        }, this)
+                                    ]
+                                }, index + "text", true, {
+                                    fileName: "[project]/_Components/accueilPremierSlider.tsx",
+                                    lineNumber: 69,
+                                    columnNumber: 15
+                                }, this)
+                            }, void 0, false, {
                                 fileName: "[project]/_Components/accueilPremierSlider.tsx",
-                                lineNumber: 91,
+                                lineNumber: 68,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "bg-white rounded-xl p-2 w-fit",
+                                className: "mt-6 flex justify-end",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                     href: "https://youtu.be/9fXR4ZrPImY?si=t1hEXzfvhthyNCFk",
-                                    className: "flex items-center gap-3 text-black text-sm font-bold",
+                                    className: "inline-flex items-center  gap-3 bg-white text-black px-4 py-2 rounded-xl text-sm font-bold hover:scale-105 transition",
                                     children: [
                                         "Voir sur ",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FaYoutube"], {
@@ -136,40 +127,40 @@ function AccueilPremierSlider() {
                                             className: "text-red-500"
                                         }, void 0, false, {
                                             fileName: "[project]/_Components/accueilPremierSlider.tsx",
-                                            lineNumber: 112,
+                                            lineNumber: 94,
                                             columnNumber: 26
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/_Components/accueilPremierSlider.tsx",
-                                    lineNumber: 108,
+                                    lineNumber: 90,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/_Components/accueilPremierSlider.tsx",
-                                lineNumber: 107,
+                                lineNumber: 89,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/_Components/accueilPremierSlider.tsx",
-                        lineNumber: 87,
+                        lineNumber: 65,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/_Components/accueilPremierSlider.tsx",
-                lineNumber: 68,
+                lineNumber: 49,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/_Components/accueilPremierSlider.tsx",
-            lineNumber: 67,
+            lineNumber: 48,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/_Components/accueilPremierSlider.tsx",
-        lineNumber: 66,
+        lineNumber: 47,
         columnNumber: 5
     }, this);
 }

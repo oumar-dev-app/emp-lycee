@@ -1,138 +1,20 @@
-[00:00:29.823] Server  LOG     ✓ Ready in 26.9s
-[00:00:32.855] Server  LOG     ○ Compiling / ...
-[00:01:02.389] Server  ERROR   Each child in a list should have a unique "key" prop.
+[00:01:23.579] Server  LOG     ✓ Ready in 79.7s
+[00:01:28.908] Server  LOG     ○ Compiling / ...
+[00:03:18.805] Server  ERROR   Each child in a list should have a unique "key" prop.
 
 Check the render method of `Footer`. See https://react.dev/link/warning-keys for more information.
-[00:01:03.686] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:04.657] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+[00:03:22.908] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:25.722] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
 
 Check the render method of `div`.  It was passed a child from Footer.
-[00:01:04.657] Browser WARN    Image with src "/logoModifier.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:03:31.727] Server  LOG     ○ Compiling /actualite ...
-[00:04:43.648] Browser ERROR   uncaughtError: TypeError: can't access property "image", bgImage[index] is undefined
-[00:05:01.541] Server  LOG     ✓ Compiled in 237.2s
-[00:05:01.860] Server  ERROR   Each child in a list should have a unique "key" prop.
+[00:03:25.722] Browser WARN    Image with src "/logoModifier.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:10:20.494] Server  LOG     ○ Compiling /actualite ...
+[00:10:59.465] Server  LOG     ✓ Compiled in 455.7s
+[00:11:02.207] Server  ERROR   Each child in a list should have a unique "key" prop.
 
 Check the render method of `Footer`. See https://react.dev/link/warning-keys for more information.
-[00:05:04.156] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:05:05.395] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+[00:11:06.134] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:08.272] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
 
 Check the render method of `div`.  It was passed a child from Footer.
-[00:05:05.395] Browser WARN    Image with src "/logoModifier.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:06:49.539] Browser ERROR   uncaughtError: ReferenceError: imgInfra is not defined
-[00:07:01.197] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:07:01.477] Server  LOG     ✓ Compiled in 117.3s
-[00:07:04.967] Server  ERROR   Each child in a list should have a unique "key" prop.
-
-Check the render method of `Footer`. See https://react.dev/link/warning-keys for more information.
-[00:07:06.420] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:07:06.900] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
-
-Check the render method of `div`.  It was passed a child from Footer.
-[00:07:06.900] Browser WARN    Image with src "/logoModifier.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:11:10.523] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <h1> p 
-
-  ...
-    <SegmentViewNode type="page" pagePath="actualite/...">
-      <SegmentTrieNode>
-      <ClientPageRoot Component={function ActualitePage} serverProvidedParams={{...}}>
-        <ActualitePage params={Promise} searchParams={Promise}>
-          <div>
-            <Slider>
-            <div className="max-w-7xl ...">
-              <div className="m-3">
-                <div style={{...}} className="w-full bg-...">
-                  <div className={"bg-white..."}>
-                    <div>
-                    <div className="mt-16">
-                      <PremierNationale>
-                        <div className="bg-gray-60...">
-                          <div className="grid grid-...">
-                            <div>
-                            <div className="text-white...">
->                             <p>
->                               <h1 className="font-bold">
-                                ...
-                              ...
-                    ...
-    ...
-
-[00:11:17.680] Server  LOG     ✓ Compiled in 251.2s
-[00:17:39.976] Server  LOG     ✓ Compiled in 382.3s
-[00:17:46.028] Server  ERROR   Each child in a list should have a unique "key" prop.
-
-Check the render method of `Footer`. See https://react.dev/link/warning-keys for more information.
-[00:17:49.060] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:17:51.486] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
-
-Check the render method of `div`.  It was passed a child from Footer.
-[00:17:51.486] Browser WARN    Image with src "/logoModifier.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:17:58.737] Server  LOG     ✓ Finished writing to filesystem cache in 10.3s
-[00:19:37.143] Server  LOG     ✓ Compiled in 108s
-[00:19:45.300] Server  ERROR   ⨯ ReferenceError: currentSlide is not defined
-[00:19:46.990] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:19:49.379] Browser ERROR   uncaughtError: ReferenceError: currentSlide is not defined
-[00:20:37.799] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:20:37.801] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./_Components/PremierNationale.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:20:37.803] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:20:39.285] Server  LOG     ✓ Compiled in 50.9s
-[00:20:40.653] Server  ERROR   Each child in a list should have a unique "key" prop.
-
-Check the render method of `Footer`. See https://react.dev/link/warning-keys for more information.
-[00:20:43.378] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:20:43.611] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
-
-Check the render method of `div`.  It was passed a child from Footer.
-[00:20:43.611] Browser WARN    Image with src "/logoModifier.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:31:36.925] Server  LOG     ✓ Compiled in 652.6s
-[00:31:39.582] Server  ERROR   Each child in a list should have a unique "key" prop.
-
-Check the render method of `Footer`. See https://react.dev/link/warning-keys for more information.
-[00:31:41.979] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:31:44.230] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
-
-Check the render method of `div`.  It was passed a child from Footer.
-[00:31:44.230] Browser WARN    Image with src "/logoModifier.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:35:46.454] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./_Components/accueilPremierSlider.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:35:47.013] Server  LOG     ✓ Compiled in 244.5s
-[00:35:51.340] Server  ERROR   Each child in a list should have a unique "key" prop.
-
-Check the render method of `Footer`. See https://react.dev/link/warning-keys for more information.
-[00:35:53.651] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:35:54.248] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
-
-Check the render method of `div`.  It was passed a child from Footer.
-[00:35:54.248] Browser WARN    Image with src "/logoModifier.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:36:17.306] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./_Components/accueilPremierSlider.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:36:17.486] Server  LOG     ✓ Compiled in 23.8s
-[00:36:22.000] Server  ERROR   Each child in a list should have a unique "key" prop.
-
-Check the render method of `Footer`. See https://react.dev/link/warning-keys for more information.
-[00:36:23.684] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:36:24.558] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
-
-Check the render method of `div`.  It was passed a child from Footer.
-[00:36:24.558] Browser WARN    Image with src "/logoModifier.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:37:23.102] Server  ERROR   Each child in a list should have a unique "key" prop.
-
-Check the render method of `Footer`. See https://react.dev/link/warning-keys for more information.
-[00:37:27.543] Server  ERROR   Each child in a list should have a unique "key" prop.
-
-Check the render method of `Footer`. See https://react.dev/link/warning-keys for more information.
-[00:37:35.560] Server  ERROR   Each child in a list should have a unique "key" prop.
-
-Check the render method of `Footer`. See https://react.dev/link/warning-keys for more information.
-[00:37:43.525] Browser ERROR   uncaughtError: TypeError: can't access property "image", currentSlide is undefined
-[00:38:44.248] Server  LOG     ✓ Compiled in 140.4s
-[00:38:44.746] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:38:45.123] Server  LOG     ✓ Compiled in 824ms
-[00:38:47.701] Server  ERROR   Each child in a list should have a unique "key" prop.
-
-Check the render method of `Footer`. See https://react.dev/link/warning-keys for more information.
-[00:38:51.007] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:38:51.007] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
-
-Check the render method of `div`.  It was passed a child from Footer.
-[00:38:51.007] Browser WARN    Image with src "/logoModifier.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:43:58.142] Server  LOG     ✓ Compiled in 306.7s
+[00:11:08.272] Browser WARN    Image with src "/logoModifier.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
