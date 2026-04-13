@@ -32,7 +32,7 @@ function DifferentCentre() {
           <h1 className='text-2xl font-bold'>Chiffres clés</h1>
           <p className='flex items-center gap-4'>
             <FaCheck className="text-yellow-500 shrink-0" />
-             Effectif: + de 1000 élèves
+             Effectif: 
           </p>
           <p className='flex items-center gap-4'>
             <FaCheck className="text-yellow-500 shrink-0" />

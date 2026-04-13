@@ -46,7 +46,7 @@ function Footer() {
 
                     <p>
                      <strong>Kalaban coro Sangha </strong>
-                      derriere le Radio Donko non loin de la mosque <strong>Karata Misiri</strong>
+                      derriere la Radio Donko non loin de la mosque <strong>Karata Misiri</strong>
                     </p>
                   </div>
                 </div>
