@@ -61,7 +61,7 @@ function Promoteur() {
 
                                     {/* TEXTE → DROITE */}
                                     <div className='border border-white shadow-2xl p-5 rounded-xl space-y-5 hidden-right'>
-                                        <h1 className='text-2xl font-bold'>Mot de Promoteur</h1>
+                                        <h1 className='text-2xl font-bold'>Mot du Promoteur</h1>
                                         <p>
                                             Nous invitons les parents d'élèves à venir inscrire leurs enfants afin de leur garantir une formation de
                                             qualité avec des méthodes et techniques d'approches innovantes et captivantes. Alors chers parents ne ratez
