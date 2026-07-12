@@ -74,7 +74,7 @@ function Counter({ target, suffix = "" }: { target: number; suffix?: string }) {
 
 function Poucentage() {
   return (
-    <div className="flex flex-wrap justify-between items-center gap-5 mb-5">
+    <div className="flex flex-wrap justify-between  items-center gap-5 mb-5">
       
       <div>
         <Counter target={100} suffix="%" />

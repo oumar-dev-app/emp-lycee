@@ -666,10 +666,6 @@
     display: inline-flex;
   }
 
-  .h-80 {
-    height: calc(var(--spacing) * 80);
-  }
-
   .h-100 {
     height: calc(var(--spacing) * 100);
   }
@@ -700,10 +696,6 @@
 
   .min-h-full {
     min-height: 100%;
-  }
-
-  .w-auto {
-    width: auto;
   }
 
   .w-fit {
@@ -884,12 +876,6 @@
     --tw-space-y-reverse: 0;
     margin-block-start: calc(calc(var(--spacing) * 7) * var(--tw-space-y-reverse));
     margin-block-end: calc(calc(var(--spacing) * 7) * calc(1 - var(--tw-space-y-reverse)));
-  }
-
-  :where(.space-y-8 > :not(:last-child)) {
-    --tw-space-y-reverse: 0;
-    margin-block-start: calc(calc(var(--spacing) * 8) * var(--tw-space-y-reverse));
-    margin-block-end: calc(calc(var(--spacing) * 8) * calc(1 - var(--tw-space-y-reverse)));
   }
 
   :where(.space-y-15 > :not(:last-child)) {
@@ -1338,10 +1324,6 @@
     transition-timing-function: var(--ease-out);
   }
 
-  .will-change-transform {
-    will-change: transform;
-  }
-
   @media (hover: hover) {
     .hover\:scale-105:hover {
       --tw-scale-x: 105%;
@@ -1515,7 +1497,7 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Poppins" Arial, Helvetica, sans-serif;
 }
 
 @property --tw-translate-x {

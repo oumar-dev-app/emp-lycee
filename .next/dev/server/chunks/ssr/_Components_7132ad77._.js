@@ -57,7 +57,7 @@ function AccueilPremierSlider() {
                 className: "grid grid-cols-1 md:grid-cols-2 gap-8 shadow-2xl m-3 bg-gray-700 rounded-2xl",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "relative h-[350px] md:h-[450px] overflow-hidden rounded-xl",
+                        className: "relative h-87.5 md:h-112.5 overflow-hidden rounded-xl",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             style: {
                                 backgroundImage: `url(${slides[index].image})`
@@ -81,7 +81,7 @@ function AccueilPremierSlider() {
                         className: "relative text-white bg-gray-700 border border-white/25 shadow-2xl p-6 md:p-10 rounded-xl flex flex-col justify-between",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "min-h-[150px] overflow-hidden",
+                                className: "min-h-37.5 overflow-hidden",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: `
                   transition-all duration-700
@@ -222,28 +222,11 @@ function DifferentCentre() {
                                     lineNumber: 34,
                                     columnNumber: 13
                                 }, this),
-                                "Effectif: + de 1000 élèves"
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/_Components/DifferentCentre.tsx",
-                            lineNumber: 33,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "flex items-center gap-4",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FaCheck"], {
-                                    className: "text-yellow-500 shrink-0"
-                                }, void 0, false, {
-                                    fileName: "[project]/_Components/DifferentCentre.tsx",
-                                    lineNumber: 38,
-                                    columnNumber: 13
-                                }, this),
                                 "Periode d'activité : depuis Octobre 2013"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/_Components/DifferentCentre.tsx",
-                            lineNumber: 37,
+                            lineNumber: 33,
                             columnNumber: 11
                         }, this)
                     ]
@@ -260,7 +243,24 @@ function DifferentCentre() {
                             children: "Nos valeurs"
                         }, void 0, false, {
                             fileName: "[project]/_Components/DifferentCentre.tsx",
-                            lineNumber: 45,
+                            lineNumber: 41,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            className: "flex items-center gap-4",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FaCheck"], {
+                                    className: "text-yellow-500 shrink-0"
+                                }, void 0, false, {
+                                    fileName: "[project]/_Components/DifferentCentre.tsx",
+                                    lineNumber: 43,
+                                    columnNumber: 13
+                                }, this),
+                                "Former les élites de demain"
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/_Components/DifferentCentre.tsx",
+                            lineNumber: 42,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -273,34 +273,17 @@ function DifferentCentre() {
                                     lineNumber: 47,
                                     columnNumber: 13
                                 }, this),
-                                "Former les élites de demain"
+                                "Réussir grâce aux nouvelles technologies de l’information et de la communication"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/_Components/DifferentCentre.tsx",
                             lineNumber: 46,
                             columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "flex items-center gap-4",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FaCheck"], {
-                                    className: "text-yellow-500 shrink-0"
-                                }, void 0, false, {
-                                    fileName: "[project]/_Components/DifferentCentre.tsx",
-                                    lineNumber: 51,
-                                    columnNumber: 13
-                                }, this),
-                                "Réussir grâce aux nouvelles technologies de l’information et de la communication"
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/_Components/DifferentCentre.tsx",
-                            lineNumber: 50,
-                            columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/_Components/DifferentCentre.tsx",
-                    lineNumber: 44,
+                    lineNumber: 40,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -311,7 +294,7 @@ function DifferentCentre() {
                             children: "Nos atouts"
                         }, void 0, false, {
                             fileName: "[project]/_Components/DifferentCentre.tsx",
-                            lineNumber: 58,
+                            lineNumber: 54,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -321,14 +304,14 @@ function DifferentCentre() {
                                     className: "text-yellow-500 shrink-0"
                                 }, void 0, false, {
                                     fileName: "[project]/_Components/DifferentCentre.tsx",
-                                    lineNumber: 61,
+                                    lineNumber: 57,
                                     columnNumber: 13
                                 }, this),
                                 " Meilleur cadre de travail"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/_Components/DifferentCentre.tsx",
-                            lineNumber: 60,
+                            lineNumber: 56,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -338,14 +321,14 @@ function DifferentCentre() {
                                     className: "text-yellow-500 shrink-0"
                                 }, void 0, false, {
                                     fileName: "[project]/_Components/DifferentCentre.tsx",
-                                    lineNumber: 64,
+                                    lineNumber: 60,
                                     columnNumber: 13
                                 }, this),
                                 " Effectifs limités"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/_Components/DifferentCentre.tsx",
-                            lineNumber: 63,
+                            lineNumber: 59,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -355,14 +338,14 @@ function DifferentCentre() {
                                     className: "text-yellow-500 shrink-0"
                                 }, void 0, false, {
                                     fileName: "[project]/_Components/DifferentCentre.tsx",
-                                    lineNumber: 67,
+                                    lineNumber: 63,
                                     columnNumber: 13
                                 }, this),
                                 " Personnel enseignant qualifié"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/_Components/DifferentCentre.tsx",
-                            lineNumber: 66,
+                            lineNumber: 62,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -372,14 +355,14 @@ function DifferentCentre() {
                                     className: "text-yellow-500 shrink-0"
                                 }, void 0, false, {
                                     fileName: "[project]/_Components/DifferentCentre.tsx",
-                                    lineNumber: 70,
+                                    lineNumber: 66,
                                     columnNumber: 13
                                 }, this),
                                 " Cours d’informatique gratuits"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/_Components/DifferentCentre.tsx",
-                            lineNumber: 69,
+                            lineNumber: 65,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -389,14 +372,14 @@ function DifferentCentre() {
                                     className: "text-yellow-500 shrink-0"
                                 }, void 0, false, {
                                     fileName: "[project]/_Components/DifferentCentre.tsx",
-                                    lineNumber: 73,
+                                    lineNumber: 69,
                                     columnNumber: 13
                                 }, this),
                                 " Bon taux de réussite"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/_Components/DifferentCentre.tsx",
-                            lineNumber: 72,
+                            lineNumber: 68,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -408,23 +391,23 @@ function DifferentCentre() {
                                     children: "En savoir plus"
                                 }, void 0, false, {
                                     fileName: "[project]/_Components/DifferentCentre.tsx",
-                                    lineNumber: 78,
+                                    lineNumber: 74,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/_Components/DifferentCentre.tsx",
-                                lineNumber: 77,
+                                lineNumber: 73,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/_Components/DifferentCentre.tsx",
-                            lineNumber: 76,
+                            lineNumber: 72,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/_Components/DifferentCentre.tsx",
-                    lineNumber: 57,
+                    lineNumber: 53,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -435,7 +418,7 @@ function DifferentCentre() {
                             children: "Actualités"
                         }, void 0, false, {
                             fileName: "[project]/_Components/DifferentCentre.tsx",
-                            lineNumber: 87,
+                            lineNumber: 83,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -445,14 +428,14 @@ function DifferentCentre() {
                                     className: "text-yellow-500 shrink-0"
                                 }, void 0, false, {
                                     fileName: "[project]/_Components/DifferentCentre.tsx",
-                                    lineNumber: 90,
+                                    lineNumber: 86,
                                     columnNumber: 13
                                 }, this),
                                 "DEF 2024 : 97%"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/_Components/DifferentCentre.tsx",
-                            lineNumber: 89,
+                            lineNumber: 85,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -462,14 +445,14 @@ function DifferentCentre() {
                                     className: "text-yellow-500 shrink-0"
                                 }, void 0, false, {
                                     fileName: "[project]/_Components/DifferentCentre.tsx",
-                                    lineNumber: 95,
+                                    lineNumber: 91,
                                     columnNumber: 13
                                 }, this),
                                 "Bac 2024 : 1ère nationale (17,50 en TSE)"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/_Components/DifferentCentre.tsx",
-                            lineNumber: 94,
+                            lineNumber: 90,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -479,14 +462,14 @@ function DifferentCentre() {
                                     className: "text-yellow-500 shrink-0"
                                 }, void 0, false, {
                                     fileName: "[project]/_Components/DifferentCentre.tsx",
-                                    lineNumber: 100,
+                                    lineNumber: 96,
                                     columnNumber: 13
                                 }, this),
                                 "Plusieurs élèves classés parmi les meilleurs au niveau national"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/_Components/DifferentCentre.tsx",
-                            lineNumber: 99,
+                            lineNumber: 95,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -498,23 +481,23 @@ function DifferentCentre() {
                                     children: "En savoir plus"
                                 }, void 0, false, {
                                     fileName: "[project]/_Components/DifferentCentre.tsx",
-                                    lineNumber: 106,
+                                    lineNumber: 102,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/_Components/DifferentCentre.tsx",
-                                lineNumber: 105,
+                                lineNumber: 101,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/_Components/DifferentCentre.tsx",
-                            lineNumber: 104,
+                            lineNumber: 100,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/_Components/DifferentCentre.tsx",
-                    lineNumber: 86,
+                    lineNumber: 82,
                     columnNumber: 9
                 }, this)
             ]
@@ -606,7 +589,7 @@ function Promoteur() {
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                             className: "text-2xl font-bold",
-                                            children: "Mot de Promoteur"
+                                            children: "Mot du Promoteur"
                                         }, void 0, false, {
                                             fileName: "[project]/_Components/Promoteur.tsx",
                                             lineNumber: 64,

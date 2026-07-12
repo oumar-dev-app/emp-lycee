@@ -49,7 +49,7 @@ function AccueilPremierSlider() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 shadow-2xl m-3 bg-gray-700 rounded-2xl">
 
           {/* IMAGE */}
-          <div className="relative h-[350px] md:h-[450px] overflow-hidden rounded-xl">
+          <div className="relative h-87.5 md:h-112.5 overflow-hidden rounded-xl">
             <div
               key={index}
               style={{ backgroundImage: `url(${slides[index].image})` }}
@@ -65,7 +65,7 @@ function AccueilPremierSlider() {
           <div className="relative text-white bg-gray-700 border border-white/25 shadow-2xl p-6 md:p-10 rounded-xl flex flex-col justify-between">
 
             {/* CONTENU TEXTE */}
-            <div className="min-h-[150px] overflow-hidden">
+            <div className="min-h-37.5 overflow-hidden">
               <div
                 key={index + "text"}
                 className={`

@@ -153,12 +153,12 @@ function Footer() {
                                                     lineNumber: 24,
                                                     columnNumber: 23
                                                 }, this)
-                                            }, links.id, false, {
+                                            }, void 0, false, {
                                                 fileName: "[project]/_Components/Footer.tsx",
                                                 lineNumber: 23,
                                                 columnNumber: 21
                                             }, this)
-                                        }, void 0, false, {
+                                        }, links.name, false, {
                                             fileName: "[project]/_Components/Footer.tsx",
                                             lineNumber: 22,
                                             columnNumber: 19
@@ -219,7 +219,7 @@ function Footer() {
                                                             lineNumber: 48,
                                                             columnNumber: 22
                                                         }, this),
-                                                        "derriere le Radio Donko non loin de la mosque ",
+                                                        "derriere la Radio Donko non loin de la mosque ",
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                                             children: "Karata Misiri"
                                                         }, void 0, false, {
@@ -363,7 +363,7 @@ function Footer() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            children: "Copyright©2026 by EMP-lycée "
+                            children: "Copyright©2026 by G.S.A.S"
                         }, void 0, false, {
                             fileName: "[project]/_Components/Footer.tsx",
                             lineNumber: 81,

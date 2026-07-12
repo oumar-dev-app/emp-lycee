@@ -19,8 +19,8 @@ function Footer() {
               {DataLinks.map((links) => {
                 const isActive = pathname.startsWith(links.href)
                 return (
-                  <ul className='font-bold text-sm'>
-                    <li key={links.id}>
+                  <ul className='font-bold text-sm' key={links.name}>
+                    <li >
                       <Link href={links.href}
                         className={`hover:text-red-600  group hoverEffect 
                         ${pathname === links.href ? "text-red-500" : ""}`}
@@ -78,7 +78,7 @@ function Footer() {
           <div className='flex justify-center'>
             <Logo />
           </div>
-          <p>Copyright©2026 by EMP-lycée </p>
+          <p>Copyright©2026 by G.S.A.S</p>
         </div>
       </div>
 
