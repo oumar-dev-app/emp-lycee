@@ -1,4 +1,4 @@
-import { Analytics } from "@vercel/analytics/next";
+import { Analytics } from "@vercel/analytics/next"
 import type { Metadata } from "next";
 import "./globals.css";
 import Footer from "@/_Components/Footer";
@@ -24,7 +24,7 @@ export default function RootLayout({
         <Header />
         <main>
           {children}
-          <Analytics />
+          <Analytics/>
         </main>
         <Footer />
       </body>
