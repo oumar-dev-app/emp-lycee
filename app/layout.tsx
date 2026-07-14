@@ -19,6 +19,7 @@ export const metadata: Metadata = {
     "École Bamako",
     "GSAS Mali",
     "Enseignement",
+    "Amadou Sidibé"
   ],
   metadataBase: new URL("https://www.gsas.ml"),
   alternates: {
