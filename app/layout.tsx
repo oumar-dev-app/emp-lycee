@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     description:
       "Découvrez le Groupe Scolaire",
     url: "https://www.gsas.ml",
-    siteName: "gsas",
+    siteName: "GSAS",
     locale: "fr_FR",
     type: "website",
   },
