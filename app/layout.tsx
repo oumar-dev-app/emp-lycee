@@ -12,6 +12,7 @@ export const metadata: Metadata = {
   description:
     "GSAS - Groupe Scolaire. Découvrez notre établissement, nos actualités, nos formations et nos espaces primaire et secondaire.",
   keywords: [
+    "gsas",
     "GSAS",
     "Groupe Scolaire",
     "École Mali",
@@ -24,9 +25,9 @@ export const metadata: Metadata = {
     canonical: "https://www.gsas.ml",
   },
   openGraph: {
-    title: "GSAS - Groupe Scolaire Alpha Sountoura",
+    title: "GSAS - Groupe Scolaire",
     description:
-      "Découvrez le Groupe Scolaire Alpha Sountoura.",
+      "Découvrez le Groupe Scolaire",
     url: "https://www.gsas.ml",
     siteName: "GSAS",
     locale: "fr_FR",
