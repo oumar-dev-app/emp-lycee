@@ -12,14 +12,13 @@ export const metadata: Metadata = {
   description:
     "GSAS - Groupe Scolaire. Découvrez notre établissement, nos actualités, nos formations et nos espaces primaire et secondaire.",
   keywords: [
-    "gsas",
     "GSAS",
-    "Groupe Scolaire",
-    "École Mali",
-    "École Bamako",
     "GSAS Mali",
-    "Enseignement",
-    "Amadou Sidibé"
+    "EPMS",
+    "Lycée LPDJICOUL",
+    "LPDJICOUL",
+    "Groupe Scolaire Amadou Sidibé",
+    "Djinèssira Coulibaly"
   ],
   metadataBase: new URL("https://www.gsas.ml"),
   alternates: {
@@ -51,7 +50,7 @@ export default function RootLayout({
         <Header />
         <main>
           {children}
-          <Analytics/>
+          <Analytics />
         </main>
         <Footer />
       </body>
