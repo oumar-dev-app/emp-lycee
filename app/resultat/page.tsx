@@ -260,7 +260,7 @@ export default function ActualitePage() {
 
                     <p>
                       Sur <strong>213 candidats inscrits</strong>,
-                      l'établissement a enregistré
+                      nous avons enregistré
                       <strong> 114 admis</strong>, soit un taux de réussite de
                       <strong className="text-green-600"> 54%</strong>.
                     </p>
