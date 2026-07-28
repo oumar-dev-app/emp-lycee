@@ -5,6 +5,9 @@
   "/apropos/page": "/apropos",
   "/espace-primaire/page": "/espace-primaire",
   "/espace-secondaire/page": "/espace-secondaire",
-  "/favicon.ico/route": "/favicon.ico",
-  "/page": "/"
+  "/page": "/",
+  "/resultat-def/page": "/resultat-def",
+  "/resultat/page": "/resultat",
+  "/robots.txt/route": "/robots.txt",
+  "/sitemap.xml/route": "/sitemap.xml"
 }

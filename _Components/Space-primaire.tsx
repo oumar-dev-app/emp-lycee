@@ -66,7 +66,16 @@ function Space_primaire() {
                       <p className='flex items-center gap-4'><FaCheck className="text-yellow-500 shrink-0" />Encadrement personnalisé</p>
                       <p className='flex items-center gap-4'><FaCheck className="text-yellow-500 shrink-0" />Bon taux de réussite</p>
                     </div>
-
+                  </div>
+                  <div className='text-white bg-gray-500 shadow-2xl p-6 md:p-10 rounded-xl space-y-5 hidden-right'>
+                    <h1 className='text-2xl font-bold'>Résultats</h1>
+                    <ul className='space-y-5'>
+                      <li className='flex items-start gap-4'><FaCheck className="text-yellow-500 shrink-0" /> DEF 2020 : 100%</li>
+                      <li className='flex items-start gap-4'><FaCheck className="text-yellow-500 shrink-0" /> DEF 2021 : 3 élèves parmi les 10 meilleurs</li>
+                      <li className='flex items-start gap-4'><FaCheck className="text-yellow-500 shrink-0" /> DEF 2022 : 95%</li>
+                      <li className='flex items-start gap-4'><FaCheck className="text-yellow-500 shrink-0" /> DEF 2023 : 90%</li>
+                      <li className='flex items-start gap-4'><FaCheck className="text-yellow-500 shrink-0" /> DEF 2024 : 97%</li>
+                    </ul>
                   </div>
                 </div>
               </div>

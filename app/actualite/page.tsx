@@ -1,131 +1,225 @@
 "use client";
 
-import { useEffect } from "react";
-import SliderAcutialite from "@/_Components/SliderActualite";
+import { useEffect, useRef } from "react";
+import Link from "next/link";
 import { FaCheck } from "react-icons/fa";
+
+import SliderAcutialite from "@/_Components/SliderActualite";
 import PremierNationale from "@/_Components/PremierNationale";
 
-const bgImage = [
+const backgroundImage = "/apropos.jpg";
+
+const sections = [
   {
-    id: 1,
-    image: "/apropos.jpg",
+    title: "Performances et distinctions",
+    animation: "hidden-left",
+    showButton: true,
+    link: "/resultat-def",
+    data: [
+      "1er du CAP de Kalaban-Coro et 5è national au DEF 2019",
+      "DEF 2020 : 100%",
+      "DEF 2021 : plusieurs élèves classés parmi les meilleurs",
+      "DEF 2022 : 95%",
+      "DEF 2023 : 90%",
+      "DEF 2024 : 97%",
+      "DEF 2026 : 95,77%",
+    ],
+  },
+
+  {
+    title: "Baccalauréats",
+    animation: "hidden-right",
+    showButton: true,
+    link: "/resultat",
+    data: [
+      "3è national au Bac 2022",
+      "Bac 2023 : établissement distingué",
+      "Bac 2024 : 1ère nationale",
+      "Bac 2026 : 54%",
+    ],
   },
 ];
 
-// ✅ Données dynamiques
-const defData = [
-  "1er du CAP de Kalaban-Coro et 5è national au DEF 2019",
-  "DEF 2020 : 100%",
-  "DEF 2021 : plusieurs élèves classés parmi les meilleurs",
-  "DEF 2022 : 95%",
-  "DEF 2023 : 90%",
-  "DEF 2024 : 97%",
-];
-
-const bacData = [
-  "3è national au Bac 2022",
-  "Bac 2023 : établissement distingué",
-  "Bac 2024 : 1ère nationale",
-];
 
 const concoursData = [
   "Olympiades de mathématiques 2024 : médaille de bronze",
   "Olympiades 2025 : 1ère et 2ème places académiques",
 ];
 
-export default function ActualitePage() {
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries, observer) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("show");
-            observer.unobserve(entry.target); // ✅ animation une seule fois
-          }
-        });
-      },
-      { threshold: 0.2 }
-    );
 
-    const elements = document.querySelectorAll(
+type SectionCardProps = {
+  title: string;
+  data: string[];
+  animation: string;
+  showButton?: boolean;
+  link: string;
+};
+
+
+function SectionCard({
+  title,
+  data,
+  animation,
+  showButton = false,
+  link,
+}: SectionCardProps) {
+
+  return (
+    <div
+      className={`${animation} flex h-full flex-col rounded-xl bg-gray-600 p-6 text-white shadow-2xl md:p-10`}
+    >
+
+      <h2 className="mb-6 text-2xl font-bold">
+        {title}
+      </h2>
+
+
+      <div className="flex-1 space-y-5">
+
+        {data.map((item) => (
+
+          <div
+            key={item}
+            className="flex items-start gap-4"
+          >
+
+            <FaCheck className="mt-1 shrink-0 text-yellow-400" />
+
+            <span>
+              {item}
+            </span>
+
+          </div>
+
+        ))}
+
+      </div>
+
+
+
+      {showButton && (
+
+        <div className="mt-auto pt-8">
+
+          <Link
+            href={link}
+            className="block rounded-lg bg-white px-4 py-3 text-center text-sm font-bold text-black transition duration-300 hover:bg-yellow-400"
+          >
+            Voir pour cette année
+          </Link>
+
+        </div>
+
+      )}
+
+
+    </div>
+  );
+}
+
+
+
+export default function ActualitePage() {
+
+  const containerRef = useRef<HTMLDivElement>(null);
+
+
+
+  useEffect(() => {
+
+    if (!containerRef.current) return;
+
+
+    const observer = new IntersectionObserver(
+
+      (entries) => {
+
+        entries.forEach((entry) => {
+
+          if (entry.isIntersecting) {
+
+            entry.target.classList.add("show");
+
+            observer.unobserve(entry.target);
+
+          }
+
+        });
+
+      },
+
+      {
+        threshold: 0.2,
+      }
+    );
+    const elements = containerRef.current.querySelectorAll(
       ".hidden-left, .hidden-right"
     );
 
     elements.forEach((el) => observer.observe(el));
-
-    return () => observer.disconnect(); // ✅ cleanup
+    return () => observer.disconnect();
   }, []);
 
   return (
     <div>
       <SliderAcutialite />
+      <div className="mx-auto my-20 max-w-7xl px-4">
+        <div
+          ref={containerRef}
+          style={{
+            backgroundImage: `url(${backgroundImage})`,
+          }}
+          className="overflow-hidden rounded-2xl bg-cover bg-center"
+        >
+          <div className="bg-white/90 p-5 md:p-10">
+            {/* DEF + BAC */}
+            <div className="grid grid-cols-1 items-stretch gap-8 md:grid-cols-2">
+              {sections.map((section) => (
+                <SectionCard
+                  key={section.title}
 
-      <div className="max-w-7xl m-auto mt-20 mb-20">
-        <div className="m-3">
-          {bgImage.map((item) => (
-            <div
-              key={item.id}
-              style={{ backgroundImage: `url(${item.image})` }}
-              className="w-full bg-cover bg-center rounded-2xl overflow-hidden"
-            >
-              <div className="bg-white/90 w-full min-h-full ">
+                  title={section.title}
 
-                {/* GRID */}
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                  data={section.data}
 
-                  {/* DEF */}
-                  <div className="text-white bg-gray-600 shadow-2xl p-6 md:p-10 rounded-xl space-y-5 hidden-left">
-                    <h1 className="text-2xl font-bold">
-                      Performances et distinctions
-                    </h1>
+                  animation={section.animation}
 
-                    {defData.map((text, i) => (
-                      <p key={i} className="flex items-center gap-4">
-                        <FaCheck className="text-yellow-400 shrink-0" />
-                        {text}
-                      </p>
-                    ))}
-                  </div>
+                  showButton={section.showButton}
 
-                  {/* BAC */}
-                  <div className="text-white bg-gray-600 shadow-2xl p-6 md:p-10 rounded-xl space-y-5 hidden-right">
-                    <h1 className="text-2xl font-bold">
-                      Baccalauréats
-                    </h1>
+                  link={section.link}
+                />
+              ))}
+            </div>
 
-                    {bacData.map((text, i) => (
-                      <p key={i} className="flex items-center gap-4">
-                        <FaCheck className="text-yellow-400 shrink-0" />
-                        {text}
-                      </p>
-                    ))}
-                  </div>
-                </div>
-
-                {/* SLIDER */}
-                <div className="mt-16">
-                  <PremierNationale />
-                </div>
-
-                {/* CONCOURS */}
-                <div className="mt-10 text-white bg-gray-600 shadow-2xl p-6 md:p-10 rounded-xl space-y-5 hidden-left">
-                  <h1 className="text-2xl font-bold">
-                    Concours internationaux
-                  </h1>
-
-                  {concoursData.map((text, i) => (
-                    <p key={i} className="flex items-center gap-4">
-                      <FaCheck className="text-yellow-400 shrink-0" />
-                      {text}
-                    </p>
+            {/* Slider Premier Nationale */}
+            <div className="mt-16">
+              <PremierNationale />
+            </div>
+            {/* Concours */}
+            <div className="mt-10">
+              <div className="hidden-left rounded-xl bg-gray-600 p-6 text-white shadow-2xl md:p-10">
+                <h2 className="mb-6 text-2xl font-bold">
+                  Concours internationaux
+                </h2>
+                <div className="space-y-5">
+                  {concoursData.map((item) => (
+                    <div
+                      key={item}
+                      className="flex items-start gap-4"
+                    >
+                      <FaCheck className="mt-1 shrink-0 text-yellow-400" />
+                      <span>
+                        {item}
+                      </span>
+                    </div>
                   ))}
                 </div>
-
               </div>
             </div>
-          ))}
+          </div>
         </div>
       </div>
     </div>
+
   );
 }

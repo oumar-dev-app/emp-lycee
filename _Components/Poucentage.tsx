@@ -7,9 +7,9 @@ function Counter({ target, suffix = "" }: { target: number; suffix?: string }) {
   const ref = useRef<HTMLDivElement | null>(null);
 
   const [visible, setVisible] = useState(false);
-  const [isReady, setIsReady] = useState(false); // ✅ NEW
+  const [isReady, setIsReady] = useState(false); //  NEW
 
-  // ✅ Empêche déclenchement immédiat au refresh
+  //  Empêche déclenchement immédiat au refresh
   useEffect(() => {
     const timeout = setTimeout(() => {
       setIsReady(true);
@@ -18,7 +18,7 @@ function Counter({ target, suffix = "" }: { target: number; suffix?: string }) {
     return () => clearTimeout(timeout);
   }, []);
 
-  // ✅ Observer visibilité
+  //  Observer visibilité
   useEffect(() => {
     if (!isReady) return;
 
@@ -40,7 +40,7 @@ function Counter({ target, suffix = "" }: { target: number; suffix?: string }) {
     };
   }, [isReady]);
 
-  // ✅ Animation
+  // Animation
   useEffect(() => {
     if (!visible) return;
 
