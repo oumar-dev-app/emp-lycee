@@ -78,7 +78,7 @@ const resultatBac2026 = [
 
 const resultatParClasse = [
   {
-    classe: "TELL",
+    classe: "TLL",
     presentG: 9,
     presentF: 21,
     admisG: 5,
