@@ -78,7 +78,7 @@ function PremierNationale() {
   return (
     <div className="py-20">
       <div className="max-w-7xl m-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 shadow-2xl m-3 bg-gray-700 rounded-2xl">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 shadow-2xl bg-gray-700 rounded-2xl">
 
           {/* IMAGE */}
           <div className="relative h-87.5 md:h-112.5 overflow-hidden rounded-xl">
@@ -97,7 +97,7 @@ function PremierNationale() {
           <div className="relative text-white bg-gray-700 border border-white/25 shadow-2xl p-6 md:p-10 rounded-xl flex flex-col justify-between">
 
             {/* CONTENU TEXTE */}
-            <div className="min-h-37.5 overflow-hidden">
+            <div className="min-h-38.5 overflow-hidden">
               <div
                 key={index + "text"}
                 className={`
@@ -113,9 +113,9 @@ function PremierNationale() {
 
                 <p className="mt-2 text-lg">
                   {slides[index].description}
-                  <strong>{slides[index].excellence}</strong>
+                  <strong> {slides[index].excellence} </strong>
                   {slides[index].description2}
-                  <strong>{slides[index].description3}</strong>
+                  <strong> {slides[index].description3}</strong>
                   {slides[index].description4}
                 </p>
               </div>

@@ -183,28 +183,28 @@ export default function ActualitePage() {
                                                     return (
                                                         <tr
                                                             key={item.classe}
-                                                            className={`border-b border-black ${isTotal
+                                                            className={`border-b border-black text-center ${isTotal
                                                                 ? "font-bold  text-black"
                                                                 : "hover:bg-gray-100"
                                                                 }`}
                                                         >
-                                                            <td className="p-4 font-bold">
+                                                            <td className="p-3 font-bold">
                                                                 {item.classe}
                                                             </td>
 
-                                                            <td className="p-4 font-bold">
+                                                            <td className="p-3 font-bold">
                                                                 {item.presentG}
                                                             </td>
 
-                                                            <td className="p-4 font-bold">
+                                                            <td className="p-3 font-bold">
                                                                 {item.presentF}
                                                             </td>
 
-                                                            <td className="p-4 font-bold">
+                                                            <td className="p-3 font-bold">
                                                                 {item.admisG}
                                                             </td>
 
-                                                            <td className="p-4 font-bold">
+                                                            <td className="p-3 font-bold">
                                                                 {item.admisF}
                                                             </td>
 
