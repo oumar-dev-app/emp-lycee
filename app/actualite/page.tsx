@@ -49,10 +49,7 @@ const BT = [
     showButton: true,
     link: "/resultat-BT",
     data: [
-      "3è national au Bac 2022",
-      "Bac 2023 : établissement distingué",
-      "Bac 2024 : 1ère nationale",
-      "Bac 2026 : 54%",
+      "Les résultats CAP et BT"
     ],
   },
 ]
@@ -230,7 +227,7 @@ export default function ActualitePage() {
             </div>
 
             {/* Slider Premier Nationale */}
-            <div className="mt-10">
+            <div className="">
               <PremierNationale />
             </div>
             {/* Concours */}
