@@ -17,10 +17,18 @@ const slides = [
     titre: "Kossi Roland Kpadenou",
     desc: "Troisième national au bac 2022 avec 17.63",
   },
+
   {
+    id: 4,
+    image: "/Slider5.jpeg",
+    titre: "",
+    desc: "Prix d'excellence du présideent de la transition chef de l'Etat 2026",
+  },
+
+    {
     id: 3,
     image: "/Lycee.jpeg",
-    titre: "",
+    titre: "LPDJICOUL",
     desc: "On n'est pas premier par hasard !",
   },
 ];
@@ -56,7 +64,7 @@ function AccueilPremierSlider() {
               className={`
                 absolute inset-0 bg-cover bg-center
                 transition-all duration-700
-                ${animate ? "-translate-y-full opacity-0" : "translate-y-0 opacity-100"}
+                ${animate ? "-translate-l-full opacity-0" : "translate-y-0 opacity-100"}
               `}
             />
           </div>

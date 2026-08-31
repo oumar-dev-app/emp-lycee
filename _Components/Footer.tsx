@@ -64,7 +64,7 @@ function Footer() {
                     <BsTelephone size={25} className='text-yellow-500' />(+223) 76 49 67 10
                   </p>
                   <p className='flex gap-5'>
-                    <BsWhatsapp size={25} className='text-green-500' /> (+223) 66 20 95 56
+                    <BsWhatsapp size={25} className='text-green-500' />(+223) 66 20 95 56
                   </p>
                 </div>
 

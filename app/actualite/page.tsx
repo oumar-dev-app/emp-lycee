@@ -38,7 +38,24 @@ const sections = [
       "Bac 2026 : 54%",
     ],
   },
+
+
 ];
+
+const BT = [
+  {
+    title: "CFPBK-KCORO CAT ET BT 2026",
+    animation: "hidden-right",
+    showButton: true,
+    link: "/resultat-BT",
+    data: [
+      "3è national au Bac 2022",
+      "Bac 2023 : établissement distingué",
+      "Bac 2024 : 1ère nationale",
+      "Bac 2026 : 54%",
+    ],
+  },
+]
 
 
 const concoursData = [
@@ -191,8 +208,29 @@ export default function ActualitePage() {
               ))}
             </div>
 
+            {/* Concours */}
+            <div className="mt-10">
+                <div className="space-y-5">
+                  {BT.map((section) => (
+                    <SectionCard
+                      key={section.title}
+
+                      title={section.title}
+
+                      data={section.data}
+
+                      animation={section.animation}
+
+                      showButton={section.showButton}
+
+                      link={section.link}
+                    />
+                  ))}
+                </div>
+            </div>
+
             {/* Slider Premier Nationale */}
-            <div className="mt-16">
+            <div className="mt-10">
               <PremierNationale />
             </div>
             {/* Concours */}
