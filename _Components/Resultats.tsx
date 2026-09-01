@@ -67,7 +67,7 @@ function Resultats() {
           <div className='grid grid-cols-3 text-center mt-5 mb-5 text-white'>
 
             <div className='space-y-5'>
-              <h1 className='text-yellow-500 text-4xl font-bold'>{def},{def1}%</h1>
+              <h1 className='text-yellow-500 text-4xl font-bold'>{def}.{def1}%</h1>
               <p className='font-bold text-2xl'>DEF</p>
             </div>
 
@@ -78,7 +78,7 @@ function Resultats() {
 
             <div className='space-y-5'>
               <h1 className='text-yellow-500 text-4xl font-bold'>{bti}%</h1>
-              <p className='font-bold text-2xl'>CAP <span className='text-sm'>et</span> BT</p>
+              <p className='font-bold text-2xl'>CAP et BT</p>
             </div>
 
           </div>
