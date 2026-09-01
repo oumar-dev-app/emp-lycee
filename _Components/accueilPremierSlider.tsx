@@ -20,7 +20,7 @@ const slides = [
 
   {
     id: 4,
-    image: "/Slider5.jpeg",
+    image: "/Dicko.jpeg",
     titre: "",
     desc: "Prix d'excellence du présideent de la transition chef de l'Etat 2026",
   },
