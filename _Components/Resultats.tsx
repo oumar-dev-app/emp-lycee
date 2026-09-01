@@ -4,7 +4,8 @@ import React, { useEffect, useState, useRef } from 'react';
 
 function Resultats() {
 
-  const [def, setDef] = useState(0.0);
+  const [def, setDef] = useState(0);
+  const [def1, setDef1] = useState(0);
   const [bac, setBac] = useState(0);
   const [bti, setBti] = useState(0);
 
@@ -36,7 +37,8 @@ function Resultats() {
           entry.target.classList.add("show");
 
           // animation des chiffres
-          animate(setDef, 95.77);
+          animate(setDef, 95);
+          animate(setDef1, 77);
           animate(setBac, 54);
           animate(setBti, 56);
 
@@ -65,7 +67,7 @@ function Resultats() {
           <div className='grid grid-cols-3 text-center mt-5 mb-5 text-white'>
 
             <div className='space-y-5'>
-              <h1 className='text-yellow-500 text-4xl font-bold'>{def}%</h1>
+              <h1 className='text-yellow-500 text-4xl font-bold'>{def},{def1}%</h1>
               <p className='font-bold text-2xl'>DEF</p>
             </div>
 
@@ -76,7 +78,7 @@ function Resultats() {
 
             <div className='space-y-5'>
               <h1 className='text-yellow-500 text-4xl font-bold'>{bti}%</h1>
-              <p className='font-bold text-2xl'>CAP & BT</p>
+              <p className='font-bold text-2xl'>CAP <span className='text-sm'>et</span> BT</p>
             </div>
 
           </div>
