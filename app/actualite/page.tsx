@@ -44,7 +44,7 @@ const sections = [
 
 const BT = [
   {
-    title: "CFPBK-KCORO CAT ET BT 2026",
+    title: "CFPBK-KCORO CAP ET BT 2026",
     animation: "hidden-right",
     showButton: true,
     link: "/resultat-BT",
