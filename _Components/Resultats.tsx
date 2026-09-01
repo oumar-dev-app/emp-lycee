@@ -4,7 +4,7 @@ import React, { useEffect, useState, useRef } from 'react';
 
 function Resultats() {
 
-  const [def, setDef] = useState(0);
+  const [def, setDef] = useState(0.0);
   const [bac, setBac] = useState(0);
   const [bti, setBti] = useState(0);
 
@@ -76,7 +76,7 @@ function Resultats() {
 
             <div className='space-y-5'>
               <h1 className='text-yellow-500 text-4xl font-bold'>{bti}%</h1>
-              <p className='font-bold text-2xl'>CAP et BT</p>
+              <p className='font-bold text-2xl'>CAP & BT</p>
             </div>
 
           </div>
