@@ -36,9 +36,9 @@ function Resultats() {
           entry.target.classList.add("show");
 
           // animation des chiffres
-          animate(setDef, 100);
+          animate(setDef, 95.77);
           animate(setBac, 54);
-          animate(setBti, 50);
+          animate(setBti, 56);
 
           hasAnimated.current = true;
         }
@@ -59,7 +59,7 @@ function Resultats() {
       <div className='max-w-7xl m-auto '>
         <div className='mt-15 mb-15 rounded-2xl '>
           <h1 className='text-2xl font-bold text-center text-white mb-20'>
-            Performances en 2025
+            Performances en 2026
           </h1>
 
           <div className='grid grid-cols-3 text-center mt-5 mb-5 text-white'>
@@ -76,7 +76,7 @@ function Resultats() {
 
             <div className='space-y-5'>
               <h1 className='text-yellow-500 text-4xl font-bold'>{bti}%</h1>
-              <p className='font-bold text-2xl'>BT1</p>
+              <p className='font-bold text-2xl'>CAP et BT</p>
             </div>
 
           </div>
