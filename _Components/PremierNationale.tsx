@@ -115,7 +115,7 @@ function PremierNationale() {
                   {slides[index].description}
                   <strong> {slides[index].excellence} </strong>
                   {slides[index].description2}
-                  <strong> {slides[index].description3}</strong>
+                  <strong> {slides[index].description3} </strong>
                   {slides[index].description4}
                 </p>
               </div>
